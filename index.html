@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="is">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gervigreind</title>
+  <meta name="description" content="Vefbók um gervigreind fyrir íslenska nemendur á unglingastigi." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Hoppa í aðalefni</a>
+
+  <header class="site-header">
+    <button class="menu-toggle" type="button" aria-label="Sýna kaflalista" aria-expanded="false" aria-controls="sidebar">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <line x1="4" y1="7"  x2="20" y2="7"></line>
+        <line x1="4" y1="12" x2="20" y2="12"></line>
+        <line x1="4" y1="17" x2="20" y2="17"></line>
+      </svg>
+    </button>
+    <div class="brand">
+      <h1 class="brand-title">Gervigreind</h1>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav id="sidebar" class="sidebar" aria-label="Kaflar bókarinnar">
+      <h2 class="sidebar-heading">Efnisyfirlit</h2>
+      <ol id="toc" class="toc"></ol>
+    </nav>
+
+    <div class="sidebar-scrim" id="sidebar-scrim" aria-hidden="true"></div>
+
+    <main id="main" class="content" tabindex="-1">
+      <div class="reading-toolbar" role="toolbar" aria-label="Lesstillingar">
+        <div class="rt-group" role="group" aria-label="Leturstærð">
+          <button id="rt-font-down" class="rt-btn" type="button" aria-label="Minna letur" title="Minna letur">
+            <span class="rt-a-sm" aria-hidden="true">A</span>
+            <span aria-hidden="true">−</span>
+          </button>
+          <button id="rt-font-up" class="rt-btn" type="button" aria-label="Stærra letur" title="Stærra letur">
+            <span class="rt-a-lg" aria-hidden="true">A</span>
+            <span aria-hidden="true">+</span>
+          </button>
+        </div>
+        <span class="rt-divider" aria-hidden="true"></span>
+        <button id="rt-sepia" class="rt-btn" type="button" aria-pressed="false" title="Næturhamur — dökkur bakgrunnur">
+          <span aria-hidden="true">☾</span>
+          <span>Næturhamur</span>
+        </button>
+      </div>
+      <article id="chapter" class="chapter" aria-live="polite"></article>
+    </main>
+  </div>
+
+  <script src="widgets/loom.js"></script>
+  <script src="widgets/enigma.js"></script>
+  <script src="widgets/binary-search.js"></script>
+  <script src="widgets/computer-compare.js"></script>
+  <script src="widgets/chinese-room.js"></script>
+  <script src="widgets/binary-table.js"></script>
+  <script src="widgets/binary-converter.js"></script>
+  <script src="widgets/char-encoder.js"></script>
+  <script src="widgets/rgb-mixer.js"></script>
+  <script src="widgets/audio-freq.js"></script>
+  <script src="widgets/logic-diagrams.js"></script>
+  <script src="widgets/monty-hall.js"></script>
+  <script src="widgets/logic-gates.js"></script>
+  <script src="widgets/half-adder.js"></script>
+  <script src="widgets/boole-table.js"></script>
+  <script src="widgets/and-circuit.js"></script>
+  <script src="widgets/or-circuit.js"></script>
+  <script src="widgets/gate-builder.js"></script>
+  <script src="widgets/truth-table.js"></script>
+  <script src="widgets/half-adder-visual.js"></script>
+  <script src="widgets/adder-tool.js"></script>
+  <script src="widgets/rgb-game.js"></script>
+  <script src="widgets/triode.js"></script>
+  <script src="widgets/light-sensors.js"></script>
+  <script src="widgets/line-separator.js"></script>
+  <script src="widgets/deep-blue-think.js"></script>
+  <script src="widgets/moores-law.js"></script>
+  <script src="widgets/imagenet.js"></script>
+  <script src="widgets/alexnet.js"></script>
+  <script src="widgets/learning-quiz.js"></script>
+  <script src="widgets/ai-eras.js"></script>
+  <script src="widgets/tokenizer.js"></script>
+  <script src="widgets/gradient-limits.js"></script>
+  <script src="widgets/next-token.js"></script>
+  <script src="widgets/logic-slip.js"></script>
+  <script src="widgets/ai-levels.js"></script>
+  <script src="widgets/asimov-quiz.js"></script>
+  <script src="widgets/four-voices.js"></script>
+  <script src="widgets/philosophy.js"></script>
+
+  <script>
+    /* ---------- Kortlagning á Gagnvirkum Teikningum (Mapping) ---------- */
+    var visualRenderers = {
+      'jacquard loom': renderLoom,
+      'enigma puzzle': renderEnigma,
+      'binary search': renderBinarySearch,
+      'computing power comparison': renderComputerCompare,
+      'chinese room': renderChineseRoom,
+      'binary table': renderBinaryTable,
+      'binary converter': renderBinaryConverter,
+      'character encoder': renderCharEncoder,
+      'rgb mixer': renderRgbMixer,
+      'audio frequency': renderAudioFreq,
+      'logic diagrams': renderLogicDiagrams,
+      'monty hall': renderMontyHall,
+      'logic gates comparison': renderLogicGates,
+      'half adder': renderHalfAdder,
+      'boole table': renderBooleTable,
+      'and circuit': renderAndCircuit,
+      'or circuit': renderOrCircuit,
+      'gate builder': renderGateBuilder,
+      'truth table': renderTruthTable,
+      'half adder visual': renderHalfAdderVisual,
+      'adder tool': renderAdderTool,
+      'rgb game': renderRgbGame,
+      'triode switch': renderTriode,
+      'light sensors': renderLightSensors,
+      'line separator': renderLineSeparator,
+      'deep blue think': renderDeepBlueThink,
+      'moores law': renderMooresLaw,
+      'imagenet': renderImageNet,
+      'alexnet': renderAlexnet,
+      'learning quiz': renderLearningQuiz,
+      'ai eras': renderAIEras,
+      'tokenizer': renderTokenizer,
+      'gradient limits': renderGradientLimits,
+      'next token': renderNextToken,
+      'logic slip': renderLogicSlip,
+      'ai levels': renderAILevels,
+      'asimov quiz': renderAsimovQuiz,
+      'four voices': renderFourVoices,
+      'philosophy': renderPhilosophy
+    };
+
+    /* ---------- Hjálpartól ---------- */
+    function el(tag, attrs, children) {
+      var node = document.createElement(tag);
+      if (attrs) {
+        Object.keys(attrs).forEach(function (k) {
+          if (k === 'class')      node.className = attrs[k];
+          else if (k === 'text')  node.textContent = attrs[k];
+          else if (k === 'html')  node.innerHTML = attrs[k];
+          else                    node.setAttribute(k, attrs[k]);
+        });
+      }
+      (children || []).forEach(function (c) {
+        if (c) node.appendChild(c);
+      });
+      return node;
+    }
+
+    (function () {
+      'use strict';
+
+      // Alþjóðleg gagnageymsla fyrir dýnamíska hleðslu
+      window.globalBookData = null;
+
+      /* Númer eins og „1.3“ — byggt á röð kafla innan eigin hluta. */
+      function chapterNumber(chapter) {
+        var data = window.globalBookData;
+        if (!data || !data.chapters) return chapter.part + '.1';
+        var partChapters = data.chapters.filter(function (c) { return c.part === chapter.part; });
+        var idx = partChapters.findIndex(function (c) { return c.id === chapter.id; });
+        return chapter.part + '.' + (idx !== -1 ? (idx + 1) : 1);
+      }
+
+      /* ---------- Snið á texta (Markdown-ish með XSS vörn) ---------- */
+      function formatParagraphText(text) {
+        var safeText = text
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+
+        safeText = safeText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        safeText = safeText.replace(/\*(.*?)\*/g, '<em>$1</em>');
+
+        safeText = safeText.replace(/\[(.*?)\]\((.*?)\)/g, function(match, linkText, url) {
+          var cleanUrl = url.trim().toLowerCase();
+          var isSafe = cleanUrl.indexOf('http://') === 0 || 
+                       cleanUrl.indexOf('https://') === 0 || 
+                       cleanUrl.indexOf('#') === 0;
+          var finalUrl = isSafe ? url : '#';
+          return '<a href="' + finalUrl + '" target="_blank" rel="noopener">' + linkText + '</a>';
+        });
+
+        return safeText;
+      }
+
+      /* ---------- Skýringarmyndir Kerfi (með villuvörn) ---------- */
+      function renderVisual(visual) {
+        var key = (visual.description || '').toLowerCase();
+
+        if (visual.type === 'principles') {
+          var prf = el('figure', { class: 'chapter-principles', role: 'group',
+            'aria-label': visual.title || 'Reglur' });
+          if (visual.title) {
+            prf.appendChild(el('h3', { class: 'chapter-principles-title', text: visual.title }));
+          }
+          var ol = el('ol', { class: 'chapter-principles-list' });
+          (visual.items || []).forEach(function (item) {
+            var li = el('li', { class: 'chapter-principles-item' });
+            li.appendChild(el('span', { class: 'chapter-principles-text', text: item }));
+            ol.appendChild(li);
+          });
+          prf.appendChild(ol);
+          return prf;
+        }
+
+        if (visual.type === 'photo') {
+          var pf = el('figure', { class: 'chapter-photo' });
+          var pwrap = el('div', { class: 'chapter-photo-frame' });
+          var pimg = el('img', {
+            src: visual.src || visual.description || '',
+            alt: visual.alt || '',
+            class: 'chapter-photo-img',
+            loading: 'lazy',
+            decoding: 'async'
+          });
+          pwrap.appendChild(pimg);
+          pf.appendChild(pwrap);
+          if (visual.caption || visual.credit) {
+            var cap = el('figcaption', { class: 'chapter-photo-caption' });
+            if (visual.caption) {
+              cap.appendChild(el('span', { class: 'chapter-photo-text', text: visual.caption }));
+            }
+            if (visual.credit) {
+              cap.appendChild(el('span', { class: 'chapter-photo-credit', text: visual.credit }));
+            }
+            pf.appendChild(cap);
+          }
+          return pf;
+        }
+
+        if (visual.type === 'illustration' || key.indexOf('illustration') !== -1) {
+          var ilf = el('figure', { class: 'chapter-illustration' });
+          var ili = el('img', {
+            src: visual.description,
+            alt: '',
+            class: 'chapter-illustration-img',
+            'aria-hidden': 'true', loading: 'lazy'
+          });
+          ilf.appendChild(ili);
+          return ilf;
+        }
+
+        if (visualRenderers[key]) {
+          try {
+            var figure = el('figure');
+            visualRenderers[key](figure);
+            return figure;
+          } catch (error) {
+            console.error("Villa við að ræsa tól: " + key, error);
+            return el('div', { class: 'error-msg', text: 'Ekki tókst að hlaða þessu gagnvirka tæki.' });
+          }
+        }
+
+        return el('figure', { class: 'visual-placeholder', role: 'img', 'aria-label': visual.description || 'Skýringarmynd' }, [
+          el('p', { class: 'visual-placeholder-label', text: 'Skýringarmynd' + (visual.type ? ' · ' + visual.type : '') }),
+          el('p', { class: 'visual-placeholder-desc',  text: visual.description || 'Mynd kemur hér.' })
+        ]);
+      }
+
+      /* ---------- Hliðarstika (efnisyfirlit) ---------- */
+      function renderToc(currentId) {
+        var toc = document.getElementById('toc');
+        if (!toc) return;
+        toc.innerHTML = '';
+
+        var data = window.globalBookData;
+        if (!data || !data.parts) return;
+
+        data.parts.forEach(function (part) {
+          var partItem = el('li', { class: 'toc-part' });
+          partItem.appendChild(el('h3', { class: 'toc-part-title' }, [
+            el('span', { class: 'toc-part-num', text: 'Hluti ' + part.number }),
+            el('span', { text: part.title })
+          ]));
+
+          var chaptersInPart = data.chapters.filter(function (c) { return c.part === part.number; });
+          var list = el('ol', { class: 'toc-chapters' });
+
+          if (chaptersInPart.length === 0) {
+            list.appendChild(el('li', {}, [el('span', { class: 'toc-empty', text: 'Kemur síðar' })]));
+          } else {
+            chaptersInPart.forEach(function (ch) {
+              var link = el('a', { class: 'toc-link' + (ch.id === currentId ? ' is-current' : ''), href: '#' + ch.id });
+              link.appendChild(el('span', { class: 'toc-link-num', text: chapterNumber(ch) }));
+              link.appendChild(document.createTextNode(ch.title));
+              if (ch.id === currentId) link.setAttribute('aria-current', 'page');
+              list.appendChild(el('li', {}, [link]));
+            });
+          }
+          partItem.appendChild(list); 
+          toc.appendChild(partItem);
+        });
+      }
+
+      /* ---------- Sýna Kafla ---------- */
+      function renderChapter(chapter) {
+        var root = document.getElementById('chapter'); 
+        if (!root) return;
+        root.innerHTML = '';
+
+        if (!chapter) {
+          root.appendChild(el('div', { class: 'empty-state' }, [
+            el('h2', { text: 'Kaflinn fannst ekki' }), 
+            el('p',  { text: 'Veldu kafla úr listanum til vinstri.' })
+          ]));
+          return;
+        }
+
+        var data = window.globalBookData;
+        var part = data.parts.find(function (p) { return p.number === chapter.part; });
+        root.appendChild(el('p', { class: 'chapter-eyebrow', text: 'Hluti ' + chapter.part + (part ? ' · ' + part.title : '') }));
+
+        var title = el('h1', { class: 'chapter-title' });
+        title.appendChild(el('span', { class: 'chapter-title-num', text: chapterNumber(chapter) + '. ' }));
+        title.appendChild(document.createTextNode(chapter.title)); 
+        root.appendChild(title);
+
+        var allVisuals = (chapter.visuals || []).concat(chapter.visual ? [chapter.visual] : []);
+        var illus = allVisuals.filter(function(v) { return v.type === 'illustration'; });
+        var otherVisuals = allVisuals.filter(function(v) { return v.type !== 'illustration'; });
+
+        illus.forEach(function(v) {
+          var wrap = el('div', { class: 'chapter-illustration' });
+          wrap.appendChild(el('img', { src: v.description, alt: '', class: 'chapter-illustration-img', 'aria-hidden': 'true', loading: 'lazy' }));
+          root.appendChild(wrap);
+        });
+
+        var body = el('div', { class: 'chapter-body' });
+        var byAfter = {}; 
+        var endVisuals = [];
+        
+        otherVisuals.forEach(function (v) {
+          if (typeof v.after === 'number') (byAfter[v.after] = byAfter[v.after] || []).push(v);
+          else endVisuals.push(v);
+        });
+
+        (chapter.text || []).forEach(function (paragraph, idx) {
+          var formattedHtml = formatParagraphText(paragraph);
+          var trimmed = paragraph.trim();
+          // Heil málsgrein vafin í íslenskar gæsalappir (eitt stök vitnun)
+          // verður <blockquote>. Innra „ útilokar samtals-málsgreinar með
+          // bæði beinni og óbeinni ræðu.
+          var isBlockquote =
+            trimmed.length > 40 &&
+            trimmed.charAt(0) === '\u201E' &&
+            trimmed.charAt(trimmed.length - 1) === '\u201C' &&
+            trimmed.indexOf('\u201E', 1) === -1;
+          if (isBlockquote) {
+            // Klippa ystu gæsalappirnar af; CSS bætir þeim aftur með ::before/::after
+            var inner = trimmed.slice(1, -1).trim();
+            var formattedQuote = formatParagraphText(inner);
+            body.appendChild(el('blockquote', { class: 'chapter-quote', html: formattedQuote }));
+          } else {
+            body.appendChild(el('p', { html: formattedHtml }));
+          }
+          if (byAfter[idx]) { byAfter[idx].forEach(function (v) { body.appendChild(renderVisual(v)); }); }
+        });
+        
+        endVisuals.forEach(function (v) { body.appendChild(renderVisual(v)); });
+
+        if (chapter.poem) {
+          var poem = chapter.poem;
+          var poemFig = el('figure', { class: 'chapter-poem', role: 'group', 'aria-label': 'Ljóð: ' + (poem.title || '') });
+          if (poem.title) {
+            poemFig.appendChild(el('h2', { class: 'chapter-poem-title', text: poem.title }));
+          }
+          (poem.stanzas || []).forEach(function (stanza) {
+            var stz = el('div', { class: 'chapter-poem-stanza' });
+            stanza.forEach(function (line) {
+              stz.appendChild(el('p', { class: 'chapter-poem-line', text: line }));
+            });
+            poemFig.appendChild(stz);
+          });
+          if (poem.author) {
+            poemFig.appendChild(el('figcaption', { class: 'chapter-poem-author', text: '— ' + poem.author }));
+          }
+          body.appendChild(poemFig);
+        }
+
+        root.appendChild(body);
+
+        if (chapter.concepts && chapter.concepts.length) {
+          var section = el('section', { class: 'concepts', 'aria-labelledby': 'concepts-heading' });
+          section.appendChild(el('h2', { id: 'concepts-heading', class: 'concepts-heading', text: 'Hugtök' }));
+          var list = el('div', { class: 'concept-list' });
+          chapter.concepts.forEach(function (c) {
+            list.appendChild(el('div', { class: 'concept' }, [
+              el('h3', { class: 'concept-term', text: c.term }), 
+              el('p',  { class: 'concept-explanation', text: c.explanation })
+            ]));
+          });
+          section.appendChild(list); 
+          root.appendChild(section);
+        }
+
+        var allChapters = data.chapters; 
+        var cIdx = allChapters.findIndex(function(c) { return c.id === chapter.id; });
+        var prev = cIdx > 0 ? allChapters[cIdx - 1] : null; 
+        var next = cIdx < allChapters.length - 1 ? allChapters[cIdx + 1] : null;
+
+        if (prev || next) {
+          var nav = el('nav', { class: 'chapter-nav', 'aria-label': 'Leiðsögn á milli kafla' });
+          if (prev) {
+            var prevLink = el('a', { class: 'chapter-nav-link chapter-nav-prev', href: '#' + prev.id });
+            prevLink.appendChild(el('span', { class: 'chapter-nav-dir', text: '← Fyrri kafli' }));
+            prevLink.appendChild(el('span', { class: 'chapter-nav-title', text: chapterNumber(prev) + ' ' + prev.title }));
+            nav.appendChild(prevLink);
+          } else { nav.appendChild(el('span')); }
+          if (next) {
+            var nextLink = el('a', { class: 'chapter-nav-link chapter-nav-next', href: '#' + next.id });
+            nextLink.appendChild(el('span', { class: 'chapter-nav-dir', text: 'Næsti kafli →' }));
+            nextLink.appendChild(document.createTextNode(' '));
+            nextLink.appendChild(el('span', { class: 'chapter-nav-title', text: chapterNumber(next) + ' ' + next.title }));
+            nav.appendChild(nextLink);
+          }
+          root.appendChild(nav);
+        }
+
+        document.title = chapterNumber(chapter) + ' ' + chapter.title + ' — ' + data.title;
+        window.scrollTo({ top: 0, behavior: 'auto' });
+      }
+
+      /* ---------- Leiðsögn með dýnamískri hleðslu (Fetch API) ---------- */
+      function showCurrent() {
+        var id = (location.hash || '').replace(/^#/, '');
+        
+        if (!window.globalBookData) {
+          fetch('kaflar-json/book-toc.json?v=' + Date.now())
+            .then(function(res) { return res.json(); })
+            .then(function(data) {
+              window.globalBookData = data;
+              processRouting(id);
+            })
+            .catch(function(err) { console.error("Gat ekki hlaðið efnisyfirliti:", err); });
+        } else {
+          processRouting(id);
+        }
+      }
+
+      function processRouting(id) {
+        if (!id && window.globalBookData.chapters.length > 0) {
+          id = window.globalBookData.chapters[0].id;
+        }
+
+        id = id.replace(/[^a-z0-9\-]/gi, '');
+        fetch('kaflar-json/' + id + '.json?v=' + Date.now())
+          .then(function (response) {
+            if (!response.ok) throw new Error('Kafli fannst ekki: ' + response.status);
+            return response.json();
+          })
+          .then(function (chapterData) {
+            renderToc(chapterData.id); 
+            renderChapter(chapterData);
+          })
+          .catch(function (error) {
+            console.error("Villa við að sækja kafla: ", error);
+            renderChapter(null); 
+          });
+      }
+
+      /* ---------- Hliðarstika og lesstillingar ---------- */
+      var sidebar = document.getElementById('sidebar'); 
+      var scrim = document.getElementById('sidebar-scrim'); 
+      var toggle = document.querySelector('.menu-toggle');
+      
+      function setSidebar(open) { 
+        sidebar.classList.toggle('is-open', open); 
+        scrim.classList.toggle('is-visible', open); 
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false'); 
+      }
+      
+      toggle.addEventListener('click', function () { setSidebar(!sidebar.classList.contains('is-open')); });
+      scrim.addEventListener('click', function () { setSidebar(false); });
+      sidebar.addEventListener('click', function (e) { if (e.target.closest('a.toc-link') && window.matchMedia('(max-width: 860px)').matches) setSidebar(false); });
+
+      var FONT_SIZES = [18, 20, 22];
+      var fontSizeIndex = parseInt(localStorage.getItem('fontSize') || '1');
+      var darkOn = localStorage.getItem('darkOn') === 'true';
+      
+      function applyReadingSettings() {
+        localStorage.setItem('fontSize', fontSizeIndex);
+        localStorage.setItem('darkOn', darkOn);
+        document.documentElement.style.fontSize = FONT_SIZES[fontSizeIndex] + 'px'; 
+        document.body.classList.toggle('is-dark', darkOn);
+        document.getElementById('rt-font-down').disabled = (fontSizeIndex === 0);
+        document.getElementById('rt-font-up').disabled = (fontSizeIndex === FONT_SIZES.length - 1);
+        document.getElementById('rt-sepia').setAttribute('aria-pressed', darkOn ? 'true' : 'false');
+      }
+      
+      document.getElementById('rt-font-down').addEventListener('click', function () { if (fontSizeIndex > 0) { fontSizeIndex--; applyReadingSettings(); } });
+      document.getElementById('rt-font-up').addEventListener('click', function () { if (fontSizeIndex < FONT_SIZES.length - 1) { fontSizeIndex++; applyReadingSettings(); } });
+      document.getElementById('rt-sepia').addEventListener('click', function () { darkOn = !darkOn; applyReadingSettings(); });
+
+      applyReadingSettings(); 
+      window.addEventListener('hashchange', showCurrent); 
+      showCurrent();
+
+      /* ---------- Service worker fyrir offline-stuðning ---------- */
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('sw.js').catch(function () {
+            /* hljóðlega — bókin virkar áfram án offline-stuðnings */
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
