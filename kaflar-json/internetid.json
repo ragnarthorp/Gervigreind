@@ -1,0 +1,33 @@
+{
+  "id": "internetid",
+  "part": 3,
+  "title": "Internetið",
+  "text": [
+    "Eins og áður hefur komið fram notuðu fyrstu tölvurnar gataspjöld til að geyma og lesa stafrænar upplýsingar. Pappírsstrimlar voru einnig algengir í ákveðnum tölvukerfum. Seinna komu fram stórar miðlægar tölvur, notaðar í fyrirtækjum og stofnunum, sem notuðu segulbönd til að geyma mikið magn gagna. Minni einkatölvur, sem urðu algengar á áttunda og níunda áratugnum, notuðu stundum segulbönd (sem þá voru orðin algeng og notuð til að hlusta á tónlist) en einnig disklinga, sem voru þunnir plastdiskar sem seglar skrifuðu gögn á. Með disklingum mátti hlaða nýjum gögnum og fyrirmælum inn í tölvurnar. Smám saman varð algengt að inni í tölvum væri seguldiskur í hörðu hulstri sem kallaður var harður diskur. Þar mátti geyma töluvert af gögnum.",
+    "Geisladiskurinn kom fram á níunda áratug síðustu aldar og var töluverð bylting. Hann gat geymt mörg hundruð sinnum meira af gögnum en disklingarnir og skemmdist síður. Rákir voru grafnar í plastdiska og ljós notað til að lesa upplýsingarnar með sérstökum drifum. DVD-diskar bættu enn frekar við geymsluplássið og gátu jafnvel geymt gögn á tveimur lögum á mismunandi dýpi í disknum. Enn meira magn var hægt að geyma á Blu-ray diskum sem notuðu ljós með mjög stutta bylgjulengd.",
+    "Mesta breytingin varð með tilkomu internetsins, sem skapaði aðra möguleika á því að deila gögnum hratt á milli tölva víðs vegar um heiminn. Er það gert með því að senda stafræn gögn í litlum skömmtum á milli tölva. Lengi var það gert með því að tengja tölvur saman með koparþráðum (yfirleitt símasnúrum) en seinna líka með ljósleiðurum og rafsegulbylgjum. Árið 1989 kynnti Bretinn Tim Berners-Lee hugmynd um stafrænan vefnað sem nýtir tengikerfi internetsins. Hann nefndi fyrirbærið World Wide Web (á íslensku Veraldarvefurinn eða einfaldlega Vefurinn/vefurinn). Margir gera ekki greinarmun á vefnum og netinu í daglegu tali. Munurinn er sá að netið er innviðirnir sem tengja tölvur saman, á meðan vefurinn er eitt af fjölmörgum kerfum sem nýtir þessar tengingar. Netið er einnig notað til margra annarra hluta, svo sem við flutning stærri gagna, tölvupósts, tónlistar, myndbanda að ógleymdum nettengdum tölvuleikjum.",
+    "Veraldarvefurinn stækkaði á ógnarhraða. Árið 1991 var aðeins ein vefsíða til. Það var heimasíða CERN, Kjarnrannsóknarstofnunar Evrópu (þar sem Berners-Lee starfaði). Um aldamótin voru vefsíðurnar orðnar sautján milljónir og fyrirtæki eins og Yahoo! og Google voru byrjuð að hanna leitarvélar sem skönnuðu vefinn og hjálpuðu til við leit á honum. Árið 2007 urðu vatnaskil þegar Apple byrjaði að selja iPhone, snjallsíma sem hægt var að nota til að vafra um vefinn. Heimasíðurnar urðu 150 milljónir það ár og notendur meira en milljarður. Önnur sprenging varð upp úr 2010 þegar streymisveitur, eins og Youtube, samfélagsmiðlar, eins og Twitter, og fjölmörg ný smáforrit eða öpp komu fram á sjónarsviðið. Notendum fjölgaði eftir það mjög hratt. Árið 2015 gerðist það í fyrsta sinn að vefurinn var meira sóttur gegnum snjalltæki en hefðbundnar tölvur.",
+    "Á meðan venjulegt fólk sér ekki nema agnarlítið brot af öllum þeim yfirgripsmiklu upplýsingasöfnum, bókum, kvikmyndum og tónlist sem vefurinn hefur að geyma hafa öflugar tölvur verið mataðar á nánast öllu sem sett þangað hefur ratað og drukkið það í sig. Veraldarvefurinn hefur opnað leið inn í nánast öll ríki veraldar og inn á fjölmörg heimili og fyrirtæki. Tölvurnar soga í sig allt frá ritverkum Shakespeares til heilafúa (e. Brainrot). Eins og blóðhundar rekja þær stafræn fótspor mannkyns. Þær sofa ekki, þreytast ekki og nenna alltaf að gera það sem þeim er sagt að gera. Þannig hafa þær safnað saman upplýsingum í risastóra gagnagrunna.",
+    "Án internetsins hefði gervigreind aldrei náð þeim framförum sem við höfum nú orðið vitni að."
+  ],
+  "concepts": [
+    {
+      "term": "Internetið og vefurinn",
+      "explanation": "Tvennt sem oft er ruglað saman. Internetið eru innviðirnir — kaplar, ljósleiðarar og rafsegulbylgjur sem tengja tölvur saman um allan heim. Veraldarvefurinn (e. World Wide Web) er eitt af mörgum kerfum sem nota þessa tengingu — kerfi heimasíðna og hlekkja sem Tim Berners-Lee fann upp 1989."
+    },
+    {
+      "term": "Tim Berners-Lee",
+      "explanation": "Breskur tölvunarfræðingur (f. 1955) sem fann upp veraldarvefinn árið 1989 á meðan hann starfaði við CERN í Sviss. Fyrsta vefsíða heims var heimasíða CERN."
+    },
+    {
+      "term": "Gagnagrunnur",
+      "explanation": "Skipulagt safn af stafrænum gögnum. Þeir gagnagrunnar sem þjálfa nútíma gervigreind eru oft sóttir af vefnum — milljarðar texta, mynda, hljóðskráa og myndbanda. Án vefsins væri ekki til neitt slíkt safn."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.4.svg"
+    }
+  ]
+}

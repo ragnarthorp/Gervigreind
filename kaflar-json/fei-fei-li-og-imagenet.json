@@ -1,0 +1,42 @@
+{
+  "id": "fei-fei-li-og-imagenet",
+  "part": 3,
+  "title": "Fei-Fei Li og ImageNet",
+  "text": [
+    "Þriðja sumar gervigreindar hófst með hvelli árið 2012.",
+    "Nokkrum árum fyrr hafði hin bandarísk-kínverska Fei-Fei Li (kínverska: 李飞飞) hafið vinnu við að búa til tröllaukinn gagnagrunn af ljósmyndum þar sem hver mynd var merkt og flokkuð eftir myndefninu.",
+    "Saga Li er ansi sérstæð. Hún fæddist í Beijing, höfuðborg Kína, árið 1976 og fluttist til Bandaríkjanna sextán ára gömul. Eftir framhaldsskóla gekk hún í Princeton-háskóla þar sem hún lærði eðlisfræði. Um helgar fór hún heim úr skólanum og hjálpaði til í fatahreinsun fjölskyldunnar og vann auk þess aukavinnu við uppvask á veitingahúsi. Eftir grunnnámið fór hún til Kaliforníu þar sem hún lauk doktorsnámi. Rannsóknir hennar hnituðust um þá spurningu hvort, og þá hvernig, tækni gæti öðlast sjón.",
+    "Árið 2007 hitti Li málfræðinginn Christiane Fellbaum og þær þróuðu í framhaldi ImageNet, safn milljóna mynda sem merktar eru með hugtökum sem lýsa myndefninu. Fjöldi hugtaka er í gagnabankanum og hver einasta mynd hefur verið merkt af manneskju. Þegar safnið var orðið nógu stórt var það opnað fyrir almenningi og til að skapa hvata til tækniþróunar var efnt til keppni, ImageNet Large Scale Visual Recognition Challenge (ILSVRC), þar sem hugbúnaðarhöfundar gátu keppt í því að láta forrit para saman myndir og orð.",
+    "Keppnin fór fyrst fram árið 2010 og var þannig að keppendur fengu 1,2 milljónir merktra mynda til að þjálfa forrit sín með og 50 þúsund myndir að auki til að gera sín eigin próf. Í keppninni voru forritin prófuð á nýjum myndum og prófdómarar mátu hve oft forrit greindi myndir í réttan flokk. Þar sem flokkarnir voru margir og oft lítill munur á milli þeirra (það er til dæmis einn flokkur fyrir indverska fíla og annar fyrir afríska) áttu forritin að skila inn fimm tilgátum um réttan flokk fyrir hverja mynd og nóg var að sá rétti væri þeirra á meðal.",
+    "Keppnin var afar hörð en flest liðin gerðu villur í tæplega þriðjungi tilfella. Sigurliðið var hluti af samstarfsverkefni japanska tæknirisans NEC og Háskóla í Illinois í borgunum Champaign og Urbana. Því tókst að hafa réttan flokk meðal hinna fimm alltaf nema í 28,2% tilfella. Það þýðir að rúmlega sjö af hverjum tíu myndum voru rétt flokkaðar.",
+    "Ári seinna var keppnin endurtekin og nú kom sigurliðið frá rannsóknarstofnun Xerox í Suður-Frakklandi. Villuhlutfall forritsins var 25,7%. Aftur var mjótt á munum milli efstu liða og flest liðin voru með innan við 28% villuhlutfall.",
+    "Það var svo árið 2012 sem allt breyttist.",
+    "Það ár var sigurvegarinn AlexNet. Villuhlutfallið var 15,3% og önnur lið komust hvergi nærri þeim árangri. Eitthvað var greinilega breytt. Þegar fólki varð ljóst hvað það var má segja að þriðja sumar gervigreindar hafi hafist."
+  ],
+  "concepts": [
+    {
+      "term": "Fei-Fei Li",
+      "explanation": "Bandarísk-kínverskur tölvunarfræðingur (f. 1976), prófessor við Stanford-háskóla. Stofnandi ImageNet og einn af áhrifamestu vísindamönnum nútíma gervigreindar. Stundaði doktorsnám eftir nám í eðlisfræði og vann við hlið foreldra sinna í fatahreinsun á háskólaárunum."
+    },
+    {
+      "term": "ImageNet",
+      "explanation": "Risastór gagnagrunnur af ljósmyndum sem merktar eru handvirkt af fólki — milljónir mynda í þúsundum flokka. Án ImageNet hefði enginn getað þjálfað tauganet til að þekkja myndir á þeim skala sem síðan varð mögulegur."
+    },
+    {
+      "term": "ILSVRC-keppnin",
+      "explanation": "ImageNet Large Scale Visual Recognition Challenge — árleg alþjóðleg keppni 2010–2017 þar sem tauganet kepptu í að flokka myndir. Keppnin varð mælieining fyrir framfarir í tölvusjón. Sigurinn árið 2012 markaði tímamót."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.6.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "imagenet",
+      "after": 8
+    }
+  ]
+}
+

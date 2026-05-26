@@ -1,0 +1,40 @@
+{
+  "id": "vorid-vaknar",
+  "part": 3,
+  "title": "Vorið vaknar",
+  "text": [
+    "Til þess að tauganet gætu farið frá því að vera fræðilegur möguleiki til þess að vera raunveruleg fyrirbæri þurfti meira en vel hönnuð algrím. Þrennt má telja mikilvægast: Tölvur þurftu að halda áfram að verða öflugri, internetið þurfti að stækka og vélbúnaður þurfti að breytast, sérstaklega örgjörvar. En allt reyndist þetta vera á næstu grösum.",
+    "Lögmál Moores um stöðugt öflugri tölvur hefur reynst afar áreiðanlegt. Þróun gervigreindar á þessari öld ræðst ekki síður af ofurvexti internetsins og breytingum á vélbúnaði.",
+    "Okkur þykir sjálfsagt að geta opnað tölvu eða síma og fengið aðgang að texta, hljóðum og mynd. Þannig hefur það ekki alltaf verið. Til að setja þetta í samhengi þá bjuggu tæplega fimm milljarðar manna á Jörðinni árið 1986. Í dag erum við rúmlega átta milljarðar. Ef við gætum safnað saman öllum gögnum sem til voru í veröldinni fyrir fjörutíu árum (þá eru meðtaldar allar bækur og dagblöð, bíómyndir og tónlist og annað sem fólk horfði eða hlustaði á eða las) – og berum saman við þau gögn sem verða til í heiminum árið 2025 (nýjar bækur, tónlist, kisu- og dansmyndbönd, heilafúi og annað) – þá tekur örskamma stund, í mesta falli örfáa daga, að framleiða jafn mikið af gögnum í nútímanum eins og mannkynið hafði framleitt í allri mannkynssögunni fram til 1986!",
+    "Það er ekki nóg með að öll þessi gögn hafi fæðst inn í veröldina – heldur streymir stór hluti þeirra um þann hafsjó upplýsinganna sem internetið er. Þar með skapast aðgangur að nærri ótakmörkuðu efni til að þjálfa tölvur á, sérstaklega tölvur sem læra eiga af reynslunni, til dæmis með tauganetum. Þess vegna er beint orsakasamhengi milli vaxtar internetsins og gervigreindar.",
+    "Þriðji lykillinn að nýju blómaskeiði í þróun gervigreindar var þróun grafískra örgjörva (GPU). Þeir voru upphaflega hannaðir fyrir tölvuleiki en reyndust vera nákvæmlega það sem þurfti til að smíða mætti öflug og fjölhæf tauganet. Örgjörvi er heili tölvunnar. Hann framkvæmir útreikninga og notar til þess smára sem raðað er upp í rökhlið. Við ræddum það í öðrum hluta. Aðal-örgjörvi tölvu er kallaður CPU (Central Processing Unit).",
+    "Vinsældir tölvuleikja ýttu af stað mikilli þróun í vélbúnaði. Þar munaði mestu um sérhæfða örgjörva sem fengu það hlutverk að skila myndum á tölvuskjá á sem hraðvirkastan og áreiðanlegastan hátt. Slíkir örgjörvar kallast GPU (Graphics Processing Unit) en á íslensku eru þeir yfirleitt kallaðir grafískir örgjörvar eða bara skjákort. Örgjörvi skjákorts er ólíkur aðalörgjörvanum að því leyti að hann framkvæmir mjög einfalda útreikninga, meðan aðalörgjörvinn getur framkvæmt mjög flókin og krefjandi verkefni en (og í því liggur galdurinn) skjákortið getur framkvæmt marga einfalda útreikninga á sama tíma í stað þess að framkvæma þá hverja á eftir öðrum!",
+    "Þar sem skynjunarnet snúast í grunninn um mjög einfalda útreikninga á línulegum föllum og tauganet eru mörg slík net tengd saman þá reyndust grafískir örgjörvar vera einmitt það sem þurfti til að hanna mætti slík net. Þegar við það bættist að internetið útvegaði þjálfunargögn og reiknigeta og minni tölva stækkaði samkvæmt lögmáli Moores varð ýmislegt mögulegt sem áður hafði verið útilokað."
+  ],
+  "concepts": [
+    {
+      "term": "Lögmál Moores",
+      "explanation": "Spá Gordons Moore frá 1965 um að fjöldi smára á örgjörva myndi tvöfaldast á tveggja ára fresti. Hefur staðist nokkurn veginn í 60 ár. Smárar dagsins í dag eru aðeins fáein atóm að breidd."
+    },
+    {
+      "term": "GPU (grafískur örgjörvi)",
+      "explanation": "Sérhæfður örgjörvi sem upphaflega var hannaður fyrir tölvuleiki. Ólíkt CPU getur GPU framkvæmt þúsundir einfaldra útreikninga á sama tíma — einmitt það sem þarf til að þjálfa stór tauganet. Tölvuleikir borguðu fyrir þróun tækninnar sem nú knýr gervigreind."
+    },
+    {
+      "term": "CPU (aðal-örgjörvi)",
+      "explanation": "Heili tölvunnar — gerður úr smárum sem raðað er upp í rökhlið. Getur framkvæmt flókin og krefjandi verkefni eitt í einu, en hægar en GPU þegar verkefnin eru einföld og hægt er að keyra þau samhliða."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.5.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "moores law",
+      "after": 1
+    }
+  ]
+}
+

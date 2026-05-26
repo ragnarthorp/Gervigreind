@@ -1,0 +1,45 @@
+{
+  "id": "tviundarkerfid",
+  "part": 2,
+  "title": "Tvíundarkerfið, tungumál tölvunnar",
+  "text": [
+    "Til að skilja heiminn nota menn tákn. Þar sem veröldin er stór og flókin er útilokað að hvert einasta fyrirbæri eða hugtak fái sitt eigið tákn. Í öllum samfélögum hafa með tímanum orðið til aðferðir við að lýsa fjölbreyttum veruleika með takmörkuðum fjölda tákna. Táknunum er gjarnan raðað saman eftir ákveðnum kerfum til að búa til ólíkar merkingar.",
+    "Orð eru dæmi um tákn. Stafróf eru söfn tákna sem nota má til að lýsa orðum. Í okkar heimshluta innihalda stafróf yfirleitt 24 til 32 ólíka stafi sem tákna mismunandi hljóð. Stafróf geta einnig táknað fyrirbæri.",
+    "Tölur má tákna með bókstöfum [tíu] eða tölustöfum [10]. Tölustafirnir sem við notum eiga rætur að rekja til Indlands og eru tíu talsins: 0, 1, 2, 3, 4, 5, 6, 7, 8 og 9. Með þeim er hægt að tákna hvaða ræða tölu sem er. Það er aðeins hægt ef sama táknið getur haft fleiri en eina merkingu. Það er gert með því að sæti talnanna í röð hefur sérstakt gildi.",
+    "Leibniz pældi mikið í táknkerfum og árið 1703 birti hann greinina Explication de l'Arithmétique Binaire (Útskýring á tvíundareikningi). Þar útskýrði hann að lýsingar væru í gömlum kínverskum heimildum á ritmáli sem notaði aðeins tvö tákn til að tákna hvaða tölu sem er. Þar sem táknin voru aðeins tvö kallaði hann kerfið tvíundarkerfi (fr. binaire). Leibniz stakk upp á nýrri útgáfu kerfisins og enn í dag er það grundvallarkerfi í stærðfræði og vísindum. Skrifuð útgáfa þess notast eingöngu við táknin 1 og 0. Rétt eins og í tugakerfinu ræðst merking táknsins af sætinu sem það situr í. Munurinn á kerfunum er sá að í tvíundarkerfinu tvöfaldast stærðin þegar farið er úr lægra sæti í hærra í stað þess að tífaldast í tugakerfinu.",
+    "Það sést skýrt þegar fyrstu tíu tölurnar eru skoðaðar í báðum kerfum:",
+    "Tvíundarkerfið er hið eiginlega tungumál allrar tölvutækni.",
+    "Þegar við notum tölvu eða snjallsíma erum við yfirleitt ekki endilega meðvituð um að tækið sé að fást við runur af tölum. Við sjáum texta og myndir og heyrum hljóð. Samt er það svo að hver einasti bókstafur, hver einasta mynd og hvert einasta hljóð hefur, í meðförum tækninnar, verið þýtt og táknað sem runur af „1“ og „0“.",
+    "Hvernig í ósköpunum?"
+  ],
+  "concepts": [
+    {
+      "term": "Tvíundarkerfi",
+      "explanation": "Talnakerfi sem notar aðeins tvö tákn, 0 og 1. Hvert sæti táknar tvöfalt gildi á við sætið hægra megin (1, 2, 4, 8, 16, 32 …). Talan 13 er til dæmis skrifuð 1101 í tvíundarkerfinu. Allar tölvur og snjallsímar reikna á þennan hátt undir niðri."
+    },
+    {
+      "term": "Tugakerfi",
+      "explanation": "Talnakerfi sem notar tíu tákn, 0 til 9. Hvert sæti táknar tífalt gildi á við sætið hægra megin (1, 10, 100, 1000 …). Þetta er kerfið sem fólk notar dags daglega; tölustafirnir eiga rætur að rekja til Indlands."
+    },
+    {
+      "term": "Tákn",
+      "explanation": "Merki sem stendur fyrir eitthvað annað en sjálft sig — bókstafur fyrir hljóð, tölustafur fyrir magn, myndtákn fyrir hugmynd. Samfélög nota takmarkaðan fjölda tákna og raða þeim saman í kerfi til að lýsa öllum heiminum."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.1.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "binary table",
+      "after": 4
+    },
+    {
+      "type": "interactive",
+      "description": "binary converter",
+      "after": 7
+    }
+  ]
+}

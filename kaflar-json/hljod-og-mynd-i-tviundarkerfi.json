@@ -1,0 +1,50 @@
+{
+  "id": "hljod-og-mynd-i-tviundarkerfi",
+  "part": 2,
+  "title": "Hljóð og mynd í tvíundarkerfi",
+  "text": [
+    "Snilldin við tvíundakerfið er sú að það getur jafn auðveldlega búið til tölustaf, mynd, hljóð og bókstafi. Eina krafan er sú að búnaðurinn sem notaður er sé stafrænn. Það þýðir að hann er hannaður til þess að vinna með upplýsingar sem búið er að þýða á tvíundakerfið. Tölvuskjár er stafrænn og í sjálfu sér breytir engu hvort á honum birtist texti eða mynd. Einungis þarf að senda skjánum skilaboð um það hvar hann eigi að hafa ljós og hvar ekki.",
+    "Þú veist að ef þú blandar saman hvítum lit og svörtum færðu gráan. Og ef meira er sett af svartri málningu verður liturinn dekkri og ef meira er sett af hvítri verður hann ljósari. Fyrstu tölvuskjáirnir og sjónvörpin voru einlita (svarthvít, svartgræn eða jafnvel svartgul). Myndin sýndi aðeins einn lit sem gat verið misbjartur. Skjáir voru þannig hannaðir að nokkur hundruð dílar eða deplar (sem við köllum oft pixla) lágu hlið við hlið þvert yfir skjáinn í beinni röð. Með því að fylla skjáinn af slíkum röðum var hægt að búa til myndir. Það þurfti bara að senda skilaboð til skjásins um það hversu bjartur hver díll ætti að vera. Með rafeindabyssu var geisla skotið á innanverðar skjáinn af mismiklu afli. Geislinn rann svo hratt milli díla að augað taldi sig sjá allan skjáinn upplýstan í einu.",
+    "Litaskjáir virkuðu eins nema að hver díll var gerður úr þremur minni dílum: einum rauðum, einum grænum og einum bláum. Ástæðan er sú að mannsaugað sér aðeins þessa þrjá liti með þeim frumum sem í auganu eru. Allir aðrir litir sem augað sér eru blanda af þessum litum.",
+    "Nýir skjáir eru stafrænir. Í stað rafeindabyssu sem bunar misöflugum geisla á innanverðan skjáinn á fleygiferð er búið að skilgreina nákvæmlega hve bjartur hver díll á skjánum á að vera. Jafnan fær hver díll úthlutað einu bæti (átta bitum) og þar með gildi frá núll (engin birta, 0000 0000) til 255 (mesta birta, 1111 1111).",
+    "Hér má sjá hvernig ólíkir litir eru framkallaðir með stafrænum hætti. Með því að stjórna því hve bjart hver litur skín er hægt að búa til milljónir litasamsetninga. Taktu eftir því að augað sér hvítan lit ef nálægir rauðir, grænir og bláir dílar eru allir af sama styrk.",
+    "Þegar mynd er teiknuð á skjá, hvort sem það er broskall eða ljósmynd; kínversk tákn eða íslenskur bókstafur, þarf tölvan að senda skjánum upplýsingar um hvern einasta díl og styrk allra þriggja litanna í undirdílum hans. Þar sem síma- og tölvuskjáir nútímans geta haft milljónir díla sem sýna tugi eða hundruði mynda á sekúndu er ljóst að þessar upplýsingar eru gríðarlega umfangsmiklar. Ef tvíundakóði fyrir tölvuskjá væri prentaður í bók af stærðinni A4 með leturstærð 12 og línubili 1,5 þyrfi nærri fimmtíu bækur (sem væru 300 blaðsíður hver) undir kóðann sem fylgir einni skjámynd úr tölvuleik! Höfum hugfast að flestir skjáir skipta um mynd sextíu sinnum eða oftar á sekúndu.",
+    "Augljóslega þarf mjög öflugan búnað fyrir slíka vinnslu og oft er tölvubúnaður innbyggður í skjái til að auðvelda verkið. Einnig er mikilvægt að finna snjallar leiðir til að minnka magn upplýsinganna, til dæmis með því að skipuleggja gögnin vel eða þjappa þeim saman. Ef skjár á allur að vera svartur í nokkrar sekúndur er til dæmis nóg að senda tölvunni í skjánum upplýsingar um að liturinn R:0, G:0 og B:0 eigi við um alla díla í ákveðinn tíma frekar en að senda þær upplýsingar trekk í trekk fyrir hvern einasta díl.",
+    "Hljóð fylgir sömu lögmálum. Það er hægt að taka upp hljóð sem röð af stafrænum upplýsingum sem hægt er að vista, senda og spila úr hátalara. Þegar fólk talar saman í farsíma mælir hljóðnemi styrk hljóðsins nærri tíu þúsund sinnum á sekúndu. Styrkurinn er táknaður með tölu. Gögnin eru síðan send þráðlaust í síma viðmælandans þar sem rafstraumur lætur hátalara titra með sama styrk og takti. Við það er hljóðið endurskapað. Í fullkomnu hljóðupptökuveri er ekki óalgengt að sýni séu tekin af tónlist nærri tvö hundruð þúsund sinnum á sekúndu en þegar þú hlustar á lög á streymisveitum er yfirleitt búið að fjarlægja megnið af upplýsingunum án þess að þú heyrir muninn. Algengast er að tónlist sé streymt sem inniheldur 44100 mælingar á sekúndu. Það er um tvöfalt það sem þarf til svo hægt sé að spila skærustu hljóð sem mannseyrað getur greint."
+  ],
+  "concepts": [
+    {
+      "term": "Díll",
+      "explanation": "Minnsti hluti af mynd á skjá — stundum kallaður pixill (e. pixel). Síma- og tölvuskjáir nútímans innihalda milljónir díla, og hver þeirra getur tekið á sig hvaða lit sem er með blöndu af rauðu, grænu og bláu ljósi."
+    },
+    {
+      "term": "RGB",
+      "explanation": "Litakerfi sem notar þrjá grunnliti: rauðan (R), grænan (G) og bláan (B). Hver litur er gefinn upp með tölu á bilinu 0–255 og blanda þeirra þriggja getur framkallað meira en 16 milljónir litasamsetninga — nóg fyrir allt sem mannsaugað sér."
+    },
+    {
+      "term": "Sýnataka",
+      "explanation": "Að mæla samfellt merki — eins og hljóð — með reglulegu millibili og breyta í tölur. Tónlist á streymisveitum er yfirleitt tekin 44.100 sinnum á sekúndu, sem er nóg til þess að mannseyrað skynjar ekki muninn frá samfelldu hljóði."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.3.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "rgb mixer",
+      "after": 4
+    },
+    {
+      "type": "interactive",
+      "description": "rgb game",
+      "after": 4
+    },
+    {
+      "type": "interactive",
+      "description": "audio frequency",
+      "after": 7
+    }
+  ]
+}

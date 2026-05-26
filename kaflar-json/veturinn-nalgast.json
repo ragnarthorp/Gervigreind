@@ -1,0 +1,30 @@
+{
+  "id": "veturinn-nalgast",
+  "part": 2,
+  "title": "Veturinn nálgast",
+  "text": [
+    "Rosenblatt vissi að hann hafði skapað fullmiklar væntingar þegar hann kynnti Mark I. Ýmsar áskoranir átti eftir að leysa. Hann hafði heldur ekki skapað sér neinar sérstakar vinsældir meðal sumra vísindamanna sem töldu að hann hefði ekki verið nærri nógu hreinskilinn um takmörk skynjunarneta.",
+    "Öflugasti gagnrýnandi hans var líklega Marvin Minsky við MIT-háskóla, einn þeirra sem skipulagt höfðu sumarnámskeiðið í Dartmouth og lagt þar grunn að gervigreindarfræðum. Minsky benti á að þótt skynjunarnet gætu framkvæmt ýmis einföld verkefni þá væri ekkert sem benti til þess að þau kæmust nokkru sinni í hálfkvisti við aðra tækni sem hann og aðrir voru að þróa. Löngu seinna átti Minsky eftir að hafa gaman af því að rifja upp vandræðalegar uppákomur í þjálfun skynjunarneta. Netið sem átti að þekkja tónverk Bachs frá verkum annarra reyndist ekkert vit hafa á nótum. Það kom í ljós eftir skoðun að blaðsíðurnar með verkum Bachs voru merktar sérstaklega og skynjunarnetið hafði aðeins lært að þekkja þær merkingar. Netið sem fann myndir af skriðdrekum reyndist gallað á sama hátt. Myndirnar af skriðdrekum, sem netið hafði verið þjálfað með, voru dekkri en myndirnar sem ekki höfðu skriðdreka. Netið fann alls enga skriðdreka á myndunum, það kunni aðeins að þekkja bjartar myndir frá dökkum!",
+    "Alvarlegustu gagnrýnina setti Minsky fram í bókinni Skynjunarnet (e. Perceptrons) sem hann skrifaði ásamt Seymor Papert árið 1969. Í bókinni bentu þeir á að skynjunarnet væri mjög erfitt að stækka eða útvíkka og engar færar leiðir virtust til þess að þjálfa slík net til annars en einfaldra verkefna. Auk þess bentu þeir á að slík net (þar á meðal Mark I) félli á grunnprófi allra tölva. Þau gætu ekki sett upp mjög mikilvægt rökhlið. XOR-aðgerð gæti skynjunarnet ekki framkvæmt."
+  ],
+  "concepts": [
+    {
+      "term": "Marvin Minsky",
+      "explanation": "Bandarískur tölvunarfræðingur (1927–2016) við MIT, einn af stofnendum gervigreindarsviðsins. Stóð að Dartmouth-fundinum 1956 og var einn helsti gagnrýnandi Rosenblatts og skynjunarneta. Bók hans Perceptrons (1969, með Seymour Papert) varð til þess að rannsóknir á tauganetum lögðust nær alfarið af í áratug."
+    },
+    {
+      "term": "Skammhlaupsnám (shortcut learning)",
+      "explanation": "Þegar tauganet finnur einhverja ódýra vísbendingu í gögnunum og lærir hana í stað þess sem þjálfarinn ætlaði. Bach-netið lærði blaðsíðumerkingar í stað nótna. Skriðdrekanetið lærði birtustig í stað skriðdreka. Þetta vandamál er enn í dag eitt af helstu áskorununum í þjálfun gervigreindar."
+    },
+    {
+      "term": "Perceptrons (1969)",
+      "explanation": "Bók Minskys og Paperts sem stærðfræðilega sannaði að skynjunarnet — eins og Mark I — gætu aldrei leyst tilteknar einfaldar þrautir, þar á meðal XOR. Áhrifin voru gríðarleg: fjárveitingar til tauganetarannsókna þornuðu upp og fyrsta gervigreindarveturinn skall á."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.12.svg"
+    }
+  ]
+}

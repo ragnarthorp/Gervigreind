@@ -1,0 +1,39 @@
+{
+  "id": "xor-thrautin",
+  "part": 2,
+  "title": "XOR – þrautin sem felldi skynjunarnetið",
+  "text": [
+    "Þú manst kannski að XOR er nafn á rökhliði sem byggir á algebru Boole og merkir annaðhvort eða – en ekki bæði.",
+    "Þetta gat skynjunarnet ekki gert og skipti engu máli hversu lengi það væri þjálfað. Ástæðan er stærðfræðilegs eðlis. Skynjunarnet framkvæmdu leit að réttu svari með því að finna línuleg föll (föll sem hægt er að teikna sem beina línu í hnitakerfi) sem gætu afmarkað það sem leitað er að frá öllu öðru. Hér sést hvernig beinar línur ráða við AND- og OR-föll án nokkurra vandkvæða.",
+    "Vandinn við XOR-fallið er að þar er útilokað að greina á milli réttra niðurstaða með einföldu línulegu falli.",
+    "Enga beina línu er hægt að teikna sem aðgreinir þau ílög sem innihalda XOR-samband frá hinum sem gera það ekki. Um leið þýðir þetta að skynjunarnet geta ekki beitt XOR-falli nema eitthvað nýtt komi til.",
+    "Þetta vissi Rosenblatt en hann vonaði að þetta væri hægt að leysa. Hann einsetti sér að finna lausn en tókst það ekki því hann lést í siglingaslysi sumarið 1971 aðeins 43 ára gamall.",
+    "Með Rosenblatt má segja að trúin á skynjunarnet hafi einnig dáið. Við það fór mesti vindurinn úr seglum gervigreindarrannsókna og líklega hefur enginn einstakur atburður haft meiri áhrif á það að fyrsti vetur gervigreindar skall á.",
+    "Sjálflærandi net áttu þó eftir að eiga endurkomu, fyrst varfærnislega og hikandi en síðar á svo blússandi hraða að fólk talar um stærstu tæknibyltingu síðan rafmagnið varð aðgengilegt. Um það ræðum við betur á eftir."
+  ],
+  "concepts": [
+    {
+      "term": "XOR (eXclusive OR)",
+      "explanation": "Rökhlið sem skilar 1 þegar annaðhvort ílagið er 1, en ekki ef bæði eru 1 og ekki ef bæði eru 0. Á íslensku: „annaðhvort eða – en ekki bæði.“ Táknað ⊕."
+    },
+    {
+      "term": "Línuleg aðgreining",
+      "explanation": "Aðferð skynjunarneta til að flokka gögn: ein bein lína (eða flötur í fleiri víddum) skilur réttu svörin frá þeim röngum. Virkar fyrir AND og OR. Klikkar á XOR — réttu svörin liggja á gagnstæðum hornum og engin ein bein lína getur aðskilið þau."
+    },
+    {
+      "term": "Fyrsti gervigreindarveturinn",
+      "explanation": "Tímabilið frá u.þ.b. 1970 til miðs níunda áratugarins þegar fjárveitingar til gervigreindarrannsókna hrundu og lítið gerðist í greininni. XOR-takmörkunin sem Minsky og Papert bentu á og dauði Rosenblatts 1971 voru meðal helstu orsaka."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.13.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "line separator",
+      "after": 1
+    }
+  ]
+}

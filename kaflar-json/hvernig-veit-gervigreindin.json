@@ -1,0 +1,45 @@
+{
+  "id": "hvernig-veit-gervigreindin",
+  "part": 3,
+  "title": "Hvernig veit gervigreindin hvað á að segja?",
+  "text": [
+    "Meðan þessi bók var skrifuð fékk öflugt mállíkan rökþraut. Því voru gefin þrjú tákn — R fyrir „Það rignir“, B fyrir „Vegurinn er blautur“ og S fyrir „Mér seinkar í vinnuna“ — og þrjár forsendur sem tengdu þau saman: R → B (ef það rignir blotnar vegurinn), B → S (ef vegurinn er blautur, kem ég seint) og ¬B (vegurinn er ekki blautur). Spurt var hvort ¬R og ¬S leiddu af forsendunum.",
+    "Mállíkanið svaraði því til að báðar fullyrðingarnar væru réttar. Það er rangt. Önnur leiðir vissulega af forsendunum — ¬R með modus tollens. Hin gerir það ekki: forsendan B → S segir aðeins hvað gerist ef vegurinn er blautur, ekki hvað gerist þegar hann er það ekki. Þú getur prófað sjálf(ur) hér að neðan.",
+    "Það er þeim mun merkilegra þegar haft er í huga að tölvan sem skilaði þessu svari er vélbúnaður sem bókstaflega var hannaður í kringum rökrásir — litlar einingar sem framkvæma lítil rökrétt skref.",
+    "Þótt nýrri mállíkön séu ólíkleg til að falla á þessu sama prófi afhjúpar þetta dæmi grundvallareinkenni á gervigreind dagsins í dag. Hún er hvorki tækni sem segir alltaf satt (öll stór mállíkön lenda í ofskynjunum þar sem þau búa til samhengi sem ekki er til) né tækni sem svarar alltaf rökrétt.",
+    "Hér þarf að takast á við heimspekilega spurningu. Ef gervigreind á að líkja eftir greind, hvort er þá betri mælikvarði á hana: hversu rökrétt hún getur hugsað eða hversu vel hún líkir eftir hugsun mannfólks (sem við vitum að getur hæglega skjátlast)?",
+    "Hvernig fer tæki sem byggir á rökreglum að því að svara svona órökrétt?",
+    "Þótt tauganet framkvæmi óteljandi, einfalda, stærðfræðilega útreikninga sem hver um sig er rökréttur þýðir það ekki að afurðir þess séu rökréttar. Þvert á móti er mállíkanið fyrst og fremst þjálfað í því að spá fyrir um hvaða tókar passa saman miðað við það efni sem líkanið er þjálfað á. Hvorki aðferðir netsins til að gera slíkar spár né efnið sjálft er fullkomið. Þess vegna spinnur gervigreindin reglulega tóma þvælu. Ekki vegna þess að hún misskilji eitthvað heldur vegna þess að hún veit í raun ekki neitt um nokkurn skapaðan hlut. Hún er aðeins frábærlega hannaður mynsturgreinir sem hefur verið mataður á megninu af stafrænum veruleika okkar og kann að prjóna saman stafi og orð sem í ótrúlega mörgum tilfellum ná að sannfæra okkur um að við séum að tala við einhvern með raunverulegt vit.",
+    "Meginmunur á mállíkani og manneskju er sá að manneskja getur áttað sig á veruleikanum út frá tiltölulega takmörkuðum upplýsingum. Reynsla, þekking og ímyndunarafl vinna saman að því að raða hugsunum saman í skiljanlega mynd. Mállíkan virkar allt öðru vísi. Það finnur mynstur í gríðarmiklu efni og notar þau til að spá fyrir um samhengi tóka. Efnið sem líkanið er þjálfað á er fullt af bulli og vitleysu, fordómum og ranghugmyndum. Tauganet kortleggur það allt án þess að gera nokkurn greinarmun á sannleika og lygi. Þegar tauganet er fest í sessi í lok þjálfunar inniheldur það ranghugmyndir og fordóma sem það hefur sópað upp við mynsturleitina auk þess sem samhengið sem skapað hefur verið er langt frá því að vera fullkomið til að byrja með."
+  ],
+  "concepts": [
+    {
+      "term": "Modus tollens",
+      "explanation": "Klassísk rökregla: ef P → Q og Q er ósatt, þá hlýtur P að vera ósatt. Líkanið beitti henni rétt á R → B + ¬B → ¬R, en mistókst seinna."
+    },
+    {
+      "term": "Afleiðingar-afneitun (denying the antecedent)",
+      "explanation": "Klassísk rökvilla: að álykta út frá P → Q og ¬P að ¬Q sé satt. P → Q segir bara hvað gerist EF P, ekki hvað gerist þegar P er ekki. Mállíkanið féll í þessa gildru á B → S + ¬B → ¬S."
+    },
+    {
+      "term": "Ofskynjun (hallucination)",
+      "explanation": "Þegar mállíkan spinnur upp samhengi, staðreyndir eða rök sem ekki standast — án þess að gera sér grein fyrir því. Stafar af því að líkanið er spáfræðilegur mynsturgreinir, ekki sannleiksvél."
+    },
+    {
+      "term": "Spáfræðilegur mynsturgreinir",
+      "explanation": "Mállíkan veit ekkert um heiminn — það hefur aðeins lært statistísk mynstur úr texta. Setningar þess hljóma oft sannfærandi en eru ekki tryggðar með röksemdafærslu eða sannreyndri þekkingu."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.13.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "logic slip",
+      "after": 1
+    }
+  ]
+}
+

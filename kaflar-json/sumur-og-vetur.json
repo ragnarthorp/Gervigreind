@@ -1,0 +1,32 @@
+{
+  "id": "sumur-og-vetur",
+  "part": 1,
+  "title": "Sumur og vetur gervigreindar",
+  "text": [
+    "Sögu gervigreindar er stundum skipt í árstíðir þar sem skiptast á tímabil mikillar bjartsýni, þar sem rannsóknir og þróun virðast skila miklum árangri, aðgengi að fjármagni er auðvelt og væntingar miklar. Slík tímabil eru kölluð sumur og þau hafa verið að minnsta kosti þrjú síðan gervigreind varð til sem sjálfstætt rannsóknarsvið í Dartmouth árið 1956.",
+    "Á milli sumranna hafa verið vetur. Þeir einkennast af vonbrigðum, vantrú og erfiðleikum við að fjármagna tækniþróun og rannsóknir. Hinn fyrsti vetur hófst upp úr 1970 þegar ljóst varð að táknbundin gervigreindarforrit stóðu ekki undir þeim miklu væntingum sem til þeirra voru gerðar. Jafnvel fullkomnustu hugsandi vélar brugðust illa í ófyrirsjáanlegum aðstæðum. Sem dæmi lögðu bandarísk stjórnvöld mikla peninga í forrit sem áttu að þýða sjálfkrafa á milli tungumála. Þrátt fyrir mikinn tilkostnað og mikið erfiði lenti tæknin ítrekað í vandræðum, sérstaklega ef notað var óformlegt, flókið eða óvenjulegt málfar.",
+    "Gervigreind náði sér tímabundið á strik aftur og annað sumar hennar hófst um 1980. Um það leyti ríkti mikil bjartsýni um tölvutækni og einkatölvum fjölgaði hratt. Tölvuleikir urðu vinsæl afþreying og miklir peningar runnu til kaupa á búnaði og forritum. Gervigreind vakti aftur áhuga og athygli, sérstaklega við hönnun svokallaðra sérfræðikerfa sem í einhverjum tilfellum gátu sparað stórfyrirtækjum og stofnunum mikið fé og tíma. Á þessum tíma var mikið tæknikapphlaup milli stórveldanna, sérstaklega Bandaríkjanna og Japan, sem gerði það að verkum að auðvelt var að skapa áhuga fjárfesta á möguleikum tækninnar.",
+    "Annar veturinn hófst um 1990 þegar sérfræðikerfin höfðu náð nokkurn veginn eins langt og hægt varð. Þau reyndust ágæt stuðningskerfi fyrir ýmsa sérfræðinga, eins og lækna, fjárfesta eða lyfjafræðinga, þar sem þau gátu sótt upplýsingar í gagnagrunna og rökstutt upp að ákveðnu marki tillögur sínar. Almenningur komst einnig upp á lag með að nota slík kerfi til að leiðrétta stafsetningu. Því fór samt fjarri að tæknin stæði undir þeim miklu væntingum sem til hennar höfðu verið gerðar. Það fjaraði hratt undan áhuga á gervigreind á árunum fyrir aldamót og rannsakendur forðuðust jafnvel að nefna gervigreind (AI) í umsóknum um rannsóknarstyrki til að eiga meiri möguleika.",
+    "Þriðja sumri gervigreindar (því sem nú stendur sem hæst) verða gerð sérstök skil síðar í efninu."
+  ],
+  "concepts": [
+    {
+      "term": "Gervigreindarvetur",
+      "explanation": "Tímabil í sögu gervigreindar þegar áhugi, fjármagn og bjartsýni minnka — yfirleitt eftir að nýjustu tæknin hefur ekki staðið undir væntingum. Síðan 1956 hafa að minnsta kosti tveir slíkir vetur átt sér stað, frá um 1970 og frá um 1990."
+    },
+    {
+      "term": "Sérfræðikerfi",
+      "explanation": "Tölvuforrit sem ætlað er að líkja eftir sérfræðingi á tilteknu sviði. Það fær safn af reglum og þekkingu (t.d. um sjúkdóma eða lögfræði) og getur svarað spurningum eða mælt með ákvörðun. Sérfræðikerfi voru megináhersla gervigreindar á níunda áratug 20. aldar."
+    },
+    {
+      "term": "Vélræn þýðing",
+      "explanation": "Sjálfvirk þýðing milli tungumála með tölvu. Hún var eitt af fyrstu verkefnum gervigreindar og olli miklum vonbrigðum á áttunda áratug 20. aldar þegar tæknin réð ekki við flókið málfar. Nútímakerfi eins og Google Translate byggja á alveg annarri nálgun — tengingarhyggju."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/1.9.svg"
+    }
+  ]
+}

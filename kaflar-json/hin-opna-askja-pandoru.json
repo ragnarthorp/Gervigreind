@@ -1,0 +1,33 @@
+{
+  "id": "hin-opna-askja-pandoru",
+  "part": 4,
+  "title": "Hin opna askja Pandóru",
+  "text": [
+    "Í árþúsundir hefur mannkynið notað goðsagnir til að varðveita visku. Viska er meira en þekking. Í visku er fólginn mikilsverður lærdómur. Goðsögnin um Pandóru hefur um aldir ómað sem viðvörun frá einni kynslóð til þeirrar næstu um að stundum sé betra að láta hlutina eiga sig en að láta forvitnina leiða sig í gönur.",
+    "Gervigreind er komin í heiminn. Það verður ekki aftur snúið með það. Og kannski verður hún til góðs. Mannkynið stendur frammi fyrir ýmsum erfiðum áskorunum sem gervigreind getur hjálpað til að mæta. Hún lofar góðu í læknisfræði. Hækkandi aldri mannkyns fylgir aukin tíðni krabbameina og heilabilunar sem, þrátt fyrir margra áratuga rannsóknir, eru enn í mörgum tilfellum ólæknandi kvillar. Við þekkjum mörg dæmi þess í sögunni að óvæntar uppgötvanir gerbreyti baráttunni við sjúkdóma.",
+    "Gervigreind hefur líka gjörbreytt möguleikum fólks með skerta færni til að athafna sig, líkt og vélmenni Hefæstosar í grísku goðsögunni. Gervigreind hefur þegar aukið lífsgæði sjón- og heyrnarskertra og brotið niður múra sem hindrað hafa jaðarsetta hópa frá þátttöku í samfélaginu. Hún kann líka að minnka einsemd og stuðla að andlegri vellíðan í heimi sem sárlega þarf á því að halda.",
+    "Gervigreind getur valdeflt fólk. Afhent því verkfæri til náms og starfa. Hún getur jafnað aðgengi fólks að menntun og veitt fólki tækifæri sem voru óhugsandi fyrir örfáum áratugum síðan.",
+    "Þá eru ótalin ýmis verkefni á sviði vísinda og tækni sem mannkynið hefur staðið ráðþrota gagnvart. Leit að jafnvægi í loftslagsmálum er lífsspursmál sem ekki verður mætt nema með þróun nýrrar tækni. Grundvallarkenningar um eðli heimsins hafa leitt okkur í öngstræti og enn er óljóst hvernig samræma má niðurstöður afstæðiskenningar Einsteins og skammtafræðina. Allt þetta er mögulegt að gervigreind muni hjálpa okkur að skilja betur. Það gæti leitt til nýrrar vísindabyltingar með áður óþekktum möguleikum. Kannski lítum við til baka á upphaf 21. aldar og áttum okkur á því að þrátt fyrir alla okkar tækni vorum við rétt að byrja.",
+    "Ef við ættum að velja einn upphafspunkt nútímasögu gervigreindar er hann mögulega hvorki stundin þegar Leibniz ímyndaði sér hugsandi vél né þegar Alan Turing hugleiddi hermileikinn. Táknrænasta augnablikið er kannski þegar Charles Babbage frétti fyrst af franska vefstólnum sem hægt var að stýra með gataspjöldum. Þar kviknaði fyrsta raunhæfa hugmyndin um að hægt væri að láta tæki herma eftir hugsun okkar."
+  ],
+  "concepts": [
+    {
+      "term": "Pandóra",
+      "explanation": "Goðsögn úr grísku fornöld um konuna sem opnaði öskju gegn betri vitund og slepti þannig öllum heimsins ógæfum út í heiminn. Eftir í öskjunni varð aðeins vonin. Hér tákn fyrir þá þverstæðu að ný tækni býður bæði upp á mikil tækifæri og mikla áhættu — og að ekki verður snúið til baka."
+    },
+    {
+      "term": "Hefæstos",
+      "explanation": "Smiðurinn í grískri goðafræði. Smíðaði meðal annars vélmenni úr gulli sem hjálpuðu honum að ganga. Forn fyrirmynd að nútímahugmyndinni um vélmenni sem aðstoða þá sem hafa skerta færni."
+    },
+    {
+      "term": "Vefstóll Jacquards",
+      "explanation": "Charles Babbage frétti af franska vefstólnum sem hægt var að stýra með gataspjöldum og fékk þar hugmyndina að fyrstu hugsanda vélinni. Þetta er kannski raunverulegur upphafspunktur gervigreindarsögunnar — augnablikið þegar hugmyndin um forritanlega vél fæddist."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/4.6.svg"
+    }
+  ]
+}

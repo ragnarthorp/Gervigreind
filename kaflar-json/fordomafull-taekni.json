@@ -1,0 +1,31 @@
+{
+  "id": "fordomafull-taekni",
+  "part": 4,
+  "title": "Fordómafull tækni?",
+  "text": [
+    "Rannsakendur við Háskóla Íslands birtu árið 2022 niðurstöður úr rannsókn sem sýndu að þýðingarvélin Google Translate þýddi neikvæð og jákvæð lýsingarorð um persónuleika ekki eins. Neikvæð orð voru oftar þýdd í kvenkyni (t.d. vitlaus, veikburða) en í karlkyni ef þau voru jákvæð (gáfaður, sterkur). Ef lýsing var á útliti snerist dæmið við og orðin voru oftar í kvenkyni ef þau voru jákvæð en karlkyni ef þau voru neikvæð.",
+    "Þetta kallast á við rannsóknir hinnar kanadísk-bandarísku Joy Buolamwini sem sýnt hefur fram á með rannsóknum sínum, meðal annars við MIT-háskóla, að andlitsgreiningartækni gerir mikinn mannamun. Svo mikinn raunar að villuhlutfall tækninnar sem hún prófaði var innan við 1% þegar henni var beitt á andlit hvítra karlmanna en nærri 35% þegar henni var beitt á andlit svartra kvenna. Áhrif slíkrar skekkju í þjálfunargögnum gervigreindar geta orðið veruleg og alvarleg. Joy stofnaði samtökin Algorithmic Justice League sem berjast fyrir því að uppræta dulda en áhrifamikla fordóma sem þjálfun gervigreindar er líkleg til að festa í sessi.",
+    "Annar vandi tengist því að við þjálfun er gervigreind farin að éta sjálfa sig. Internetið er fullt af gervigreindarmyndum, texta og tónlist. Helmingur netumferðar í heiminum í dag eru bottar. Þeir skilja eftir sig slóðir um hinn gervalla stafræna heim. Útilokað er að hindra að ný líkön séu þjálfuð á afurðum gervigreindar. Það þýðir að gallaðar afurðir fyrri kynslóða verða hluti af hráefni næstu kynslóða tauganeta. Það getur jafnvel leitt til stafrænnar „heilahrörnunar“ þar sem gæði þess efnis sem gervigreind framleiðir munu minnka.",
+    "Þjálfun mállíkana krefst þekkingar á menningu þeirra málheima sem unnið er með. Hér erum við ekki bara að ræða um það hvort réttara sé að segja „pylsa“ eða „pulsa“ eða „mig langar“ eða „mér langar“. Sú mynd af menningu og máli sem birtist á samfélagsmiðlum, greinum, vefjum eða bókum er oft gamaldags, ófullkomin, ósanngjörn eða beinlínis villandi. Illa þjálfuð gervigreind getur þannig verið gamalt vín á nýjum belgjum."
+  ],
+  "concepts": [
+    {
+      "term": "Joy Buolamwini",
+      "explanation": "Kanadísk-bandarískur tölvunarfræðingur (f. 1989) við MIT. Sýndi árið 2018 að andlitsgreiningartækni gerði allt að 35 sinnum fleiri villur á andlitum svartra kvenna en á hvítum karlmönnum. Stofnaði samtökin Algorithmic Justice League."
+    },
+    {
+      "term": "Skekkja í þjálfunargögnum",
+      "explanation": "Þegar gögn sem gervigreind er þjálfuð á eru ekki dæmigerð fyrir alla þá hópa sem tæknin á að þjóna. Ef andlit svartra kvenna eru sjaldan í þjálfunargögnum verður tæknin léleg að þekkja þau — og fordómar samfélagsins festast í tækninni."
+    },
+    {
+      "term": "Stafræn heilahrörnun",
+      "explanation": "Þegar mállíkön eru þjálfuð á afurðum eldri mállíkana hverfa smám saman fjölbreytileiki og gæði í gögnum. Helmingur netumferðar er í dag bottar — og þau bæta sífellt við gögnin sem næsta kynslóð líkana lærir af."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/4.1.svg"
+    }
+  ]
+}

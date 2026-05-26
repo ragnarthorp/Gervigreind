@@ -1,0 +1,37 @@
+{
+  "id": "skuggahlidar-taekninnar",
+  "part": 4,
+  "title": "Skuggahliðar tækninnar",
+  "text": [
+    "Sú staðreynd að öflugustu mállíkönin eru í grunninn háþróaðir mynsturgreinar, sem spinna texta á grundvelli tölfræðilegra líkinda fremur en raunverulegs skilnings eða rökfærni, hefur djúpstæðar siðferðilegar afleiðingar. Kerfin geta ekki aðeins haft rangt fyrir sér um einföld rökfræðiatriði, heldur einnig endurspeglað og jafnvel magnað upp þá fordóma og ranghugmyndir sem leynast í þeim gögnum sem þau eru þjálfuð á.",
+    "Eitt stærsta vandamálið er algrímshlutdrægni (e. algorithmic bias). Þá innihalda þjálfunargögnin sögulega eða samfélagslega hlutdrægni eins og rannsóknir Joy Buolamwini á andlitsgreiningu eða dæmin um kynjaða þýðingu á íslensku sýna glögglega. Gervigreindin verður þá hlutdræg og beitir fordómum sínum kerfisbundið. Afleiðingin er ekki aðeins sú að gervigreindin verði gamaldags, vitlaus eða dónaleg. Þetta getur leitt til raunverulegrar mismununar sem kann að hafa alvarleg áhrif á líf fólks, til dæmis við ráðningar, heilsugæslu, lánveitingar, í námi eða gagnvart löggæslu og réttarkerfum. Kerfin „vita“ ekki að þau eru hlutdræg og þau skortir siðferðisvitund til að leiðrétta sig. Ábyrgðin á að greina og uppræta slíka hlutdrægni liggur alfarið hjá hönnuðum og notendum.",
+    "Það verður enn flóknara því gervigreindin byggir á mjög ógagnsærri tækni og meðferð upplýsinga. Innviðir stórra tauganeta eru svo flóknir að jafnvel skaparar þeirra eiga mjög erfitt með að rekja nákvæmlega hvernig tiltekin niðurstaða verður til. Þessi skortur á gagnsæi (e. transparency) gerir það að verkum að erfitt, eða jafnvel útilokað, er að meta eða endurskoða ákvarðanatöku kerfisins, finna orsakir villna eða hlutdrægni og tryggja að unnið sé af ábyrgð. Því fer ört vaxandi krafa um aukinn útskýranleika (e. explainability). Án gagnsæis og útskýranleika er nær ómögulegt að byggja upp traust á tækninni, sérstaklega þegar hún er notuð í aðstæðum þar sem mikið er í húfi.",
+    "Markmiðið með því að takast á við hlutdrægni með því að auka gagnsæi og útskýranleika er að stuðla að sanngirni (e. fairness). Hugtakið sanngirni er ekki einfalt og getur haft ólíka merkingu eftir samhengi. Að skilgreina og innleiða sanngjarna gervigreind er bæði tæknileg og siðferðileg áskorun. Það krefst stöðugrar árvekni, gagnrýninnar hugsunar og víðtæks samráðs um þau gildi sem við viljum að tæknin endurspegli.",
+    "Þessi atriði: hlutdrægni, gagnsæi, útskýranleiki og sanngirni, eru aðeins brot af þeim fjölmörgu siðferðilegu álitamálum sem fylgja gervigreind. Önnur snúa að friðhelgi einkalífs, óhóflegu eftirliti með fólki, svikum og misnotkun (t.d. við dreifingu falsupplýsinga). Óljóst er hvar ábyrgð liggur ef gervigreind er samofin búnaði eða kerfum sem valda tjóni. Þá eru umhverfisáhrif gervigreindar enn ótalin. Þau ræðum við ögn betur síðar.",
+    "Að horfast í augu við þessar áskoranir allar er forsenda þess að hægt sé að nýta möguleika hennar til góðs og um leið lágmarka þá áhættu sem henni fylgir. Þessi siðferðilega ígrundun verður enn mikilvægari þegar við beinum sjónum okkar að næsta mögulega skrefi í þróun gervigreindar: tilkomu almennrar gervigreindar."
+  ],
+  "concepts": [
+    {
+      "term": "Algrímshlutdrægni (algorithmic bias)",
+      "explanation": "Þegar gervigreind beitir fordómum kerfisbundið vegna þess að þjálfunargögnin endurspegla sögulega eða samfélagslega hlutdrægni. Kerfið „veit“ ekki að það er hlutdrægt — það endurtekur bara mynstrin sem það lærði."
+    },
+    {
+      "term": "Gagnsæi (transparency)",
+      "explanation": "Hvort hægt sé að skoða hvernig gervigreind kemst að niðurstöðu. Innviðir stórra tauganeta eru svo flóknir að jafnvel skaparar þeirra eiga oft erfitt með að rekja eitt einstakt svar."
+    },
+    {
+      "term": "Útskýranleiki (explainability)",
+      "explanation": "Krafan um að gervigreind geti útskýrt hvers vegna hún kemst að ákveðinni niðurstöðu. Án útskýranleika verður erfitt að treysta tækninni — sérstaklega þegar hún ákveður ráðningar, lánveitingar eða lögfræðileg úrslit."
+    },
+    {
+      "term": "Sanngirni (fairness)",
+      "explanation": "Markmiðið með því að takast á við hlutdrægni og krefjast gagnsæis. Sanngirni er hugtak sem hefur ólíka merkingu eftir samhengi — og að skilgreina hana er bæði tæknileg og siðferðileg áskorun."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/4.3.svg"
+    }
+  ]
+}

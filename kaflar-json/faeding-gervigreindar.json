@@ -1,0 +1,36 @@
+{
+  "id": "faeding-gervigreindar",
+  "part": 1,
+  "title": "Fæðing gervigreindar",
+  "text": [
+    "Árið 1956 hittist hópur bandarískra vísindamanna á sumarnámskeiði við Dartmouth-háskóla. Til umræðu var hvernig tölvur gætu líkt eftir mannlegri hugsun. John McCarthy, einn af þátttakendum, stakk upp á nafni á viðfangsefnið: Gervigreind (e. Artificial Intelligence).",
+    "Tvö sjónarmið voru upp um það hvernig kenna mætti tölvum að „hugsa“. Annað byggði á hugmyndum í anda Leibniz, hitt kom úr smiðju Turings. Hópurinn í Dartmouth varð sammála um að fyrri leiðin væri líklegri til árangurs. Tölvur eiga auðvelt með að fylgja reglum og skýrum fyrirmælum. Leibniz taldi að vandaða, mannlega hugsun mætti búta niður í skýrar einingar og rökrétt skref. Með því að forrita tölvu með einhverskonar táknum sem fylgja röklegum reglum ætti að vera hægt að framkvæma einhverskonar hugsun.",
+    "Gervigreind af þessu tagi gengur undir ýmsum nöfnum. Hún er stundum sögð vera táknræn (e. symbolic) eða „klassísk“ eða jafnvel GOFAI (Good Old-Fashioned AI). Hún felur í sér að forritarinn skilgreinir mjög vandlega þær „hugsanir“ sem hann vill að tölvan hafi á valdi sínu og lýsir þeim nákvæmlega með forritum. Með því að tengja röklegar reglur við þekkingarforða er hægt að „kenna“ tölvum að leiðrétta stafsetningu, spá fyrir um veður, greina sjúkdóma, spila myllu eða svara spurningum um afmarkað efni.",
+    "Turing hafði aðrar hugmyndir.",
+    "Tengingarhyggja (e. connectionism) er hugtak sem stundum er notuð til að lýsa hugmyndum í anda Turings. Samkvæmt henni er hægt að líkja vélrænt eftir hugsun án þess að útskýra í smáatriðum fyrir tölvunni hvernig hún eigi að fara að því að leysa verkefni.",
+    "Fáar leiðir eru betri til að varpa ljósi á muninn á aðferðunum en að rifja upp söguna af Heimska-Hans, drengnum sem var að gera móður sína brjálaða með því að hanga heima og gera ekki neitt. Þegar hún skipaði honum að fara út og finna sér vinnu tókst Hans að afla sér peninga en á leiðinni heim missti hann þá í ána. Móðir hans skammaði hann og sagði að hann ætti að stinga laununum í vasann. Daginn eftir fékk hann vinnu hjá bónda sem launaði honum með skál af mjólk. Hans mundi hvað honum hafði verið sagt og hellti mjólkinni í vasann og kom heim með rennblauta buxnaskálm. „Næst skaltu bera launin á höfðinu!“ skipaði mamman. Það endaði auðvitað með ósköpum því næsta dag fékk Hans smjörstykki að launum sem bráðnaði niður andlitið á honum á leiðinni heim.",
+    "Segja má að móðir Heimska-Hans sé táknbundinn forritari. Hún reynir að gefa honum skýr fyrirmæli til þess að honum takist ætlunarverkið – sem er að koma vinnulaununum heim. Vandinn er sá að hver fyrirmæli eiga aðeins við mjög afmörkuð tilfelli og þegar forsendur breytast getur aðferðin hætt að skila árangri. Þess vegna þarf Hans á endanum töluvert stórt safn fyrirmæla eigi honum að takast ætlunarverkið og jafnvel þá þarf lítið að bera út af til þess að Hans geri einhverja vitleysu.",
+    "Í tengslanálgun fengi Hans einfaldlega þau fyrirmæli að koma laununum heilum heim. Hann væri svo látinn vinna dag eftir dag og fengi ekki að hætta fyrr en hann hefði lært af mistökum sínum. Að lokum, að því gefnu að ekki væri gefist upp, myndi hann sjálfur finna leiðir til að koma ólíkum hlutum alla leið heim í kotið til móður sinnar.",
+    "McCarthy og félagar veltu þessu öllu vandlega fyrir sér og töldu, eins og áður er nefnt, að mun raunhæfara væri að þróa gervigreind á táknbundinn hátt miðað við þann vélbúnað og aðstæður sem þeir bjuggu við. Það leiddi til þess að fyrstu áratugir rannsókna á gervigreind snerust að mestu leyti um táknræna nálgun. Hins vegar áttu hugmyndir Turings um tengingarhyggju eftir að eiga magnaða endurkomu eins og rætt verður síðar."
+  ],
+  "concepts": [
+    {
+      "term": "Gervigreind",
+      "explanation": "Vélar eða forrit sem geta unnið verkefni sem yfirleitt krefjast mannlegrar greindar — eins og að skilja tungumál, þekkja andlit eða leysa þrautir. Hugtakið var fyrst notað af John McCarthy árið 1956 á sumarnámskeiði í Dartmouth-háskóla."
+    },
+    {
+      "term": "Táknbundin gervigreind",
+      "explanation": "Eldri nálgun á gervigreind þar sem forritarinn skrifar nákvæmar reglur og fyrirmæli til að lýsa því hvernig tölvan á að „hugsa“. Stundum kölluð GOFAI (Good Old-Fashioned AI). Hentar vel til afmarkaðra verkefna eins og að spá fyrir um veður eða leiðrétta stafsetningu."
+    },
+    {
+      "term": "Tengingarhyggja",
+      "explanation": "Nálgun á gervigreind sem byggir á því að láta tölvuna læra sjálfa af reynslu, frekar en að segja henni nákvæmlega hvað hún á að gera. Líkist meira því hvernig fólk lærir — með því að prófa sig áfram og laga sig að mistökum."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/1.8.svg"
+    }
+  ]
+}

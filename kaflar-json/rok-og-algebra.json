@@ -1,0 +1,52 @@
+{
+  "id": "rok-og-algebra",
+  "part": 2,
+  "title": "Rök og algebra",
+  "text": [
+    "George Boole var enskur rökfræðingur og samtímamaður Babbage. Árið 1854 kom út bók eftir hann sem heitir Lögmál hugsunarinnar (The Laws of Thought). Þar lýsti hann því hvernig hægt er að nota algebru til að tákna rökrétta hugsun. Hann bendir á leiðir til að sýna tengsl með stærðfræðilegum táknum sem síðan má nota til að reikna sig að réttri niðurstöðu, með hjálp tvíundarkerfisins.",
+    "Mjög algeng leið til að beita aðferð Booles er að teikna svokallaða sanngildistöflu. Gefum okkur tvö dæmi:",
+    "Ef Jón OG Gunna koma í heimsókn helli ég upp á kaffi.",
+    "og",
+    "Ef Jón EÐA Gunna koma í heimsókn helli ég upp á kaffi.",
+    "Hér er um ólíkar forsendur að ræða. Í þeirri neðri er nóg að annað þeirra komi í heimsókn til að hellt sé upp á kaffi. Í hinni fyrri þurfa þau að mæta bæði. Við getum líka skrifað þetta svona:",
+    "(J og G) → K",
+    "(J eða G) → K",
+    "Með aðferð Boole notum við margföldun til að lýsa tengslum sem táknuð eru með „og“. Að sama skapi getum við notað samlagningu til að lýsa tengslum sem táknuð eru með „eða“. Síðan notum við tvíundarkerfið, 0 og 1, til að reikna okkur að niðurstöðu. Ef eitthvað er satt fær það táknið einn en ef það er ósatt fær það táknið núll.",
+    "Við skulum nota forsendurnar í dæmunum af Jóni og Gunni. Sjáum svo hvaða niðurstöður eru mögulegar. A táknar að Jón komi í heimsókn og B að Gunna komi í heimsókn.",
+    "Hér er mikilvægt að muna að við notum aðeins 1 og 0 til að tákna satt eða ósatt. Þess vegna verður 1+1 ekki að 2.",
+    "Við sjáum í dæmunum að fyrri forsendan býr aðeins yfir einni leið til að skila sannri niðurstöðu. Bæði Jón og Gunna þurfa að mæta til að hún sé sönn. Í þeirri seinni eru möguleikarnir þrír.",
+    "Eða hvað?",
+    "Hér má færa rök fyrir því að sumt fólk notið hugtakið „eða“ þannig að það merki bara annað hvort, en ekki bæði. Flestum þætti okkur það heilmikill útúrsnúningur ef einhver svaraði spurningunni: „Viltu vatn eða mjólk með matnum?“ með því að segja „já.“",
+    "Það er einfaldlega svo að „eða“ getur haft fleiri en eina merkingu. Þess vegna er hægt að tákna það með fleiri en einum hætti í algebru Boole. Hér notuðum við samband sem kallast OR og hefur gildin hér að ofan. Hitt sambandið, þar sem eitthvað er annað hvort eða, en ekki bæði, köllum við XOR."
+  ],
+  "concepts": [
+    {
+      "term": "Bólsk algebra",
+      "explanation": "Stærðfræðikerfi sem George Boole þróaði 1854 til að lýsa rökrétta hugsun með táknum og reglum. Sannleiksgildin eru aðeins tvö (1 fyrir satt, 0 fyrir ósatt), og hægt er að nota margföldun til að lýsa „og“ og samlagningu til að lýsa „eða“."
+    },
+    {
+      "term": "Sanngildistafla",
+      "explanation": "Tafla sem sýnir allar mögulegar útkomur af röklegri fullyrðingu. Hver röð sýnir eina samsetningu inntaka (t.d. 0 og 1 fyrir tvær inngangsbreytur) og hvaða niðurstöðu hún gefur."
+    },
+    {
+      "term": "XOR",
+      "explanation": "„Annað hvort eða“ — sambandið skilar 1 ef NÁKVÆMLEGA EITT inntak er 1, annars 0. Þetta er ólíkt OR sem skilar 1 ef AÐ MINNSTA KOSTI eitt er 1. Þannig er 1 XOR 1 = 0, en 1 OR 1 = 1."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.5.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "boole table",
+      "after": 8
+    },
+    {
+      "type": "interactive",
+      "description": "logic gates comparison",
+      "after": 9
+    }
+  ]
+}

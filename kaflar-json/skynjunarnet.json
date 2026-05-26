@@ -1,0 +1,46 @@
+{
+  "id": "skynjunarnet",
+  "part": 2,
+  "title": "Skynjunarnet",
+  "text": [
+    "Um miðja síðustu öld höfðu sálfræðingar og læknar uppgötvað að tvennt einkennir taugafrumu. Hún tekur við rafboðum frá öðrum frumum (jafnvel mörgum í einu) en sendir ekki rafboð áfram nema að ákveðnu áreiti sé náð. Hitt atriðið, ekki síður markvert, er að taugafrumur sem oft senda boð sín á milli virðast tengjast sterkari böndum og eiga auðveldara með boðskipti. Þess vegna getur heilinn lært. Með því að endurtaka hlutina oft styrkjast tengingar í heilanum. Smám saman verður hið erfiða auðvelt. Hæfileikar og minningar eru í grunninn mynstur af missterkum tengingum.",
+    "Rosenblatt hannaði skynjunarnetið Mark I til að líkja eftir þessu. Mörgum tengipunktum var komið fyrir milli ílagsins og frálagsins. Hver tenging hafði ákveðið vægi (e. weight) sem táknað var með tölu. Þessu vægi mátti breyta. Hátt vægi þýddi sterkari tengingu. Það líkti eftir því hvernig heili tengir ólíka taugunga með missterkum tengingum. Ílagið kom frá auga vélarinnar, 400 ljósskynjurum, og frá skynjurunum bárust skilaboð gegnum tengingar skynjunarnetsins. Þau skilaboð voru missterk eftir því hvernig vægið hafði verið stillt. Frálagseiningarnar líktust taugafrumum að því leyti að hver þeirra hafði stillanlegan þröskuld (e. bias) sem hunsaði skilaboð sem ekki náðu tilteknum styrk. Með breytingu á þessum stillingum var netið þjálfað.",
+    "Þjálfarinn var manneskja. Fyrst var ákveðið hvað vélin ætti að læra. Það gat til dæmis verið að þekkja einfalt tákn. Notum T sem dæmi. Ljósskynjarar tækisins breyttu myndinni í 400 bita af tvíundaupplýsingum, 1 fyrir ljós, 0 fyrir skugga.",
+    "Markmiðið með „kennslunni“ var að svipaðar myndir myndu skila frálaginu einn en aðrar núll.",
+    "Rafboðin lögðu leið sína inn í netið frá þeim skynjurum sem sáu ljós. Hvort þau skiluðu sér gegnum netið fór eftir því hvaða vægi tengingar höfðu og hver þröskuldurinn var við að komast alla leið til frálagsins. Frálagið kveikti ljós ef þröskuldinum var náð.",
+    "Það var samt ekki nóg að kviknaði á perunni þegar skynjararnir sáu bókstafinn T. Allar aðrar myndir þurftu að skila frálaginu núll. Og helst þurfti vélin að þekkja bókstafinn þótt honum væri haldið í örlítið meiri eða minni fjarlægð frá skynjurunum, væri aðeins á ská eða skrifaður með annarri rithönd. Allt krafðist það mikillar þjálfunar.",
+    "Viðbrögð tauganetsins voru alltaf röng í byrjun. Það var útilokað að það væri fyrir tilviljun rétt stillt. Þegar netið gaf fyrst frá sér rangt svar (kveikti ekki á perunni þegar hún átti að loga eða öfugt) gaf þjálfarinn skipun um að breyta þyrfti stillingum. Netið var þá lagfært með því að breyta í litlum skrefum vægi tenginga og þröskulda. Svo var reynt aftur og aftur þar til netið var orðið rétt stillt.",
+    "Það gat tekið mjög langan tíma að „kenna“ vélinni á þennan hátt. Eftir ótal sjálfvirkar leiðréttingar gat það gerst á endanum að dökk lárétt lína efst og lóðrétt lína í miðju skilaði yfirleitt logandi ljósi á frálaginu á meðan aðrar myndir gerðu það ekki. Tölvan hafði þá lært að „þekkja“ T. Þegar markinu var náð var netið „fryst“ og stillingum ekki breytt framar. Ef kenna átti netinu eitthvað nýtt þurfti að byrja allt upp á nýtt.",
+    "Nýmælið er að kennarinn sýndi skynjunarnetinu ekki hvernig þekkja má T. Það hefði verið lítið mál og þurfti enga gervigreind til. Aðalatriðið er að kennarinn gerði ekkert nema að sýna tækinu myndir og segja því hvort svarið sem skynjunarnetið gaf væri rétt eða rangt. Algrímin sáu sjálf um að breyta stillingunum þegar svörin voru röng og fundu þannig á endanum rétta svarið sjálf.",
+    "Yfirleitt voru notaðar IBM 704 tölvur til að keyra algrím að baki skynjunarnetum. Þótt þær væru dýrar var auðvelt að kaupa þær. Margir hópar háskólanema og rannsakenda fóru að smíða og þjálfa sín eigin skynjunarnet. Nefna má net sem þjálfað var til að þekkja mun á andlitsmyndum karla og kvenna (það segir sitt um tíðarandann). Annað net las nótur og sagði hvort tónverkin væru eftir Jóhann Sebastían Bach eða einhvern annan. Enn eitt net leitaði að skriðdrekum á ljósmyndum."
+  ],
+  "concepts": [
+    {
+      "term": "Vægi (weight)",
+      "explanation": "Tala sem segir hversu sterk tenging milli tveggja eininga í tauganeti er. Hátt vægi þýðir að skilaboðin koma af miklum krafti gegnum tenginguna; lágt vægi að þau dofna. Þegar netið þjálfast er það fyrst og fremst vægin sem breytast."
+    },
+    {
+      "term": "Þröskuldur (bias)",
+      "explanation": "Lágmark sem skilaboð þurfa að ná svo frálagseiningin „kvikni“. Líkir eftir hegðun taugafrumu sem sendir ekki rafboð áfram fyrr en áreitið er orðið nógu sterkt."
+    },
+    {
+      "term": "Sjálfsleiðrétting",
+      "explanation": "Aðferð skynjunarnetsins við að bæta sig: þegar svarið er rangt sér algrímið sjálft um að stilla vægi og þröskulda í örsmáum skrefum þar til svörin verða oftast rétt. Þjálfarinn segir aðeins „rétt“ eða „rangt“ — ekki hvernig."
+    },
+    {
+      "term": "IBM 704",
+      "explanation": "Vinsæl tölva á sjötta áratugnum, fyrsta fjöldaframleidda tölvan sem gat reiknað með kommutölum. Notuð af mörgum rannsóknarhópum til að keyra fyrstu skynjunarnetin."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.11.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "light sensors",
+      "after": 2
+    }
+  ]
+}

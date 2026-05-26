@@ -1,0 +1,32 @@
+{
+  "id": "lognid-eftir-storminn",
+  "part": 3,
+  "title": "Lognið eftir storminn",
+  "text": [
+    "Sumarið 1997 auglýsti íslenska verslunin BT tölvur glænýjan tölvuleik sem byggi yfir „frábærri gervigreind“ og ekki síðri „grafík“. Leikurinn hét Fifa Soccer Manager. Á sama tíma auglýsti fyrirtækið til sölu öfluga tölvu, Mitac 166, sem kostaði tæpar 117 þúsund krónur (en það jafngildir rúmlega 420 þúsund krónum á verðlagi febrúarmánaðar 2025). Það þarf ekki að liggja lengi yfir leiknum (hægt er að finna myndskeið úr honum á Youtube) eða tæknilegum hliðum tölvunnar til að sjá hve frumstæður búnaðurinn var. Samanborið við gervigreind og grafík dagsins í dag líkist tæknin árið 1997 hjólaskautum eða reiðhjóli á meðan nútímatækni er eins og kappakstursbíll eða þota.",
+    "Með sigri Deep Blue vöknuðu áleitnar spurningar um framtíðina. Guðjón B. Benediktsson skrifaði bréf til dagblaðs (fólk gerði slíkt fyrir aldamót í staðinn fyrir að tjá sig á samfélagsmiðlum) þar sem hann sagði sigur tölvu á skákmeistara vera tímamótaviðburð. Hann dró fram líkingu úr Opinberunarbók Biblíunnar og sagði að brátt myndi tölva drottna yfir mannkyninu og fólk myndi ekki einu sinni geta farið út í búð nema vera skannað af tölvu sem myndi fella dóm um það hvort innistæða væri fyrir kaupunum eða ekki.",
+    "Skákáhugamenn voru ekki endilega sannfærðir. Þeim fannst sumum að Kasparov hefði teflt illa og augljóslega farið á taugum. Hann hefði líka breytt leikstíl sínum of mikið og farið að tefla einhverja útgáfu af skák sem væri hvorki falleg né dæmi um mannlega skáksnilld. Þessu mótmæltu aðstandendur Deep Blue og bentu á dæmi þess að tölvan hefði oft teflt þannig að hvaða stórmeistari hefði getað verið stoltur af taflmennskunni. Fæstir blaðamenn ræddu gervigreind sérstaklega. Hún var ekki lengur í tísku. Almenningur sá Deep Blue yfirleitt ekki sem vél með mannlega eiginleika heldur sem mjög öfluga reiknivél. Í fréttaskýringu frá alþjóðlegu veitunni Reuters kom fram að einvígið hefði aðeins að hluta til snúist um skák en ekki síður um smíði tölvu sem réði við mikinn fjölda flókinna útreikninga. Hugmyndin var sú að slík tölva gæti orðið að gagni við gerð veðurspáa, flugumferðarstjórn, sameindarannsóknir og fleira.",
+    "Þrátt fyrir árangurinn voraði ekki strax í heimi gervigreindar. Þótt hægt væri að þjálfa tölvu í skák eða flugumferðarstjórn virtust hæfileikarnir ætíð liggja á mjög þröngu sviði. Þróun á gerð tauganeta var enn mjög hæg og snerist fyrst og fremst um fræðilegar rannsóknir. Þó hafði kviknað vonarneisti í rannsóknum bresks fræðimanns sem starfaði í Kanada. Hann hét Geoffrey Hinton og hann trúði því staðfastlega að hægt yrði að þjálfa upp fjölhæf net með því að nota djúptauganet (sem eru eitt eða fleiri lög á milli ílags og frálags). Hann hafði átt þátt í að þróa og sýna fram á notagildi algríms sem nota mætti við þjálfun slíkra neta. Það kallast afturflutningur (e. backpropagation) og sér um að bregðast við því þegar tauganetið skilar rangri útkomu. Aðrir, þar á meðal Minsky, vöruðu við óhóflegri bjartsýni og bentu á að fræðilegur möguleiki og raunveruleg tækniþróun væri tvennt mjög ólíkt.",
+    "Það sem enginn vissi var að undir yfirborðinu voru hlutirnir smám saman að raðast upp með þeim hætti að fræðilegur möguleiki yrði brátt mjög raunhæfur."
+  ],
+  "concepts": [
+    {
+      "term": "Djúptauganet",
+      "explanation": "Tauganet með eitt eða fleiri „falin lög“ milli ílags og frálags. Hvert lag tekur við niðurstöðum úr því á undan og umbreytir þeim aftur. Þetta gerir netinu kleift að læra flóknari mynstur en grunnt net eins og Mark I gat. Aðalefnið í köflunum framundan."
+    },
+    {
+      "term": "Afturflutningur (backpropagation)",
+      "explanation": "Algrím sem gerir mögulegt að þjálfa djúptauganet. Þegar netið skilar röngu svari rekur algrímið villuna afturábak í gegnum lögin og lagar vægi tenginga lítið eitt á hverjum stað. Geoffrey Hinton átti stóran þátt í að þróa og útbreiða aðferðina á níunda og tíunda áratugnum."
+    },
+    {
+      "term": "Geoffrey Hinton",
+      "explanation": "Breskur fræðimaður (f. 1947), starfaði lengi við háskólann í Toronto. Hélt trú á tauganet í gegnum AI-veturinn þegar fáir aðrir gerðu það. Áratugum síðar, árið 2024, hlaut hann Nóbelsverðlaun í eðlisfræði fyrir grunnvinnu sína í vélnámi."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.3.svg"
+    }
+  ]
+}

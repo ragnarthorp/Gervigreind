@@ -1,0 +1,46 @@
+{
+  "id": "haetta-framundan",
+  "part": 4,
+  "title": "Hætta framundan?",
+  "text": [
+    "Stephen Fry er ekki einn um áhyggjur. Við höfum þegar fjallað um Demis Hassabis – en hann er einn fárra sem hefur beinlínis hlotið Nóbelsverðlaun fyrir störf sín á sviði gervigreindar og þekkir því mætavel kosti hennar og galla. Demis telur að næstu ár sé nauðsynlegt að fram komi hugsuðir og heimspekingar sem hjálpi til við að temja tæknina og stýra henni í réttar áttir.",
+    "Annar Nóbelsverðlaunahafi, Geoffrey Hinton, hinn óbilandi guðfaðir djúpnáms og tauganeta, hætti störfum hjá Google í maí 2023 til að geta tjáð sig óhikað um þær ógnir sem hann telur að stafi af óheftri þróun gervigreindar. Hann óttast samfélagslegan óstöðugleika þar sem fjöldi starfa getur horfið á stuttum tíma með ófyrirsjáanlegum afleiðingum. Hann telur mörkin milli sannleika og lygi vera að mást út og að vel geti farið svo að mannkyni muni í framtíðinni stafa ógn af vexti tækninnar. Hann telur nauðsynlegt að setja sem fyrst skýrar reglur um ábyrga þróun.",
+    "Hinton telur okkur vanmeta gervigreind og álykta ranglega að hún sé skilningslítil spunavél sem saumi tóka saman í setningar. Þvert á móti telur hann flest benda til þess að tæknin skilji mætavel hvað hún er að segja og bendir á að nú standi yfir rannsóknir á því hvernig þjálfa megi tauganet úr alvöru, lifandi taugafrumum. Það geti jafnvel farið svo að tölva framtíðar verði lífvera. Frumuklasar á stærð við títuprjónshausa eru nú þegar færir um að spila einfalda tölvuleiki.",
+    "Fei-Fei Li, hönnuður ImageNet, hefur minnt á mikilvægi siðferðilega ábyrgrar þróunar. Gervigreind verði að stýra á ábyrgan hátt með áherslu á réttindi og af virðingu við mikilvægi hverrar einustu manneskju. Tæknin megi ekki verða nýtt til að mismuna fólki.",
+    "Í desember árið 2020 tilkynnti einn fremsti sérfræðingur heims í siðferðilega ábyrgri þróun gervigreindar, Timnit Gebru, að sér hefði verið sagt upp störfum hjá Google vegna greinar sem hún skrifaði í samstarfi við aðrar fræðikonur þar sem þær gagnrýndu ofuráherslu á þróun risastórra mállíkana. Gebru, sem kom sem flóttamaður til Bandaríkjanna eftir að hafa flúið stríðið milli Erítreu og Eþíópíu, hafði um hríð verið gagnrýnin á menningu tæknigeirans sem hún sagði sýna mörg merki yfirborðskenndrar hetjudýrkunar, ábyrgðarleysis, rasisma og kvenfyrirlitningar. Í ritgerðinni, sem hún var rekin fyrir að skrifa, bentu fræðikonurnar meðal annars á að kapphlaupið við að byggja sífellt öflugri mállíkön fæli í sér að mata gervigreind á sífellt meira efni. Það leiddi til þess að gæðum væri í mörgum tilfellum ábótavant. Gamaldags og fordómafullur orðaforði og hugtakaskilningur gæti tekið sér bólfestu innan hinna nýju líkana og það gæti haft skaðleg áhrif því fólk hefði tilhneigingu til að treysta líkönum án þess að hafa góða ástæðu til þess. Þá væru umhverfisáhrif stórra mállíkana verulega umhugsunarverð og líkleg til að bitna helst á fátæku fólki í viðkvæmum heimshlutum. Á þessu öllu þyrftu tæknifyrirtækin að bera meiri ábyrgð.",
+    "Umhverfisáhrif gervigreindar eru gríðarleg. Þjálfun og notkun gervigreindar notar ekki aðeins gríðarlega mikið rafmagn heldur verður í ferlinu til ofboðslegur hiti. Jafnvel þótt fundnar verði leiðir til að framleiða rafmagn með umhverfisvænum hætti heldur hitinn áfram að vera áskorun. Til að vernda tölvubúnaðinn þarf stöðugt að kæla hann og til þess er notað vatn. Hreint vatn er víða af skornum skammti og það er ábyrgðarhlutur að stuðla að sóun þess í tilgangi sem oft er harla ómerkilegur.",
+    "Skömmu eftir að Donald Trump tók við sem forseti Bandaríkjanna í annað sinn, í janúar 2025, lýsti hann yfir stórsókn Bandaríkjanna í þróun gervigreindar. Skömmu seinna tilkynnti kínverskt fyrirtæki að það hefði fundið nýja, ódýra og hagkvæma leið við að þjálfa stór mállíkön. Líkanið DeepSeek (kínverska: 杭州深度求索人工智能基础技术研究有限公司) var boðið hverjum sem er til niðurhleðslu og þróunar (nokkuð sem Geoffrey Hinton hafði áður sagt að samsvaraði því að selja kjarnorkuvopn í raftækjabúð). Kapphlaup stórveldanna um öflugustu gervigreindina var þar með hafið fyrir alvöru. Draumur bandaríska sjóhersins um hálfsjálfvirkar orrustuþotur á tímum einfaldra skynjunarneta er nú barnalegur og gamaldags. Gervigreind er nú þegar notuð til hraðrar ákvarðanatöku í stríðum, oft að því er virðist, af lítilli virðingu við mannslíf. Vægi hennar í stríðsrekstri mun líklega aukast stórkostlega á næstu árum og áratugum.",
+    "Fólk sem best þekkir til virðist almennt vera sammála um að þróun gervigreindar geti haft í för með sér raunverulega hættu fyrir mannkyn verði henni ekki haldið innan skynsamlegra marka. Fari allt á versta veg geti tilvist mannkyns verið í hættu. Kalda stríðið hefur áður skapað slíka tilvistarhættu. Vígbúnaðarkapphlaup kjarnorkualdar hafði ekki staðið lengi þegar búið var að framleiða nóg af vopnum til að útrýma mannkyninu mörgum sinnum.",
+    "Þróun tækninnar þarf að skoða í samhengi við áhrif hennar. Þær loftslagsbreytingar sem mannkyn glímir við í dag eru bein afleiðing af iðnbyltingunni og ljóst er að ákveðin svæði á Jörðinni verða brátt óbyggileg. Skaðinn af flóðum, stormum, þurrkum og gróðureldum heldur áfram að aukast.",
+    "Af ofangreindu er ljóst að gervigreind er ekki bara spurning um tækni og tækifæri. Framtíð hennar snýst ekki bara um vel smíðuð algrím eða bættan vélbúnað. Framtíðin ræðst af því hlutverki sem gervigreindinni er úthlutað."
+  ],
+  "concepts": [
+    {
+      "term": "Timnit Gebru",
+      "explanation": "Eþíópsk-bandarískur tölvunarfræðingur. Var sagt upp störfum hjá Google í desember 2020 vegna greinar þar sem hún og samstarfskonur gagnrýndu ofuráherslu á risastór mállíkön — bæði vegna gagnasekta og umhverfisáhrifa."
+    },
+    {
+      "term": "DeepSeek",
+      "explanation": "Kínverskt mállíkan sem var opnað til niðurhleðslu og þróunar snemma árs 2025. Geoffrey Hinton hafði áður sagt að slíkt jafnaðist á við að selja kjarnorkuvopn í raftækjabúð."
+    },
+    {
+      "term": "Tilvistarhætta",
+      "explanation": "Hugtak yfir tækni sem gæti, ef illa fer, tortímt eða gerbreytt mannkyninu. Kalda stríðið skapaði slíka hættu með kjarnavopnum. Margir telja gervigreind af sömu stærðargráðu."
+    },
+    {
+      "term": "Umhverfisáhrif gervigreindar",
+      "explanation": "Þjálfun stórra mállíkana brennir gríðarlega mikið rafmagn og býr til hita sem kallar á vatnskælingu. Hreint vatn er víða af skornum skammti og áhrifin bitna helst á fátæku fólki í viðkvæmum heimshlutum."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/4.8.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "four voices",
+      "after": 4
+    }
+  ]
+}

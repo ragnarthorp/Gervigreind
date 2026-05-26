@@ -1,0 +1,49 @@
+{
+  "id": "lokaord",
+  "part": 4,
+  "title": "Lokaorð",
+  "text": [
+    "Af öllu ofangreindu er ljóst að ferðalag okkar um sögu gervigreindar er rétt að hefjast. Við stöndum frammi fyrir áskorunum sem krefjast að einhverju leyti nýrra lausna. Við höfum farið frá spurningunni um það hvort vélar geti hugsað yfir til spurningarinnar um það hvernig við eigum að hugsa um slíkar vélar. Hvaða hlutverk við eigum að fela þeim? Hvaða hlutverk eigum við að ætla okkur sjálfum?",
+    "Ágætt fyrsta skref okkar allra er að hugleiða vandlega hvaða hlutverk við ætlum henni í okkar eigin lífi. Verðum við löt og kærulaus um störf okkar og nám? Mötum við tæknina á verkefnum, sem við sjálf ættum að vinna? Hættum við að reyna á okkur? Ýtum við undir að rit-, tón- og myndlist sé stolið?",
+    "Eða búa í tækninni tækifæri til að skapa betra samfélag? Er líf okkar í dag eins og líf kvennanna sem unnu sem tölvur og framkvæmdu störf sem ekki aðeins kröfðust ekki, heldur bönnuðu, sjálfstæða hugsun, nýsköpun og frumleika? Getur tæknin frelsað okkur frá einhæfum og andlausum verkefnum og gefið okkur vængi til að svífa hærra en áður?",
+    "Líkast til erum við komin á þann stað að tæknifrömuðir geti ekki svarað mikilvægustu spurningunum. Við þurfum annars konar hugsuði. Fólk sem hugsar minna um hvernig og meira um hvers vegna.",
+    "Af öllu sem við höfum skoðað er ljóst að saga gervigreindar er hin sígilda glíma mannkyns við sjálfa sig. Saga sem sögð hefur verið ótal sinnum, í ljóðum, söng og ritum. Það er við hæfi að enda þessa rannsókn á gervigreind með nærri áttatíu ára gömlu ljóði:"
+  ],
+  "poem": {
+    "title": "Í draumi sérhvers manns",
+    "author": "Steinn Steinarr",
+    "stanzas": [
+      [
+        "Í draumi sérhvers manns er fall hans falið.",
+        "Þú ferðast gegnum dimman kynjaskóg",
+        "af blekkingum, sem brjóst þitt hefur alið",
+        "á bak við veruleikans köldu ró."
+      ],
+      [
+        "Þinn draumur býr þeim mikla mætti yfir",
+        "að mynda sjálfstætt líf, sem ógnar þér.",
+        "Hann vex á milli þín og þess, sem lifir,",
+        "og þó er engum ljóst, hvað milli ber."
+      ],
+      [
+        "Gegn þinni líkamsorku og andans mætti",
+        "og öndvert þinni skoðun, reynslu og trú,",
+        "í dimmri þögn, með dularfullum hætti",
+        "rís draumsins bákn og jafnframt minnkar þú."
+      ],
+      [
+        "Og sjá, þú fellur fyrir draumi þínum",
+        "í fullkominni uppgjöf sigraðs manns.",
+        "Hann lykur um þig löngum armi sínum,",
+        "og loksins ert þú sjálfur draumur hans."
+      ]
+    ]
+  },
+  "concepts": [],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/4.10.svg"
+    }
+  ]
+}

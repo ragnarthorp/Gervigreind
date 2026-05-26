@@ -1,0 +1,41 @@
+{
+  "id": "tolvur-reyna-vid-turing-prof",
+  "part": 1,
+  "title": "Tölvur reyna við Turing-próf",
+  "text": [
+    "Fyrsta forritið sem gerði sæmilega sannfærandi atlögu að Turing-prófi leit dagsins ljós árið 1966. Vísindamenn við MIT-háskóla hönnuðu spjallmennið Elísu (ELIZA). Forritið var einfalt en virkni þess byggði á því að spyrja opinna spurninga og nota svörin til að halda samtalinu gangandi. „Hvað viltu ræða?“, „Hvað finnst þér um það?“ og „Geturðu útskýrt það betur?“ eru dæmigerðar setningar úr safni Elísu. Ef notandinn reyndi að taka frumkvæðið af Elísu sagði hún: „Tölum ekki um það…“ og reyndi að beina samtalinu inn á fyrri braut.",
+    "Það tók yfirleitt ekki langan tíma fyrir notandann að átta sig á því að ekki var allt með felldu. Svör forritsins voru einhæf, grunn og gátu verið alveg úr takti við það sem rætt var. Elísa féll því á Turing-prófinu.",
+    "Löngu seinna, árið 2014, var haldinn viðburður í Háskólanum í Reading í Englandi þar sem margfalt fullkomnara spjallforrit náði að blekkja þriðjung viðmælenda sinna. Árangurinn er umdeildur því forritið, Eugene Goostman, þóttist vera þrettán ára úkraínskur drengur. Fólkið sem ræddi við hann átti auðvelt með að fyrirgefa hinum falska viðmælanda allskonar misskilning og skort á þekkingu þar sem um væri að ræða barn sem kynni takmarkaða ensku og þekkti ekki endilega mjög vel til þeirra málefna sem rædd voru.",
+    "Það má segja að vænlegustu tilraunirnar við að standast Turing-prófið hafi í meira en hálfa öld snúist um að lækka væntingar viðmælandans til forritsins sem verið var að prófa. Það breyttist árið 2024.",
+    "Í maí það ár birtu rannsakendur við Kaliforníuháskóla í San Diego í Bandaríkjunum niðurstöður af tilraunum þar sem ChatGPT-4 tók Turing-próf með því að spjalla við fólk í fimm mínútna samtölum. Niðurstaðan var sú að í 54 prósent tilfella hélt viðmælandinn að hann væri að tala við aðra manneskju. Það bendir sterklega til þess að þróun gervigreindar sé komin nógu langt til að standast einhverjar útgáfur af Turing-prófi.",
+    "Þýðir það að tölvur geti hugsað?",
+    "Það fer auðvitað eftir því hvernig á það er litið. Aðdáandi Turings gæti sagt að lengra verði ekki komist. Aðrir benda á að hugmyndir okkar um hugsun og greind hafi mikið breyst frá árinu 1950 og því sé eðlilegt að við gerum meiri kröfur en gerðar voru þá.",
+    "Í þeim hópi er heimspekingurinn John Searle sem birti árið 1980 litla dæmisögu eða hugsanatilraun sem gengur undir nafninu Kínverska herbergið. Hún er um manneskju sem lokuð er inni í herbergi. Blaði er rennt undir hurðina. Á því er kínverskt tákn sem manneskjan skilur alls ekki en hún sér táknið á öðrum stað í herberginu ásamt fyrirmælum um að svara tákninu með öðru tákni. Manneskjan teiknar nýja táknið og rennir því til baka undir hurðina.",
+    "Frá sjónarhorni þess sem stendur fyrir utan herbergið gæti tilraunin talist sönnun þess að inni í herberginu sé einhver sem kunni kínversku.",
+    "Þessa sögu er ágætt að hafa í huga þegar spjallmenni eru hugleidd. Það þarf nefnilega ekki að fara saman: Að svara rétt og að skilja svörin sjálfur."
+  ],
+  "concepts": [
+    {
+      "term": "Spjallmenni",
+      "explanation": "Tölvuforrit sem getur átt textasamtal við notanda. Elísa (1966) var fyrsta þekkta spjallmennið; nútímakerfi eins og ChatGPT eru mun fullkomnari og hafa lært samskipti með því að skoða gríðarstórt safn af texta."
+    },
+    {
+      "term": "Hugsanatilraun",
+      "explanation": "Aðferð í heimspeki þar sem ímynduð saga eða sviðsmynd er notuð til að rannsaka hugmynd. Það þarf ekki að framkvæma tilraunina til að sjá hvað hún kennir — það nægir að ímynda sér hvernig hún yrði."
+    },
+    {
+      "term": "Kínverska herbergið",
+      "explanation": "Hugsanatilraun heimspekingsins John Searle frá 1980 sem á að sýna fram á að það að svara rétt á tungumáli sé ekki sama og að skilja það. Hún er enn umdeild og er oft notuð til að gagnrýna hvort gervigreind sé „í raun og veru“ greind."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/1.10.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "chinese room"
+    }
+  ]
+}

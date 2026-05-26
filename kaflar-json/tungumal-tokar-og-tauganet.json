@@ -1,0 +1,54 @@
+{
+  "id": "tungumal-tokar-og-tauganet",
+  "part": 3,
+  "title": "Tungumál, tókar og tauganet",
+  "text": [
+    "„Ef sumir vissu um suma / það sem sumir gera við suma / þegar sumir eru frá, / þá væru ekki sumir við suma / eins og sumir eru við suma / þegar sumir eru hjá.“",
+    "Þessi gamla gamanvísa sýnir hversu tungumálið getur verið snúið. Í henni vísar eitt og sama fornafnið til að minnsta kosti þriggja aðila. Í vísunni hér að ofan er óákveðna fornafnið „sumur“ notað tíu sinnum í tveim útgáfum: „sumir“ og „suma“. Þær hefðu hæglega getað orðið fleiri vegna fjölbreytileika málfræðilegra kynja, falla og talna í íslensku máli. Þar að auki liggur heilmikil merking á milli línanna sem ekki er útskýrð með berum orðum. Tungumál geta verið illskiljanleg án samhengis og samhengi er alls ekki alltaf augljóst.",
+    "Að kenna tölvum að skilja og vinna með slíkan margslunginn og samhengisháðan texta er viðfangsefni málvinnslu (e. natural language processing – NLP), sem er mikilvægt undirsvið rannsókna á gervigreind. Ein af grunnforsendum þess er að geta tekist á við samhengi. Almennt er fólk ákaflega fært í að skilja samhengi. Flest tökum við hæfileikanum sem sjálfsögðum hlut. Við eigum erfitt með að setja okkur í spor manns eins og Englendingsins Clive Wearing sem lenti í því óhappi árið 1985 að veira, sem í flestum tilfellum lætur sér nægja að smita fólk af frunsum, braut sér leið inn í miðtaugakerfi hans og rændi hann hæfileikanum til að varðveita nýjar minningar. Síðan hefur líf hans verið líkast móki. Honum líður alltaf eins og hann sé nývaknaður af draumlausum svefni og þótt hann geti haldið uppi einföldum samræðum verður ekkert samhengi til og hann gleymir jafn harðan um hvað er rætt.",
+    "Þegar farið var að reyna að láta tauganet meðhöndla texta var stærsta áskorunin sú að gefa netinu minni svo það gæti haldið þræði í texta sem, ólíkt myndum, virðist þurfa að meðtaka í næstum nákvæmlega réttri röð. Við ræðum eftir augnablik hvernig farið var að því. Fyrst skulum við beina sjónum lauslega að því hvernig texti er bútaður niður í meðfærilegar einingar.",
+    "Þegar tauganet vinnur með texta þarf fyrst að brjóta hann niður í smærri einingar. Við köllum brotin tóka (e. tokens) og þá athöfn, að brjóta tungumál niður í búta, tókun (e. tokenization). Tökum sem dæmi fyrstu línu vísunnar: „Ef sumir vissu um suma“. Tókari brýtur hana niður í átta tóka — Ef · sum · ir · vis · su · um · sum · a — meðan enska þýðingin „If some knew about some“ kemst af með fimm: If · some · knew · about · some. Að einhverju leyti er þetta fylgifiskur þess að í íslensku er töluvert mikil fjölbreytni í orðaforða vegna beyginga en á móti kemur að í ensku eru miklu fleiri orð. Þegar farið var að tóka ritmál til notkunar með tauganetum var í upphafi aðeins gengið út frá ensku.",
+    "Flest tauganet „tala“ íslensku. Misvel þó. Jafnvel algeng íslensk orð eru oft brotin niður í marga tóka meðan til eru dæmi um löng ensk orð sem eru aðeins einn tóki. Því stærri sem tókarnir eru, því auðveldara verður fyrir tauganetið að höndla þá. Hver tóki fær sitt númer og það eru þessi númer sem tauganetin vinna með. Ef íslenskur texti er brotinn niður í 30–60% fleiri tóka en enska verður vinnslan ekki aðeins dýrari og orkufrekari, hún verður flóknari og óskilvirkari. Við ræðum sérstaklega á eftir hvernig reynt var að gera íslensku gildandi innan heims gervigreindar. Fyrst skulum við snúa okkur að því hvernig tauganet læra að halda þræði og muna það sem þau lesa.",
+    "Fyrstu sérhæfðu tauganetin sem unnu með texta reyndu að líkja eftir minni. Þau kallast endurkvæmistauganet (e. recurrent neural networks, RNN) og geta haldið upplýsingum til haga á meðan þau lesa texta. Þannig skapast samhengi. Þau gera þetta með því að hafa innri „minnisfrumu“ sem geymir upplýsingar um fyrri tóka í röðinni og notar þær til að hafa áhrif á úrvinnslu næstu tóka. Til þess nota þau meðal annars afturflutning. Ef þú reynir að mata slíkt tauganet á miklu magni texta er erfitt að komast hjá þeim grunnvanda sem fylgir afturflutningi að margendurteknir útreikningar verða óstöðugir og geta farið að skila gagnslausum niðurstöðum þar sem útkomur verða ýmist agnarsmáar eða risastórar. Það hægir á virkni netsins og spillir nákvæmni þess. Til að mæta þessum vanda (sem er nánast óumflýjanlegur við afturflutning í djúpum tauganetum) eru endurkvæmisnet venjulega stillt þannig að þau setja takmörk á það hve langt afturflutningur nær. Þannig virka þau hraðar – en um leið verður samhengið minna og geta netsins til að greina textann verður að sama skapi takmörkuð."
+  ],
+  "concepts": [
+    {
+      "term": "Tóki (token)",
+      "explanation": "Minnsta einingin sem mállíkan vinnur með. Tóki getur verið heilt orð, hluti úr orði eða jafnvel stakur stafur. Hver tóki fær sitt eigið númer og það eru númerin sem tauganetið reiknar með."
+    },
+    {
+      "term": "Tókun (tokenization)",
+      "explanation": "Að brjóta tungumál niður í tóka. Þetta er fyrsta skref sem hver textavinnandi gervigreind tekur. Ekkert tauganet sér orðin sjálf — bara númerin sem þau hafa verið brotin í."
+    },
+    {
+      "term": "Málvinnsla (NLP)",
+      "explanation": "Stytting á „natural language processing“. Undirsvið gervigreindar sem fæst við að láta tölvur skilja og framleiða mannlegt mál. Stærsta áskorunin er samhengi — sami staf­urinn, sama orðið, getur þýtt allt aðra hluti eftir samhengi."
+    },
+    {
+      "term": "Endurkvæmistauganet (RNN)",
+      "explanation": "Tauganet með innri „minnisfrumu“ sem geymir upplýsingar um fyrri tóka og hefur áhrif á úrvinnslu þeirra næstu. Fyrstu netin sem voru hönnuð til að vinna með röð af tókum — texta, hljóð, vídeó. Eiga við þann vanda að afturflutningur verður óstöðugur þegar textinn lengist."
+    },
+    {
+      "term": "Clive Wearing",
+      "explanation": "Enskur tónlistarmaður (1938–2025) sem missti hæfileikann til að mynda nýjar minningar árið 1985 eftir frunsuveirusýkingu. Líf hans varð að lærdómi um hve mikilvægt minni er fyrir samhengi: án minnis er ekkert flæði, ekkert samhengi."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.10.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "tokenizer",
+      "after": 5
+    },
+    {
+      "type": "interactive",
+      "description": "gradient limits",
+      "after": 6
+    }
+  ]
+}
+
+

@@ -1,0 +1,46 @@
+{
+  "id": "alexnet-og-endurkoma-tauganeta",
+  "part": 3,
+  "title": "AlexNet og endurkoma tauganeta",
+  "text": [
+    "AlexNet var tauganet eins og nafnið gefur til kynna. Það var smíðað af þriggja manna teymi frá háskólanum í Toronto í Kanada. Doktorsneminn Alex Krizhevsky var aðalhöfundurinn og skrifaði megnið af kóðanum (þess vegna er forritið nefnt eftir honum). Með honum starfaði annar doktorsnemi, Ilya Sutskever, sem átti stærstan þátt í þjálfun netsins. Leiðbeinandi þeirra var sjálfur Geoffrey Hinton, frumkvöðull í þróun tauganeta. Hinton hafði aldrei tapað trúnni á möguleika tauganeta umfram reglustýrða gervigreind.",
+    "AlexNet var ekki einfalt skynjunarnet og fór létt með XOR-vandann. Vandinn leystist þegar fleiri en einu lagi af neti var komið fyrir milli ílags og frálags og réttu algrímunum beitt. Marglaga net er sagt djúpt. AlexNet var átta lög að dýpt og notaði djúpnám (e. deep learning). Hönnunin var snjöll og byggði bæði á afturflutningi og ítrekuðum einföldunum sem minnkuðu umfang vinnslunnar. Fyrsta verkefni netsins var til dæmis að minnka myndina (ílagið) niður í mynd sem var 224 deplar á hvern kant. Fyrir hvern depil fylgdu upplýsingar um rauðan, grænan og bláan lit í tvíundakóða. Kóðinn fór síðan í gegnum nokkur lög sem voru þjálfuð til að finna mynstur sem voru einkennandi fyrir tiltekið myndefni.",
+    "Fyrir tauganetinu eru slík mynstur endurtekningar eða tilteknar raðir af tvíundarupplýsingum en fyrir okkur er um að ræða hluti eins og skörp eða ávöl horn; depla og rendur; ljós eða skugga. Flestar hundamyndir innihalda til dæmis augu og eyru og þegar slíkri mynd er breytt í tvíundarkóða finnast einhvers staðar í gögnunum talnamynstur sem tákna slík form. Með því að finna mynstrin tókst að flokka myndirnar.",
+    "Ef AlexNet var til dæmis sýnd mynd af hamri fann það ekki mynstur sem bentu til þess að um dýr væri að ræða (engin augu, fætur eða annað slíkt). Það tók eftir beinum línum (sem skaftið á hamri á sameiginlegt með til dæmis öxi, sóp eða umferðarskilti), það sá mögulega liti sem bentu til þess að hluti myndarinnar væri að sýna eitthvað úr málmi og að málmhluturinn lægi þversum miðað við hinar línurnar. Af öllum þeim þúsund flokkum sem komu til greina valdi forritið fimm með því að skila þeim sem mest samsvörun var við.",
+    "Væri myndin óskýr eða tekin frá undarlegu sjónarhorni gat AlexNet lent í vandræðum. Hamar sem horft er á ofan frá getur líkst hallamáli, tindáta eða meitli. Jafnvel fullkomnasta tauganet skortir enn þann eiginleika sem mannshugurinn hefur, að geta dregið ályktanir af ófullkomnum eða mjög takmörkuðum gögnum.",
+    "AlexNet var þjálfað á 1,2 milljónum mynda og þúsund merkimiðum. Ef mynd eða merkimiða vantaði, segjum til dæmis að í myndabankann hafi vantað myndir af snjallsímum og í orðalistann vantað hugtakið „íslenskur fjárhundur“, þá hefði forritið alltaf flokkað myndir af snjallsímum í rangan flokk og enginn hundur hefði verið álitinn íslenskur fjárhundur.",
+    "Útilokað hefði verið að smíða AlexNet fyrir aldamót. Um það leyti sem Deep Blue sigraði Kasparov í skák voru tölvur ekki nærri því nógu öflugar til að þjálfa slík forrit. Gagnasöfn voru líka of lítil og algrímin sem sáu um keyrsluna voru ekki til nema að takmörkuðu leyti.",
+    "Lykillinn að árangrinum var ekki síst algrímið að baki afturflutningi. Hann fer þannig fram að frálagið er borið saman við markmiðið. Hafi útkoman átt að vera „hvítháfur“ en það hafi aðeins hlotið 0,1% vægi og verið langt frá því að ná inn á topp fimm listann rekur forritið sig aftur á bak í gegnum tauganetið og reiknar út árangursríkustu leiðina við að minnka skekkjuna með því að breyta vægi tenginganna og stillingu þröskulda. Tauganetið er svo prófað með nýjum stillingum og í þetta sinn getur verið að „hvítháfur“ sé kominn upp í 0,5%. Með endurteknum afturflutningi er hægt að halda áfram að minnka skekkjuna en þó þarf að gæta þess að ganga ekki of langt. Það hefur vandamál í för með sér. Þess þarf að gæta sérstaklega að ekki eigi sér stað ofmátun (e. overfitting). Ef við erum að kenna tauganeti að þekkja myndir af hundum er ekki gott ef allar myndirnar eru teknar úti á grænu grasi. Það getur leitt til þess að forritið telji gras vera hluta af því sem tengi saman hundamynd og orðið „hundur“.",
+    "Með notkun skjákorta (GPU) og vel hannaðra algríma tók það þríeykið viku að þjálfa tauganetið. Það hefði tekið nokkra mánuði með hefðbundnum örgjörvum (CPU). AlexNet byggði á tveim grafískum örgjörvum sem skiptu verkefninu á milli sín. Þeir komu frá fyrirtækinu Nvidia, sem hafði sérhæft sig í að framleiða skjákort til tölvuleikjaspilunar. Vegna þróunar á gervigreind jókst verðmæti Nvidia á ógnarhraða næsta áratuginn og árið 2024 var það orðið þriðja verðmætasta fyrirtæki heims á eftir Apple og Microsoft. Mikið af þróun gervigreindar hefur byggt á notkun örgjörva frá þessu eina fyrirtæki."
+  ],
+  "concepts": [
+    {
+      "term": "Djúpnám (deep learning)",
+      "explanation": "Aðferð sem byggir á tauganetum með mörgum lögum milli ílags og frálags. Hvert lag lærir flóknari mynstur en það á undan: fyrsta lag brúnir, næsta lag form, þá part­a, og loks heila hluti. AlexNet var átta lög að dýpt."
+    },
+    {
+      "term": "Afturflutningur (backpropagation)",
+      "explanation": "Algrímið sem gerir djúpnám mögulegt. Þegar netið skilar röngu svari rekur algrímið skekkjuna afturábak í gegnum lögin og lagar vægi tenginga á hverjum stað þannig að næsta svar verði aðeins betra."
+    },
+    {
+      "term": "Ofmátun (overfitting)",
+      "explanation": "Þegar tauganetið lærir aukatriði í þjálfunargögnunum sem ekki á við um almenn dæmi. Klassískt dæmi: ef allar hundamyndir í þjálfun eru á grasi getur netið haldið að gras = hundur. Lausnin er fjölbreyttara þjálfunarefni."
+    },
+    {
+      "term": "Nvidia og GPU",
+      "explanation": "AlexNet keyrði á tveimur skjákortum frá Nvidia. Síðan þá hefur þróun gervigreindar byggt á sífellt öflugri GPU-örgjörvum frá fyrirtækinu — og verðmæti Nvidia rauk upp í þriðja sætið yfir verðmætustu fyrirtæki heims árið 2024."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.7.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "alexnet",
+      "after": 4
+    }
+  ]
+}
+

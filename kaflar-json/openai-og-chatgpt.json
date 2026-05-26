@@ -1,0 +1,50 @@
+{
+  "id": "openai-og-chatgpt",
+  "part": 3,
+  "title": "OpenAI og ChatGPT",
+  "text": [
+    "Frá 2012 hafa tauganet þróast hratt. Það sést best á sigurvegurum ILSVRC-keppninnar. Árið 2013 vann ZFNet frá Oxford-háskóla í Englandi, en það var í raun fínstilltari útgáfa af AlexNet. Villuhlutfallið var 11,2%. Árið eftir vann Inception v1 frá Google með 6,7% hlutfall. Microsoft sigraði árin 2015 og 2016 með ResNet, hundrað fimmtíu og tveggja laga neti sem aðeins hafði 3,6% villuhlutfall fyrra árið og 3% árið eftir. Síðasta keppnin var haldin 2017 og þá sigraði Oxford-háskóli aftur, nú í samstarfi við Huawei, með SENet sem hafði 2,3% villuhlutfall. Þar með var sjón tauganeta orðin rúmlega 97% áreiðanleg við flokkun mynda eftir kerfi ImageNet. Sama ár hófst innreið tauganeta sem nýttu athygli með notkun breyta og skilvirka notkun grafískra örgjörva.",
+    "Það segir sig sjálft að þótt AlexNet hafi verið þjálfað til að leita að mynstrum í myndum þá virkar sama aðferð á hvaða gögn sem er, að því eina skilyrði uppfylltu að hægt sé að brjóta efnið niður í tóka. Tauganet geta meðhöndlað myndir, texta, hljóð og hvaða stafræna efni sem er, svo lengi sem það hefur aðgang að gögnum og réttri þjálfun.",
+    "Þegar þriðja sumar gervigreindar hófst byrjuðu stórfyrirtæki að lokka til sín rannsakendur úr háskólum og í hönd fóru miklir uppgangstímar. Ilya Sutskever, meðhöfundur AlexNet og aðalþjálfari þess, fór til Google og starfaði þar um hríð við þróun þýðingarvéla en stofnaði árið 2015 fyrirtækið OpenAI ásamt hópi fólks, þar á meðal Elon Musk, Sam Altman og Greg Brockman. Yfirlýsta stefnan var að fyrirtækið myndi gera gervigreind aðgengilega öllu mannkyni á ábyrgan og opinn hátt. Árið 2019 breytti OpenAI um stefnu, m.a. til að reyna að ná samkeppnisforskoti á Google og Meta, og breyttist að nokkru leyti í hlutafélag sem fjárfestar gátu keypt hlut í og vænst hagnaðar ef vel gengi. Fyrirtækið fór einnig í samstarf við Microsoft sem lagði marga milljarða dollara inn í það á næstu árum. Árið 2025 var enn breytt um stefnu í átt til þess sem upprunalega var markmiðið.",
+    "Þriðja sumar gervigreindar stendur. Google og Meta (fyrirtækið á bak við Facebook og Instagram) hafa verið í kjöraðstæðum til að safna gögnum því stór hluti mannkyns notar þjónustu fyrirtækjanna í daglegu lífi. Önnur fyrirtæki sóttu sér gögn hvar sem þau voru aðgengileg. Engin löggjöf skilgreindi framan af stöðu gervigreindar eða leikreglur við þróun hennar og jafnvel þótt svo hefði verið er alls ekki víst að það hefði dugað til að hefta óhóflega söfnun upplýsinga. Bókum fjölda rithöfunda var hreinlega stolið til að mata tauganet í þjálfun á þeim og fæstum notendum samfélagsmiðla, tölvupósts eða ritvinnsluforrita datt í hug að verið væri að safna myndum, texta og öðrum upplýsingum með stöðugri vöktun notendanna.",
+    "Þrítugasta nóvember 2022 opnaði OpenAI almennan aðgang að mállíkaninu ChatGPT. Um var að ræða tauganet sem gat spunnið upp texta og byggði það á forþjálfun og notkun breyta. Heitið GPT er skammstöfun fyrir Generative Pre-trained Transformer — á íslensku má kalla það skapandi forþjálfaðan breyti.",
+    "Fyrirtækið hafði náð stöðugt betri árangri við þjálfun líkana og taldi nú tímabært að tæknin yrði gerð aðgengileg. Líkanið, sem kallaðist GPT-3.5, vakti bæði undrun og áhuga. Það tók aðeins fimm daga að safna milljón notendum. Til samanburðar tók það Instagram tvo og hálfan mánuð að safna saman slíkum fjölda og Facebook tíu mánuði.",
+    "Forritið var í upphafi ókeypis og sáraeinfalt í notkun. Þú skrifaðir texta í spjallglugga og fékkst svör. Það gat jafnvel leyst fyrir þig margvísleg verkefni eins og að skrifa kóða, þýða á milli tungumála eða unnið heimanámið þitt.",
+    "Fjölmiðlar og samfélagsmiðlar fylltust af fréttum og frásögnum og í herbúðum flestra tæknifyrirtækja varð mikið óðagot. Öllum var ljóst að fram væri komin tækni sem gæti breytt heiminum.",
+    "Forþjálfunin afmarkaði það efni sem ChatGPT þekkti. Það olli því að það var á stundum fullkomlega ómeðvitað um samtíma sinn. Það gat dælt upp úr sér upplýsingum um sögu og spunnið bæði ljóð og spakmæli en ef þú spurðir um eitthvað sem gerst hafði síðustu mánuðina áður en líkanið kom fyrir sjónir almennings gat svarið verið algjört rugl. Þá virtist það einkennilega illa að sér um ýmsa hluti og var mjög gjarnt á að þræta fyrir vitleysu í staðinn fyrir að viðurkenna þekkingarleysi.",
+    "Ástæðan var sú að mörgum mánuðum áður en GPT-3.5 var opnað fyrir almenningi lauk þjálfun þess. Fram að því hafði það verið matað á stórum hluta internetsins, lesið bækur, blogg og samskiptamiðla. Utan þessa þekkingarforða þekkti mállíkanið ekkert og til þess að breyta því hefði þurft að þjálfa líkanið upp á nýtt með ærnum tíma og fyrirhöfn.",
+    "Samhengisgluggi (e. context window) ChatGPT 3.5 var rúmlega fjögur þúsund tókar sem samsvarar um það bil þrjú þúsund enskum orðum. Þannig gat forritið haldið þræði um stund en um leið og samtalið var orðið of langt eða textinn of mikill fór forritinu að förlast og það gleymdi því sem það hafði rætt í fyrstu. Næstu árin átti samhengisgluggi mállíkana eftir að stækka hratt og hann var kominn yfir milljón tóka í öflugustu mállíkönum vorið 2025.",
+    "ChatGPT skrifaði texta með því að reikna stöðugt út hvaða stak væri líklegasta framhald á þeim texta sem kominn var og þegar það var fundið leitaði það að næsta staki.",
+    "Fyrsta reynsluútgáfa ChatGPT var kláruð sléttu ári eftir að „Athygli er allt sem þarf“ kom út. Sú útgáfa var ekki opin fyrir almenning. Þegar GPT-3.5 var opinberað nokkrum árum síðar hafði spjallgeta forritsins verið fínstillt, samhengið sem hún gat unnið með verið fjórfaldað og forritið hafði verið þjálfað í kóðun. OpenAI hélt áfram og þjálfaði nýjar útgáfur sem réðu við miklu meira samhengi, höfðu aðgang að minni og gátu talað, hlustað og skoðað. Þær byrjuðu líka að skilja og skapa myndir. Til að tryggja vinsældir þess var mállíkaninu gefinn viðkunnanlegur persónuleiki og falleg rödd (sem reyndar var í upphafi stolin frá einni af uppáhalds-leikkonum forstjórans, Sams Altmans)."
+  ],
+  "concepts": [
+    {
+      "term": "ChatGPT",
+      "explanation": "Spjall-mállíkan OpenAI sem var opnað fyrir almenningi 30. nóvember 2022. Náði milljón notendum á aðeins fimm dögum — Facebook tók tíu mánuði í að ná sömu mörkum."
+    },
+    {
+      "term": "GPT — Generative Pre-trained Transformer",
+      "explanation": "Á íslensku skapandi forþjálfaður breytir. „Generative“ vegna þess að líkanið býr til nýjan texta; „Pre-trained“ af því að það er þjálfað fyrirfram á risastóru safni texta; „Transformer“ er tegund tauganets sem byggir á athygli."
+    },
+    {
+      "term": "Forþjálfun",
+      "explanation": "Þjálfun mállíkans á gríðarstóru safni texta áður en það er opnað notendum. Allt sem GPT-3.5 þekkir er það sem það las áður en þjálfun lauk. Þess vegna „veit“ líkanið ekkert um atburði sem gerast eftir lokadag þjálfunarinnar."
+    },
+    {
+      "term": "Samhengisgluggi (context window)",
+      "explanation": "Hve marga tóka mállíkanið getur haldið í huga samtímis. GPT-3.5 réð við um 4.000 tóka (~3.000 ensk orð). Vorið 2025 voru öflugustu líkönin komin yfir milljón tóka — heil bók í einum glugga."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.12.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "next token",
+      "after": 11
+    }
+  ]
+}
+

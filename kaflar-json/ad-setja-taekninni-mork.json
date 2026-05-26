@@ -1,0 +1,46 @@
+{
+  "id": "ad-setja-taekninni-mork",
+  "part": 4,
+  "title": "Að setja tækninni mörk",
+  "text": [
+    "Allir læknar undirrita sérstakan eið eða loforð. Þannig hefur það verið síðan í fornöld. Þeir lofa meðal annars að valda ekki skaða. Margt fólk er farið að hugleiða hvort setja þurfi gervigreind einhverjar slíkar hömlur.",
+    "Isaac Asimov var einn áhrifamesti vísindahugsuður tuttugustu aldar. Honum voru vélmenni afar hugleikin og skrifaði um þau margar greinar og bækur. Hann taldi mikilvægt að setja hugsanlegum vélmennum skýrar reglur og stakk upp á þessum:",
+    "Asimov var ekki mjög bjartsýnn á að mannkynið kynni með allar uppfinningar sínar að fara og sagði: „Hið dapurlegasta við lífið sem við lifum núna er að vísindin auka þekkingu sína hraðar en samfélagið eykur visku sína.“",
+    "Í áðurnefndu viðtali við Demis Hassabis komu svipaðar áhyggjur fram. Hann nefndi þrennt sérstaklega: Að fólk með illan ásetning myndi nota gervigreind á skaðlegan hátt, að kerfin gætu orðið svo öflug og óskiljanleg að þau myndu hætta að lúta stjórn manna og að kapphlaupið um öflugustu tæknina yrði til þess að teknar væru óásættanlegar áhættur með ófyrirsjáanlegum afleiðingum."
+  ],
+  "concepts": [
+    {
+      "term": "Þrjú lögmál Asimovs",
+      "explanation": "Sett fram af vísindaskáldsagnahöfundinum Isaac Asimov (1942): (1) ekki meiða manneskju, (2) hlýða skipunum manna nema þær brjóti 1, (3) vernda sjálft sig nema það brjóti 1 eða 2. Þetta er klassísk en einfeldningsleg fyrirmynd að siðferðislegum hömlum á tækni."
+    },
+    {
+      "term": "Áhyggjur Hassabis",
+      "explanation": "Forstjóri DeepMind nefnir þrjú höfuðatriði: illviljað fólk noti tæknina á skaðlegan hátt, kerfin verði of öflug til að stjórna, og kapphlaupið um forskot leiði til óásættanlegrar áhættu."
+    },
+    {
+      "term": "Læknaeiðurinn",
+      "explanation": "Frá fornöld lofa læknar að valda ekki skaða — primum non nocere. Vaxandi krafa er um að gervigreind lúti sambærilegum reglum, en óljóst er enn hvernig slíkar reglur eiga að líta út og hver á að framfylgja þeim."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/4.5.svg"
+    },
+    {
+      "type": "principles",
+      "title": "Lögmál Asimovs",
+      "items": [
+        "Vélmenni má ekki meiða mannveru né með aðgerðaleysi leyfa henni að skaðast.",
+        "Vélmenni verður að hlýða skipunum frá mannverum, nema þær brjóti gegn fyrstu reglunni.",
+        "Vélmenni verður að vernda sjálft sig, svo lengi sem það brýtur ekki fyrstu tvær reglurnar."
+      ],
+      "after": 1
+    },
+    {
+      "type": "interactive",
+      "description": "asimov quiz",
+      "after": 2
+    }
+  ]
+}

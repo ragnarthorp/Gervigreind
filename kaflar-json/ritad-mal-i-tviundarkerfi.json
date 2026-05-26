@@ -1,0 +1,38 @@
+{
+  "id": "ritad-mal-i-tviundarkerfi",
+  "part": 2,
+  "title": "Ritað mál í tvíundarkerfi",
+  "text": [
+    "Bókstafi er einfalt að tákna í tvíundakerfi. Eina sem þarf er að gefa þeim númer. Númerið getur þá vísað á mynd eða hljóð bókstafsins sem tölvan geymir á vísum stað.",
+    "Eldri Íslendingar muna vel eftir að hafa stundum opnað skjöl með íslenskum texta og í stað sumra stafanna birtist óskiljanlegt rugl. Það er vegna þess að tölvutæknin hefur ekki alltaf tekið tillit til tungumála sem fáir tala. Íslenskir sérstafir hafa ekki alltaf haft númer og því hafa ekki öll forrit getað framkallað þá.",
+    "Framan af notuðu flest ritunarforrit staðal sem kallast ASCII (American Standard Code for Information Interchange). Í því kerfi fékk hver bókstafur úthlutað númeri frá einum og upp í 127. Stórt „A“ var sextíu og fimm (1000001) en lítið „a“ níutíu og sjö (1100001).",
+    "ASCII notaði aðeins sjö tvíundatákn eða bita (e. bits) til að breyta bókstöfum í tölur. Með sjö tvíundatáknum er bara hægt að telja frá 0 og upp í 127. Þar sem flest forrit þurfa líka að geta unnið með tákn eins og + eða * eða @ eða ~ voru plássin fljót að fara. Margar þjóðir sem nota sjaldgæfa sérstafi urðu að sætta sig við það að þeir væru ekki með. Íslensk börn sem léku sér í einkatölvum þegar þær urðu fyrst algengar hér á landi sáu sjaldan eða aldrei íslenska stafi á skjánum og þar til nýlega höfnuðu mörg forrit íslenskum sérstöfum.",
+    "Það varð til meira pláss þegar búin var til lengd útgáfa byggð á ASCII-staðlinum. Hún var aukinn um eitt pláss og var þá átta bita. Þá skapast rými fyrir 256 tákn. Átta bitar eru kallaðir eitt bæti (e. byte) og eftir því sem tölvur urðu öflugri hefur orðið algengara að telja gagnamagn í bætum (jafnvel megabætum, gígabætum og terabætum) frekar en bitum. Eftir stækkun fengu íslensku sérstafirnir loks örugg sæti (reyndar mjög aftarlega á listanum) og upp frá því varð auðveldara að nota íslenskt mál í hinum stafræna heimi.",
+    "Í dag er ASCII enn stundum notað við mjög sérhæfð verkefni eins og forritun. Langalgengast er þó að nota svokallaðan Unicode staðal, sérstaklega UTF-8 staðal. Hann er byggður þannig upp að tákn geta haft mismunandi lengd, sum eru enn 8 bitar (eitt bæti) en önnur eru lengri. Flest gömlu ASCII-táknin halda sér en ótal mörg ný bætast við. Staðallinn nær auðveldlega utan um kínversku, japönsku, rússnesku, arabísku og önnur tungumál enda hefur hann rými fyrir meira en milljón tákn. UTF-8 táknar íslenska sérstafi með 2 bætum (16 bitum). Með þremur bætum (24 bitum) er hægt að nota kínversk tákn eins og 字 eða 节 og með fjórum bætum (32 bitum) er hægt að skrifa tjákn eða emoji 🤓.",
+    "Fæst höfum við hugmynd um það hvort táknið sem við erum að skrifa á skjáinn er eitt bæti, tvö eða jafnvel fjögur. Það getur samt skipt máli. Íslenskur texti tekur nú meira pláss í tölvum en enska. Það þýðir að nota þarf meira gagnamagn til að senda íslensku á milli tækja og vinnslan tekur lengri tíma. Það getur þýtt aukinn kostnað fyrir notandann, bæði við flutning gagna og vinnslu."
+  ],
+  "concepts": [
+    {
+      "term": "Bæti",
+      "explanation": "Hópur af átta bitum (átta núllum eða einum). Bæti er minnsta einingin sem flestar tölvur geyma og vinna með í einu — og gagnamagn er oftast mælt í kílóbætum (þúsund bæti), megabætum (milljón bæti) eða gígabætum (milljarður bæti)."
+    },
+    {
+      "term": "ASCII",
+      "explanation": "Gamall staðall frá árinu 1963 sem úthlutar enskum bókstöfum og tölustöfum númerum á bilinu 0–127. Hentaði vel fyrir ensku en gerði ekki ráð fyrir íslenskum eða öðrum sérstöfum — þeir komust ekki að fyrr en seinna."
+    },
+    {
+      "term": "Unicode",
+      "explanation": "Nútímalegur staðall sem getur táknað meira en milljón tákn úr öllum tungumálum heimsins — frá íslensku Þ og Ð yfir í kínversk tákn og tjákn (emoji). UTF-8 er algengasta útgáfan og notar 1 til 4 bæti á tákn eftir því hve algengt það er."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.2.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "character encoder"
+    }
+  ]
+}

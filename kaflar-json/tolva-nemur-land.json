@@ -1,0 +1,36 @@
+{
+  "id": "tolva-nemur-land",
+  "part": 1,
+  "title": "Tölva nemur land",
+  "text": [
+    "Hugmyndir Turings og annarra um tölvutæknina vöktu verðskuldaða athygli um heim allan. Tæki voru smíðuð víða um heim og þeim falin margvísleg verkefni sem mannlegu tölvurnar höfðu áður sinnt. Meira að segja á Íslandi birtust snemma í blöðum fréttir af hinni stórkostlegu nýju uppfinningu, rafeindaheilanum – tæki sem gæti unnið á örfáum klukkustundum verk sem tæki færustu menn mörg ár.",
+    "Rafeindaheili var einnig nefndur rafheili, rafeindareiknivél og loks tölva. Orðið „tölva“ sameinar hugtakið „tala“, sem vísar til þess að tækin vinna með tölur og „völva“, spákerlingar í norrænni goðafræði. Þannig endurspeglar orðið bæði rökfræðilega og dulmagnaða eiginleika tölvunnar.",
+    "Fyrsta tölvan sem kom til Íslands var flutt inn af fyrirtæki í Reykjavík árið 1963 og geymd í húsnæði þess við Klapparstíg. Hún kostaði stórfé og var nærri hálft tonn að þyngd. Hún notaði gataspjöld, líkt og Babbage hafði séð fyrir sér. Fræðimenn voru tíðir gestir á skrifstofunni enda leyfði eigandi tölvunnar fremstu vísindamönnum þjóðarinnar að nota tækið til flókinna útreikninga. Tölvuöld var hafin á Íslandi.",
+    "Það getur verið erfitt fyrir nútímafólk að skilja hve mikil breyting fylgdi tilkomu tölvanna og enn erfiðara að gera sér grein fyrir hve einfaldar, hægvirkar og takmarkaðar þær voru. Fyrsta tölvan á Íslandi kostaði milljónir en gat samt aðeins framkvæmt afar frumstæð verkefni sem nútímatölvur leysa á brotabroti úr sekúndu. Til samanburðar eru margfalt öflugri tölvur í örbylgjuofnum eða einföldum vasareiknum. Tölvan á Klapparstígnum hefði aldrei getað mælt púls í rauntíma, þótt snjallúr í dag geri það meðfram því að spila tónlist og taka á móti skilaboðum. Tölva í bíl, sem tengist við farsíma, er margfalt öflugri. Ef reynt væri að spila tölvuleik með reikniafli fyrstu íslensku tölvunnar myndi taka marga klukkutíma eða daga að birta eina línu myndarinnar á skjánum. Í dag birtast heilar myndir á tölvuskjá mörgum sinnum á sekúndu. Snjallsíminn í vasanum þínum er meira en milljón sinnum öflugri tölva en sú sem stýrði Apollo-geimfarinu til lendingar á tunglinu árið 1969.",
+    "Það getur verið freistandi að líta um öxl og finnast lítið til afreka fyrri kynslóða koma. Það eru mikil mistök. Þvert á móti er magnað hve stór afrek voru unnin við erfiðar aðstæður. Einfaldar og lúshægar tölvur á nútíma mælikvarða kröfðust frábærrar verkfræði, forritunar og nær óendanlegrar seiglu og útsjónarsemi. Án þeirra væri nútímatækni ekki til."
+  ],
+  "concepts": [
+    {
+      "term": "Rafeindaheili",
+      "explanation": "Eldra íslenskt orð yfir tölvu, notað um miðja 20. öld. Önnur eldri heiti voru rafheili og rafeindareiknivél, áður en orðið „tölva“ — sambland af tala og völva — festist í málinu."
+    },
+    {
+      "term": "Reikniafl",
+      "explanation": "Hve marga útreikninga vél getur framkvæmt á sekúndu. Reikniafl tölva hefur u.þ.b. tvöfaldast annað hvert ár síðustu áratugi — því er nútímasnjallsími milljón sinnum öflugri en tölva sem fyllti heilt herbergi á sjöunda áratugnum."
+    },
+    {
+      "term": "Apollo-geimfarið",
+      "explanation": "Bandarísk geimferð sem flutti fyrstu menn til tunglsins árið 1969. Tölvan sem stýrði ferðinni var afar einföld á nútíma mælikvarða — snjallsíminn í vasanum þínum er meira en milljón sinnum öflugri."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/1.7.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "computing power comparison"
+    }
+  ]
+}

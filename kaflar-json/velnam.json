@@ -1,0 +1,49 @@
+{
+  "id": "velnam",
+  "part": 3,
+  "title": "Vélnám",
+  "text": [
+    "Vélnám (e. machine learning) er það þegar tölva sér að miklu eða öllu leyti sjálf um að læra. Forsendur þess eru skýrar reglur, stöðugar leiðréttingar og endurtekning. Þá er nauðsynlegt að þjálfa líkanið ekki á sömu gögnum og það er prófað á. Venjan er sú að skipta gagnasafninu upp. Meginhlutinn er notaður sem þjálfunargögn (e. training data) til að kenna líkaninu. Annar hluti, staðfestingargögn (e. validation data), er oft notaður meðan á þjálfun stendur til að fínstilla líkanið (t.d. til að koma í veg fyrir ofmátun). Að lokum eru prófunargögn (e. test data), sem líkanið hefur aldrei séð áður, notuð til að fá óháð mat á raunverulegri frammistöðu þess.",
+    "Ekki fer allt vélnám eins fram.",
+    "Við köllum það viðgjafarnám (e. supervised learning) þegar manneskja gefur forritinu bæði ílag og svör við því hvort verkefnið hafi tekist. Þannig voru bæði skynjunarnet Rosenblatts og AlexNet þjálfuð. Forritið sjálft finnur leið til þess að para saman ílag og frálag en endurgjöfin byggir á gögnum sem manneskjur hafa merkt. Sum fyrirtæki hafa farið óvenjulegar leiðir að merkingu slíkra gagna. Mörg þekkjum við dæmi þess að þurfa stundum að sanna að við séum raunverulegar manneskjur á netinu. Við sjáum myndir eða óskýran texta og eigum að para saman við rétt hugtök. Slíkar þrautir snúast oft ekki nema að litlu leyti um að láta okkur sanna mennsku okkar (það er yfirleitt auðvelt að sannreyna með öðrum hætti). Gögn sem svona eru merkt eru fyrst og fremst gagnleg við að byggja upp söfn sem notuð eru til að þjálfa tauganet.",
+    "Viðgjafarlaust nám (e. unsupervised learning) er önnur tegund vélnáms sem ekki byggir á því að tölvan byggi leiðréttingar sínar á endurgjöf út frá handmerktum gögnum. Þá leitar forritið að sameiginlegum einkennum í gögnunum og byrjar að flokka saman hluti með svipuð einkenni. Það má líkja því við barn sem fær fjölbreytta kubba til að leika sér að og byrjar, án fyrirmæla eða hvatningar, að safna kubbum saman í hópa eftir litum eða lögun. Flest höfum við einhvern tíma verið viðfangsefni slíkrar skoðunar gervigreindar. Þegar samfélagsmiðill ýtir að okkur auglýsingu eða stingur upp á næsta myndbandi er undanfarinn yfirleitt sá að við höfum verið sett í flokk með fólki með svipuð áhugamál, neysluhegðun eða skoðanir.",
+    "Þriðja tegund vélnáms er styrkingarnám (e. reinforcement learning). Slíkt nám á hliðstæðu í rannsóknum sálfræðinga á námi manna og dýra. Tökum dæmi af hundi sem kenna á að sitja. Þú hefur tvær leiðir til þess. Þú getur sagt: „Sestu!“ og ýtt um leið á mjóbak hundsins svo hann setjist. Með þessu móti er hægt að fá hundinn til að skilja hvað átt er við. Oft er þó árangursríkara að fara aðra leið. Dýr, hvort sem um er að ræða menn eða hunda, láta stýrast af umbun og refsingum. Dýr sem kemst að því að rauður hnappur gefur raflost en svartur gefur mat er líklegra til að ýta á svarta hnappinn en þann rauða. Sé ætlunin að fá dýrið til að ýta á svarta hnappinn getur borgað sig að stilla kerfið þannig að hnappurinn gefi mat alls ekki alltaf – heldur bara stundum. Þá ýtir dýrið oftar. Í mörgum tölvuleikjum er notuð einhver útgáfa af svona umbun til þess að halda spilurum við efnið. Þegar leikmaðurinn klárar borð eða nær einhverjum áfanga er algengt að því fylgi gjöf, pakki eða lukkuhjól. Það er mikilvægt að oft séu gjafirnar lélegar en stundum góðar – því þá er líklegt að leikmaðurinn haldi áfram að spila. Svona er hægt að þjálfa gervigreind. Hún er þá látin prófa sig áfram og af og til er henni refsað eða umbunað fyrir að standa sig vel eða illa. Þannig má til dæmis kenna gervigreind að tefla án þess að mata hana á leikjum eða taktík.",
+    "Í skák er algengt að taflmenn séu metnir til stiga. Peð er eitt stig, riddarar og biskupar eru þrjú. Hrókur er fimm og drottning er níu. Kóngar eru ekki metnir með sama kerfi því þeim er ekki hægt að fórna án þess að tapa. Hægt er að þjálfa gervigreind þannig að henni sé gefið það verkefni að safna stigum. Hún fær eitt stig fyrir að drepa peð andstæðingsins en tapar jafnframt stigi við að missa peð. Með því að láta forritið keppa látlaust við fólk, aðrar tölvur eða sjálft sig gæti tauganet orðið mjög gott í því að safna stigum.",
+    "Sá augljósi galli er á þessari aðferð að svona forrit verður ekki endilega mjög gott í skák. Andstæðingurinn getur hreinlega freistað þess að nota stigaháa taflmenn sem beitu á meðan hann dundar sér við að máta tölvuna með þeim taflmönnum sem eftir eru. Þess vegna getur verið betra að umbuna forritinu eingöngu fyrir að sigra skákir í stað þess að verðlauna hvern leik fyrir sig.",
+    "Sá grundvallarmunur er á styrkingarnámi og viðgjafarnámi að hið síðarnefnda felur í sér að kenna tauganetinu að líkja eftir þekktum leiðum í mark. Með styrkingarnámi getur tölvan sjálf fundið leiðir – sem jafnvel færustu forriturum eru ókunnar. Það átti eftir að koma á daginn þegar ofurtölvan AlphaGo var kynnt til leiks árið 2016."
+  ],
+  "concepts": [
+    {
+      "term": "Vélnám (machine learning)",
+      "explanation": "Þegar tölva sér sjálf um að læra úr gögnum, með skýrum reglum, leiðréttingum og endurtekningu. Þjálfunargögn kenna líkaninu; staðfestingargögn fínstilla það; prófunargögn meta hve vel það stendur sig á dæmum sem það hefur aldrei séð."
+    },
+    {
+      "term": "Viðgjafarnám",
+      "explanation": "Þegar manneskja merkir gögn fyrir tölvuna — þetta er köttur, þetta er hundur. Tölvan lærir að líkja eftir merkingunum. Skynjunarnet Rosenblatts og AlexNet voru bæði þjálfuð á þennan hátt."
+    },
+    {
+      "term": "Viðgjafarlaust nám",
+      "explanation": "Engin manneskja merkir gögnin. Forritið finnur sjálft sameiginleg einkenni og raðar hlutum saman í hópa. Þetta er aðferðin sem samfélagsmiðlar nota til að setja þig í áhugamálahóp og ýta efni að þér."
+    },
+    {
+      "term": "Styrkingarnám",
+      "explanation": "Forritið prófar sig áfram og fær umbun eða refsingu eftir á. Það er ekki sagt hvernig á að leysa verkefnið — það finnur leiðina sjálft. Þetta er aðferðin sem AlphaGo notaði til að verða betri en bestu Go-spilarar heimsins."
+    },
+    {
+      "term": "Ofmátun (overfitting)",
+      "explanation": "Helsta ástæðan fyrir því að þjálfunar- og prófunargögn eru aðskilin. Líkanið getur orðið svo gott á þjálfunargögnunum að það fer að læra sérvisku þeirra — atriði sem ekki eiga við um almenn dæmi. Aðskilin prófunargögn afhjúpa þetta."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.8.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "learning quiz",
+      "after": 7
+    }
+  ]
+}
+

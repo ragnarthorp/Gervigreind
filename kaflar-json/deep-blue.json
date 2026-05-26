@@ -1,0 +1,42 @@
+{
+  "id": "deep-blue",
+  "part": 3,
+  "title": "Deep Blue",
+  "text": [
+    "Það var á tíma Kasparovs sem tölvutækninni var beitt til að reyna að sigra heimsmeistara í skák. Kasparov tefldi þrjú einvígi við tölvu á mismunandi stigum þróunar hennar. Árið 1989 átti hann ekki í nokkrum vandræðum með að sigra tölvuna, sem þá hét Deep Thought, og vann tvær skákir auðveldlega. Árið 1996 sneri hönnuður tölvunnar, Feng-hsiung Hsu (kínverska: 許峰雄), aftur, nú á vegum IBM, með enn öflugri vél: Deep Blue. Nokkuð óvænt tapaði Kasparov fyrsta leik í einvíginu en vann síðan þrjá og gerði tvö jafntefli. Í lokaleiknum lenti tölvan í verulegum vandræðum því Kasparov breytti um leikstíl og tefldi gríðarlega varfærið. Hann kæfði tölvuna til uppgjafar því hún fann enga góða leiki gegn honum. Árið eftir fékk Deep Blue annað tækifæri. Það átti eftir að reynast sögulegt.",
+    "Kasparov byrjaði seinna einvígið við Deep Blue eins og hann hafði lokið hinu fyrra. Hann tefldi mjög varfærið, eyddi mestum tíma í að byggja upp varnir sem tölvan hafði litla möguleika á að brjóta niður og nýtti sér svo glufu til að ráðast á varnir andstæðingsins þegar það gafst. Hann vann fyrstu skákina og útlit var fyrir að allt færi eins og áður. Kasparov hafði samt brugðið á einum tímapunkti þegar tölvan lék leik sem hann átti í erfiðleikum með að skilja. Það hafði samt ekki komið að sök.",
+    "Önnur skákin byrjaði eins og ótal skákir sem Kasparov hafði teflt áður. Fyrstu leikina þekkti hann út í gegn og allt gekk eins og í sögu. Um miðja skák lagði Kasparov gildru fyrir tölvuna. Hann hafði tekið eftir mynstri í því hvernig tölvan tók ákvarðanir og ætlaði að nýta sér það til þess að opna sér leið að sigri. Deep Blue gekk ekki í gildruna heldur lék leik sem Kasparov bjóst ekki við og kom honum mjög á óvart. Hann varð sannfærður um að brögð væru í tafli og að hann væri ekki aðeins að tefla við tölvuforrit heldur væri tölvan eða stjórnandi hennar í samskiptum við raunverulegan stórmeistara í skák sem gæfi ráð. Svo fór að hann tapaði annarri skákinni býsna örugglega.",
+    "Næstu þrjár skákir enduðu allar í jafntefli og þá var aðeins úrslitaviðureignin eftir. Nú var allt undir og Kasparov ákvað því að koma tölvunni á óvart. Hann lék vörn sem hann var alls ekki vanur að leika. Tölvan lét ekkert koma sér úr jafnvægi og eftir fáeina leiki var staða Kasparovs alls ekki góð. Það tók Deep Blue innan við tuttugu leiki að sigra – og þar með hafði tölva í fyrsta sinn sigrað óumdeildan snilling í skákeinvígi, einni flóknustu glímu sem greind mannfólks ræður við. Kasparov var mjög ósáttur og hélt því fram fullum fetum að IBM hefði haft rangt við. Tölvan hefði stundum alls ekki leikið eins og tölva. Hann krafðist þess að fá nýtt einvígi en því var hafnað.",
+    "Hvernig fór Deep Blue að þessu?",
+    "Í fyrsta lagi hjálpaði henni að Kasparov er mannlegur. Óvæntur leikur í fyrstu skákinni kom honum úr jafnvægi. Þótt Kasparov hefði unnið skákina fékk hann á tilfinninguna að tölvan væri brögðótt. Í kjölfarið versnaði taflmennska hans og fleiri leiki vann hann ekki. Þegar ofan á þetta bættust grunsemdir um að hann væri ekki aðeins að tefla við tölvu heldur samspil tölvu og manns varð hann býsna ráðalaus. IBM neitaði öllum ásökunum og sagðist fylgja reglunum í hvívetna. Óvænti leikurinn í fyrstu skák hefði verið villa í forriti og einu áhrif manna á leikina ættu sér stað á milli skáka, eins og reglurnar kvæðu á um.",
+    "Löngu seinna skrifaði Kasparov um einvígið í ævisögu sinni og sagðist hafa heimildir fyrir því að fulltrúar IBM hafi hlerað samtöl hans við þjálfara sinn og undirbúið tölvuna svo að erfiðara væri fyrir Kasparov að nýta sér veikleika hennar. Til dæmis með því að banna henni að reikna í ákveðnum aðstæðum og leika frekar fyrirfram gefna leiki.",
+    "Það, hve mjótt var á mununum, hafði mikil áhrif á hann og skáklistina. Hann var sannfærður um að hann gæti unnið tölvuna ef hann fengi annað tækifæri. Í dag er veruleikinn annar. Engum, sem þekkir til, dettur lengur í hug að manneskja geti unnið tölvu í skákeinvígi. Það skiptir engu hve mikill snillingur það er.",
+    "Deep Blue var búin gervigreind. Hún er frægasta dæmið um tölvu af því tagi sem vísindamennirnir í Dartmouth lögðu grunn að. Hennar sérsvið var skák. Tölvan sem sigraði Kasparov árið 1997 var miklu öflugri en fyrri útgáfur. Hún var mötuð á ógrynni af reglum og gat flett upp í þúsundum fyrirmæla um það hvernig hún skyldi haga sér. Vel hönnuð algrím völdu bestu leikina hverju sinni og hún gat auðveldlega (án þess að eiga á hættu að falla á tíma) skoðað og metið 200 milljón stöður á sekúndu. Hún valdi á endanum þá stöðu sem skilaði henni mestum áætluðum ávinningi. Þegar Kasparov hafði áttað sig á því og nýtt til að leggja fyrir hana gildrur bættu forritararnir við mannlegri eiginleikum, svo sem að koma andstæðingnum stundum á óvart. Það virkaði nógu vel til þess að Kasparov lék alls ekki vel í seinna einvíginu og beinlínis illa í síðustu skákinni.",
+    "Deep Blue var gríðarlega öflug tölva á mælikvarða ársins 1997. Í dag er hluti hennar til sýnis í bandaríska Þjóðminjasafninu í Washington-borg og annar hluti á Sögusafni tölvunnar í Kísildal í Kaliforníu. Hún kostaði meira en 100 milljón dollara á sínum tíma. Það segir sitt um öra þróun tækninnar að áratug eftir að Deep Blue sigraði Kasparov hófst sala á svokölluðum snjallsímum. Það tók þá ekki nema nokkrar kynslóðir að verða álíka öflugar tölvur og Deep Blue. Í dag má finna gríðarlega öflug skákforrit innbyggð í hlaupabretti sem fólk getur teflt við í ræktinni."
+  ],
+  "concepts": [
+    {
+      "term": "Deep Blue",
+      "explanation": "Skáktölva IBM sem sigraði heimsmeistarann Garrí Kasparov 1997 — fyrsta tölvan til að vinna óumdeildan stórmeistara í einvígi. Hún mat 200 milljón skákstöður á sekúndu með hjálp sérhannaðs vélbúnaðar."
+    },
+    {
+      "term": "Brute force (kraftleit)",
+      "explanation": "Aðferð Deep Blue: að rannsaka ógrynni mögulegra leikja og staðna og velja þann sem skilar bestri áætlaðri útkomu. Snýst um hraða og útreikning, ekki innsæi eða skilning. Maður teflir með innsæi; tölvan með brute force."
+    },
+    {
+      "term": "Garrí Kasparov",
+      "explanation": "Rússneskur skákmeistari (f. 1963), heimsmeistari 1985–2000. Talinn einn fremsti skákmaður sögunnar. Tap hans fyrir Deep Blue var tímamót — síðan þá hefur engin manneskja unnið bestu skáktölvur í einvígi."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.2.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "deep blue think",
+      "after": 8
+    }
+  ]
+}

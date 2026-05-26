@@ -1,0 +1,38 @@
+{
+  "id": "mynstur-og-velar",
+  "part": 1,
+  "title": "Mynstur og vélar",
+  "text": [
+    "Í Vísindasafninu í London stendur glæsilegur gripur til sýnis í stórum glerkassa. Hann minnir helst á sambræðing pípuorgels og lyftingatækja. Skammt frá má sjá litla krukku og í henni hálfan mannsheila. Hinn helmingur heilans er í öðru safni í sömu borg. Þessi heili tilheyrði enskum manni sem oft er kallaður „faðir tölvunnar“. Hann hét Charles Babbage.",
+    "Babbage var barn iðnbyltingarinnar (e. industrial revolution) tímabils á átjándu og nítjándu öld þar sem hlutirnir breyttust hratt. Gríðarstórar gufuvélar leystu nú af hólmi vinnu þúsunda manna eða hundruða hesta og framleiddu gríðarlegt magn af vörum.",
+    "Babbage taldi hægt að smíða verðmæta vél sem kæmi að miklu gagni fyrir hið öfluga framleiðslusamfélag. Vél sem kynni að reikna á ógnarhraða og af mikilli nákvæmni. Ef smíðuð væri nógu stór vél með nógu mörgum pörtum yrði hægt að framkvæma á augabragði útreikninga sem annars tæki óratíma að leysa. Útreikningarnir yrðu alltaf réttir! Babbage hannaði vélina og kynnti fyrir fjárfestum sem studdu hann dyggilega til verksins.",
+    "Vélin lét þó bíða eftir sér og rúmum áratug eftir að smíðin hófst bólaði enn ekkert á útkomunni. Fjárfestarnir misstu áhugann og raunar hafði Babbage gert það sjálfur því hann hafði fengið nýja og betri hugmynd. Nú vildi hann smíða miklu stærri og fullkomnari vél. Hann vissi að franskur uppfinningamaður hafði hannað gufuknúinn vefstól sem gat ofið flókin mynstur alveg sjálfur. Það var hægt að velja mynstur með því setja í vélina gataspjöld sem höfðu að geyma upplýsingar um vefnaðinn. Þetta taldi Babbage að gæti orðið fyrirmynd að fullkominni reiknivél sem gæti framkvæmt mjög fjölbreyttar aðgerðir. Nú vildi hann smíða hana.",
+    "Það reyndist ekki eins auðvelt að afla peninga í þetta skiptið en vinkona hans, Ada Lovelace, gerði margt til að hjálpa honum. Með hennar aðstoð var hugmyndin komið á framfæri meðal hinna ríku og frægu en Lovelace var sjálf í þeim hópi enda bæði greifynja og dóttir frægasta skálds Bretlands. Sjálf var hún raunar stórbrotinn hugsuður þótt áhrif hennar hafi ekki verið að fullu viðurkennd fyrr en löngu seinna.",
+    "Babbage kláraði aldrei nýju vélina og dó frá smíðinni árið 1871, tæplega áttræður. Þá var Ada löngu dáin en hún hafði dáið úr krabbameini tæpum tveim áratugum áður. Í skjölum hennar sést að hún hafði áttað sig á að með gataspjöldum væri hægt að láta vélina framkvæma verkefni sem alls ekki þurfa að einskorðast við tölur og útreikninga. Hún gæti unnið með tákn sem gætu staðið fyrir ótal margt annað en tölur. Ada skrifaði niður verkefni fyrir vélina, reiknireglur til að leysa ákveðin viðfangsefni. Hún er þess vegna talin fyrsti forritari sögunnar.",
+    "Vélin í glerkassanum í Vísindasafninu er einfölduð og endurbætt útgáfa af fyrstu reiknivél Babbages, smíðuð eftir teikningum hans sjálfs árið 1991. Hið merkilega er að hún virkar. Hugmyndir Babbage og teikningar voru góðar og gildar. Það reyndist einfaldlega of dýrt og tæknilega erfitt að smíða slík tæki á nítjándu öld."
+  ],
+  "concepts": [
+    {
+      "term": "Iðnbylting",
+      "explanation": "Tímabil á 18. og 19. öld þegar gufuvélar og verksmiðjur tóku við vinnu sem áður var unnin með handafli eða af dýrum. Þetta breytti samfélögum og daglegu lífi í grundvallaratriðum."
+    },
+    {
+      "term": "Gataspjald",
+      "explanation": "Þunnt spjald með götum á ákveðnum stöðum. Gat þýðir „já“ eða „kveikt“ og lokaður reitur þýðir „nei“ eða „slökkt“. Vél les spjaldið og fer eftir mynstrinu — því er hægt að nota röð gataspjalda til að gefa vél fyrirmæli."
+    },
+    {
+      "term": "Forritari",
+      "explanation": "Manneskja sem skrifar leiðbeiningar — forrit — sem segir vél hvernig hún á að leysa ákveðið verkefni skref fyrir skref. Ada Lovelace var sú fyrsta sem áttaði sig á að vél eins og sú sem Babbage hannaði gæti unnið með hvers konar tákn, ekki bara tölur."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/1.3.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "jacquard loom"
+    }
+  ]
+}

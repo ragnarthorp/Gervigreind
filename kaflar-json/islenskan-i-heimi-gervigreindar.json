@@ -1,0 +1,31 @@
+{
+  "id": "islenskan-i-heimi-gervigreindar",
+  "part": 4,
+  "title": "Íslenskan í heimi gervigreindar",
+  "text": [
+    "Um aldamótin fóru Íslendingar að hafa auknar áhyggjur af afdrifum íslensks máls í stafrænum heimi. Ný tækni varð sjaldnar aðgengileg á íslensku og þróun talgervla eða annarra forrita sem gerðu tækni aðgengilega á íslensku var bæði dýr og svifasein. Lítill áhugi tæknifyrirtækja var á íslenskum örmarkaði og tækniþyrstir Íslendingar voru oft meira en tilbúnir til að sætta sig við að nota hugbúnað á ensku.",
+    "Tauganet hafa sama möguleika á að nota íslensku og önnur mál. Slíkt net gerir í sjálfu sér engan greinarmun á tungumálum. Svo lengi sem til er efniviður til þjálfunar má nýta tæknina á hvaða tungumáli sem er.",
+    "Komið var á miðstöð fyrir máltækni hér á landi árið 2019. Hún heitir Almannarómur. Í samstarfi stjórnvalda við stofnanir og fyrirtæki hefur miðstöðin beitt sér fyrir því að íslenskt mál sé nothæft í heimi gervigreindar. Með samstarfi Almannaróms, OpenAI og fyrirtækisins Miðeindar var ChatGPT 4 til að mynda þjálfað sérstaklega til þess að nota vandaða íslensku. Var það meðal annars hægt vegna þess að hér á landi er búið að búa til stóra og vandaða gagnagrunna með dæmum um notkun íslensks máls. Þeir eru opnir og aðgengilegir þeim sem vilja þróa tæknina áfram. Farið var í að reyna að tóka íslenskt mál af skynsemi og vanda til verka. Þess var einnig gætt að ekki væri verið að stela heilum bókum eftir rithöfunda og kenna þar með gervigreindinni að herma eftir þeim. Gerður var samningur við Rithöfundarsambandið um það með hvaða hætti þjálfa mætti líkanið á íslenskum bókmenntum. Til varð handbók um það hvernig best sé að þjálfa tauganet eins og ChatGPT til notkunar í ólíkum málheimum.",
+    "Mikil framför varð á getu ChatGPT til notkunar á íslensku eftir þessa vinnu. Allur gangur er þó á því hvort nýrri mállíkön séu þjálfuð til að nota vandaða íslensku og í einhverjum tilfellum hefur verið merkjanleg afturför í íslenskuþekkingu á milli kynslóða mállíkana."
+  ],
+  "concepts": [
+    {
+      "term": "Almannarómur",
+      "explanation": "Miðstöð máltækni á Íslandi, stofnuð 2019. Hefur unnið með stjórnvöldum, stofnunum og fyrirtækjum að því að gera íslensku nothæfa í gervigreindarheimi — meðal annars með stórum gagnagrunnum sem eru opnir og aðgengilegir."
+    },
+    {
+      "term": "Miðeind",
+      "explanation": "Íslenskt máltæknifyrirtæki sem vann náið með Almannarómi og OpenAI að því að þjálfa ChatGPT-4 sérstaklega á vandaðri íslensku. Vinnan leiddi til mikillar framfara á tókun og tölvuvinnslu íslensks máls."
+    },
+    {
+      "term": "Samningur við Rithöfundasambandið",
+      "explanation": "Þess var gætt að bókum væri ekki stolið til þjálfunar — samningur skilgreindi hvernig nota mætti íslenskar bókmenntir á siðferðilega heiðarlegan hátt. Á alþjóðavísu hafa svipaðir samningar verið frekar undantekning en regla."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/4.2.svg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ludditar",
+  "part": 4,
+  "title": "Lúddítar",
+  "text": [
+    "Þegar Charles Babbage var ungur heyrði hann frásagnir af dularfullum náunga sem hét Ned Ludd. Ludd var uppreisnarforingi sem leiddi hreyfingu fólks sem taldi að tæknivæðing iðnbyltingarinnar væri að eyðileggja samfélagið. Reiðin beindist ekki síst að verksmiðjueigendum sem skiptu starfsfólki út fyrir vélar. Með barefli að vopni réðust stuðningsmenn Ludds (en þeir kallast Lúddítar) gegn verksmiðjum, brutu vefstóla og önnur tæki og reyndu að stöðva framgang tækninnar. Bresk yfirvöld tóku á móti af fullri hörku og þótt Ned Ludd hafi aldrei náðst (enda var hann líklega ekki annað en goðsögn) þá fór illa fyrir mörgum stuðningsmönnum hans. Árið 1812 gerðu bresk stjórnvöld það að dauðasök að eyðileggja vélar í verksmiðjum og ýmist fangelsuðu, drápu eða sendu brotlega í útlegð til Ástralíu.",
+    "Áhyggjur Lúddítanna sneru ekki bara að tækjunum sem slíkum þótt mörgum þeirra hafi þótt þau stuðla að afturför frá góðu handverki. Áhyggjur þeirra lutu fyrst og fremst að samfélagslegum afleiðingum þess að leysa mannfólk af hólmi með tækjum í því skyni að auka gróða. Þeir spáðu, réttilega, að tækninni myndi fylgja atvinnuleysi, fátækt, mengun og félagsleg vandamál af áður óþekktri stærðargráðu.",
+    "„Bærinn var úr rauðum múrsteini, eða hann hefði verið rauður hefði reykurinn og askan leyft það; eins og málum var háttað var bærinn svartur og rauður til skiptis eins og málað andlit villimanns. Þetta var bær véla og hárra skorsteina sem spýttu upp í loftið snákum úr reyk sem liðuðust endalaust upp í himininn án þess að slétta nokkru sinni úr sér.“",
+    "Charles Dickens, einn fremsti rithöfundur Breta og höfundur orðanna hér fyrir ofan, lýsti í mörgum rita sinna þeim ömurlega veruleika sem Lúddítarnir vöruðu við. Almenningur bjó við ömurleg kjör, sóðaskap og mengun. Vinnuaflið vann óholl og einhæf störf í þjónustu vélanna sem sköpuðu eigendum sínum mikinn auð. Karl Marx, ungur Þjóðverji, sem kynntist lífinu í London, spáði því að svona samfélög hlytu að hrynja. Tækni sem gerði ríka ríkari og héldi fátækum í fátækt myndi tortíma samfélögum í blóðugum byltingum.",
+    "Þrátt fyrir að iðnbyltingin hafi á endanum stuðlað að stórbættum heimi, með auknu langlífi og ríkidæmi fjölda fólks finnst í dag töluvert af fólki sem efast um að gervigreind muni með tíð og tíma verða til gagns. Bætist andúð á gervigreind oft ofan á tortryggni í garð tækni eins og samfélagsmiðla.",
+    "Stephen Fry, fjölfræðingur og fyrrum aðdáandi alls þess sem nýjast hefur verið í stafrænni tækni á hverjum tíma, hefur stigið fram sem einlægur efasemdarmaður um gervigreind. Hann telur nauðsynlegt að temja hana með öllum tiltækum ráðum.",
+    "„Af öllu fellur skuggi. Raunar er það svo að því bjartara og skarpara sem ljósið er, því dekkri verður skugginn. Og allri tækni sem við höfum fundið upp hafa fylgt skuggar,“ sagði Fry í hlaðvarpi þar sem hann ræddi meðal annars goðsögnina um Pandóru í samhengi við gervigreind.",
+    "Hann telur mannkyn hafa leyst úr læðingi tækni sem þegar sé byrjuð að leiða heiminn í ógöngur. Það sé fífldirfska að treysta gróðafyrirtækjum fyrir tækni sem raunverulega getur leitt til hörmunga. Að hans mati er gervigreind í besta falli tækni sem skorti ímyndunarafl og siðferði. Með því að breiða hana á ógnarhraða út um allan heim sé mannkynið að gera stór mistök. Þetta líkist því að leiða stafrænt neysluvatn inn á hvert einasta heimili – án þess að hreinsa frá því skólpið. Lygar, þvæla og fordómar séu samofin þankagangi gervigreindarinnar og það litla sem ber vott um skapandi eða frumlega hugsun sé stolið af öðrum."
+  ],
+  "concepts": [
+    {
+      "term": "Lúddítar",
+      "explanation": "Hreyfing breskra verkamanna sem upp úr 1811 réðust gegn vefstólum og öðrum vélum iðnbyltingarinnar. Kenndir við goðsagnakenndan leiðtoga sem hét Ned Ludd. Bresk yfirvöld brugðust hart við og 1812 gerðu þau það að dauðasök að eyðileggja vélar."
+    },
+    {
+      "term": "Karl Marx",
+      "explanation": "Þýskur heimspekingur (1818–1883) sem bjó lengi í London. Spáði því að samfélög þar sem ný tækni væri notuð til að gera ríka ríkari og halda fátækum í fátækt myndu á endanum springa í blóðugum byltingum."
+    },
+    {
+      "term": "Stephen Fry",
+      "explanation": "Breskur fjölfræðingur (f. 1957), fyrrum aðdáandi nýrrar tækni en nú einlægur efasemdarmaður um gervigreind. Telur að ekki sé ráðlegt að treysta stórfyrirtækjum í gróðaleit fyrir tækni sem geti haft alvarlegar afleiðingar."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/4.7.svg"
+    }
+  ]
+}

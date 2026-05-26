@@ -1,0 +1,33 @@
+{
+  "id": "thegar-rokhlid-vinna-saman",
+  "part": 2,
+  "title": "Þegar rökhlið vinna saman",
+  "text": [
+    "Hér fyrir neðan (Hálf-samleggjari) sérðu tvö rökhlið sem búið er að tengja saman. Neðra hliðið er AND-hlið og efra XOR. Ílögin eru tveir rofar og frálagið er einn biti af tvíundarkóða fyrir hvort hlið.",
+    "Þetta hlið getur lagt saman einföldustu tölur í tvíundarkerfi. Þar sem ílögin eru aðeins tvö getur þessi rafrás aðeins unnið með þessi dæmi: 1+1, 1+0 og 0+1 (fyrir stærri dæmi þarf fleiri ílög og frálög). Munum að í tvíundarkerfi er talan tveir „10“.",
+    "Nú getur þú prófað þig áfram og – ef þú treystir þér til – skoðað vél sem gerð er í fleiri rökhliðum og framkvæmt getur enn flókarni útreikninga.",
+    "Hafðu þó í huga að þótt rökhlið geti reiknað með þessum hætti eru yfirleitt notuð ýmis algrím þar sem tölvur notast við tugakerfi í útreikningum.",
+    "Eins og vélarnar hér að ofan eru þó allar tölvur í grunninn safn af samtengdum rökhliðum – og þær eru allar takmarkaðar og geta aðeins unnið með tiltekið magn upplýsinga í einu."
+  ],
+  "concepts": [
+    {
+      "term": "Hálf-deilari",
+      "explanation": "Lítill vélbúnaður sem leggur saman tvö einbita tölur. Hann er gerður úr einu XOR-hliði (gefur summuna) og einu AND-hliði (gefur flutninginn). Þetta er ein af einföldustu reikni-einingunum sem finna má innan örgjörva — og hún sýnir hvernig flókin reikning er aðeins röð af einföldum rökhliðum tengdum saman."
+    },
+    {
+      "term": "Flutningur",
+      "explanation": "Þegar samlagning gefur of stóra niðurstöðu fyrir eitt sæti þarf að „taka með“ í næsta sæti. Í tugakerfi: 7+5=12, þar sem 1 er flutningurinn. Í tvíundarkerfi: 1+1=10, sem þýðir 0 í lægra sæti og 1 í flutningssæti."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.8.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "adder tool",
+      "after": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ilag-og-fralag",
+  "part": 2,
+  "title": "Ílag og frálag",
+  "text": [
+    "Tölvur eru stöðugt að vinna með ílög og frálög (e. input/output). Rökhliðið sem við lýstum rétt áðan skilaði frálagi (ljósi) að réttum skilyrðum (lokaðir rofar) uppfylltum. Ílagið var gefið handvirkt með því að opna eða loka rofunum. Það hefði líka getað gerst sjálfkrafa. Shannon sýndi hvernig tengja má rökhlið í stór kerfi þar sem frálag eins rökhliðs verður ílag þess næsta með þeim afleiðingum að hægt er að framkvæma ótrúlega flókna hluti, allt eftir einföldum röklegum reglum.",
+    "Hér höfum við hannað hlið sem metur A OR B.",
+    "Nú höfum við hliðtengt rofana og þá þarf aðeins annar þeirra að loka rafrásinni til að ljós kvikni.",
+    "Rökhliðin eru fleiri en í grunninn gegna þau öll sama hlutverki. Að vera rökfræðiregla sem verður að tilteknu frálagi ef ílagið er rétt. Svona virkar örgjörvinn, heili tölvunnar, á grunni milljóna eða milljarða röklegra prófa sem hvert um sig er frekar einfalt en saman geta skilað mjög flókinni útkomu."
+  ],
+  "concepts": [],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.7.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "or circuit",
+      "after": 1
+    },
+    {
+      "type": "interactive",
+      "description": "gate builder",
+      "after": 3
+    },
+    {
+      "type": "interactive",
+      "description": "truth table",
+      "after": 3
+    }
+  ]
+}

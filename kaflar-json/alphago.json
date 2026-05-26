@@ -1,0 +1,57 @@
+{
+  "id": "alphago",
+  "part": 3,
+  "title": "AlphaGo",
+  "text": [
+    "Þótt AlexNet hafi markað tímamót árið 2012 var vélbúnaðurinn sem það keyrði á tiltölulega hóflegur miðað við ofurtölvur eins og Deep Blue fimmtán árum fyrr. Munurinn lá ekki endilega í hráum reiknikrafti heldur í nýrri nálgun; Deep Blue beitti gríðarlegri þrautleit (e. brute force) til að finna besta skákleikinn hverju sinni en afl AlexNet fólst fyrst og fremst í djúpnámi – að láta tauganetið kenna sjálfu sér að þekkja mynstur með snjöllum aðferðum og þjálfun á stórum gagnasöfnum. Tvö öflug skjákort og einn aðalörgjörvi dugðu til að breyta gangi sögunnar.",
+    "Fjórum árum síðar, árið 2016, var enn eitt metið slegið. Í þetta skiptið var það tölva sem nýtti sér bæði tauganet og gríðarlegan reiknikraft. Hún hafði ekki færri en hundrað sjötíu og sex grafíska örgjörva (GPU) og tólfhundruð og tvo aðalörgjörva (CPU). Hvers konar verkefni gat kallað á slíkt skrímsli?",
+    "Stutta svarið: Leikurinn Go.",
+    "Langa svarið: Kínverskt borðspil sem er næstum því óendanlega flókið og margfalt snúnara en skák. Leikurinn virkar þannig að keppendur setja hvíta eða svarta steina á ákveðna reiti til að tryggja sér yfirburði á spilaborðinu. Fjöldi mögulegra leikja í Go er svo yfirgengilega mikill að það er útilokað að finna bestu leikina með þrautleit eingöngu. Jafnvel þótt hvert einasta atóm í hinum sýnilega alheimi innihéldi heilan alheim með öllum sínum atómum, væru þau samanlagt ekki nema örlítið brot af fjölda mögulegra leikja. Leikurinn er svo óútreiknanlegur að færustu leikmenn segjast þurfa að beita innsæi eða tilfinningu til að sigra. Það sé ekki nóg að reikna.",
+    "Þann 9. mars 2016 settist Lee Sedol, suður-kóreskur atvinnumaður í Go og án nokkurs vafa einn af bestu leikmönnum allra tíma, niður á hóteli í Seul til að keppa við hinn ógnvekjandi keppinaut: AlphaGo, forrit sem þróað var af breska fyrirtækinu DeepMind. Sedol vissi að við ramman reip yrði að draga. Ári fyrr hafði AlphaGo sigrað Evrópumeistarann Fan Hui með fimm sigrum gegn engum. Sedol hafði fylgst með því einvígi án þess að finnast mikið til þess koma. Hann taldi sig töluvert erfiðari andstæðing en Hui.",
+    "Lee Sedol mætti til leiks fullur sjálfstrausts. Í fyrstu viðureigninni varð vandræðaleg uppákoma þegar tölvan virtist aldrei ætla að leika sinn fyrsta leik. Það gerði hún þó að lokum og keppnin hófst. Sedol lék af öryggi en AlphaGo átti alltaf svör. Smátt og smátt varð staða tölvunnar betri og Sedol gaf á endanum leikinn.",
+    "Annar leikurinn fór í sögubækurnar. Framan af tefldi AlphaGo af varfærni. Í leik þrjátíu og sjö gerðist þó nokkuð mjög óvænt. Tölvan valdi að setja stein á punkt sem enginn mannlegur afreksmaður myndi velja. Sedol varð steinhissa og lýsandinn í vefútsendingunni flissaði. Þetta líktist byrjendamistökum. Leikurinn hélt þó áfram og þá kom sannleikurinn í ljós: Barnalegi leikurinn var hrein snilld sem tryggði leið AlphaGo að öruggum sigrinum í röð. Tölvan virtist hafa séð lengra og dýpra en nokkur manneskja gat gert. Hún virtist hafa skapandi hugsun.",
+    "Í þriðja leiknum reyndi Sedol allt til að koma tölvunni á óvart, en án árangurs. AlphaGo virtist ætíð vita hvað hann ætlaði sér og átti svör við öllu. Bugaður gaf Sedol leikinn og baðst innilega afsökunar á frammistöðu sinni á blaðamannafundi. Einvígið var tapað, staðan þrjú-núll.",
+    "En það dró til tíðinda í fjórða leiknum. Sedol breytti enn um stíl og tók meiri áhættu. Í leik sjötíu og átta gerðist nokkuð merkilegt: AlphaGo hikstaði. Sedol hafði leikið einstökum snilldarleik. Tölvan virtist ekki vita hvernig hún ætti að bregðast við. Þegar hún valdi loks leik sá teymið sem stjórnaði henni að hún taldi sig vera að tapa leiknum. Sedol náði yfirhöndinni og knúði fram uppgjöf við mikinn fögnuð áhorfenda. Þetta reyndist eini sigur manns á AlphaGo í opinberu einvígi.",
+    "Í fimmta og síðasta leiknum sýndu bæði maður og tölva frábær tilþrif. Spilamennskan var alls ekki vélræn. AlphaGo lék á skapandi en stundum einkennilegan hátt. Þótt Sedol næði tímabundið betri stöðu náði AlphaGo aftur tökum á leiknum og knúði fram lokauppgjöf. Úrslitin urðu fjögur-eitt fyrir AlphaGo.",
+    "Heimurinn stóð á öndinni. Tölva hafði ekki aðeins sýnt yfirburði í flóknasta þekkta borðspili heims, heldur hafði hún sýnt hegðun sem leit út eins og skapandi hugsun, aðlögunarhæfni og jafnvel innsæi.",
+    "AlphaGo var samsett úr nokkrum tauganetum sem notuðu blöndu af vélnámsaðferðum. Grunnurinn var viðgjafarnám, þar sem netið lærði af því að skoða milljónir leikja frá færustu spilurum heims. En lykillinn að yfirburðunum lá í styrkingarnámi: AlphaGo keppti við sjálfa sig milljónum sinnum og lærði smám saman nýjar og óhefðbundnari leiðir til að sigra. Heilt kerfi tölva (AlphaGo var þjálfað með umfangsmiklum samtengdum búnaði) vann saman að sameiginlegu markmiði, ekki ósvipað því hvernig ólík svæði í heila manna vinna saman.",
+    "Maðurinn á bak við AlphaGo var Demis Hassabis, fyrrum undrabarn í skák. Hann stofnaði DeepMind árið 2010 og seldi það til Google árið 2014 þar sem hann hefur starfað síðan. Ári eftir einvígið við Sedol kynnti DeepMind svo AlphaZero, forrit sem gat lært Go, skák og shogi (japanska skák) án þess að nota eldri leiki sem fyrirmynd – það lærði með því að keppa við sjálft sig út frá reglunum. Á skömmum tíma varð það betra en öll fyrri forrit í leikjunum þremur.",
+    "Árið 2020 sneri DeepMind sér að læknis- og líffræði og hannaði AlphaFold. Forritið réðst á eitt stærsta óleysta vandamál líffræðinnar: að spá fyrir um þrívíddarlögun prótín-sameinda út frá amínósýrum þeirra. AlphaFold náði byltingarkenndum árangri og leysti verkefni sem vísindasamfélagið hafði glímt við í áratugi. Fyrir þá vinnu hlaut Demis Hassabis Nóbelsverðlaun. Opnast hafa ný svið í baráttunni við marga hættulega sjúkdóma.",
+    "Yfirlýst markmið DeepMind hefur frá upphafi verið að smíða almenna gervigreind (AGI) – gervigreind sem getur lært og leyst fjölbreytt verkefni án sérhæfðrar þjálfunar fyrir hvert þeirra. Takist það má segja að hugmynd Alan Turings um hugsandi vél hafi loks orðið að veruleika.",
+    "Meira um það seinna. Nú fara hlutirnir nefnilega að gerast mjög hratt."
+  ],
+  "concepts": [
+    {
+      "term": "AlphaGo",
+      "explanation": "Forrit DeepMind sem sigraði Lee Sedol, einn besta Go-leikmann sögunnar, 4–1 í mars 2016. Notaði viðgjafarnám fyrst (lærði af mannlegum leikjum) og síðan styrkingarnám (keppti við sjálfa sig milljónum sinnum)."
+    },
+    {
+      "term": "Demis Hassabis",
+      "explanation": "Breskur taugavísindamaður og skáksnillingur (f. 1976). Stofnaði DeepMind 2010, sem Google keypti 2014. Hlaut Nóbelsverðlaun í efnafræði 2024 fyrir vinnu sína við AlphaFold."
+    },
+    {
+      "term": "AlphaZero",
+      "explanation": "Forrit DeepMind frá 2017 sem lærði Go, skák og shogi án nokkurra mannlegra leikja sem fyrirmynd. Aðeins með því að keppa við sjálft sig — engin gögn, engar leikir, bara reglur. Eftir nokkrar klukkustundir var það betra en allt sem á undan kom."
+    },
+    {
+      "term": "AlphaFold",
+      "explanation": "Forrit DeepMind sem leysti eitt af stærstu vandamálum líffræðinnar — að spá fyrir um þrívíddarbyggingu prótína út frá amínósýruröð þeirra. Áður tóku slíkar mælingar oft mörg ár, jafnvel áratugi. Nú gerir AlphaFold það á sekúndum."
+    },
+    {
+      "term": "Almenn gervigreind (AGI)",
+      "explanation": "Hugtak yfir gervigreind sem getur leyst fjölbreytt verkefni án sérhæfðrar þjálfunar fyrir hvert þeirra — eins og maður gæti. Yfirlýst markmið DeepMind frá upphafi. Hvort eða hvenær slíkt verður mögulegt er enn umdeilt."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.9.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "ai eras",
+      "after": 11
+    }
+  ]
+}
+

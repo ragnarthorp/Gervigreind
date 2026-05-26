@@ -1,0 +1,52 @@
+{
+  "id": "heili-ur-malmi-og-rafmagni",
+  "part": 2,
+  "title": "Heili úr málmi og rafmagni",
+  "text": [
+    "Hefði Babbage tekist ætlunarverk sitt hefði tölvuöld mögulega hafist heilli öld áður en raun bar vitni. Þess í stað hófst hún um það leyti sem rafmagnið var orðið aðgengilegt flestu fólki. Við eigum erfitt með að hugsa okkur tölvur sem ekki nota rafmagn en samt er rafmagnið alls ekki nauðsynlegur orkugjafi. Babbage ætlaði að nota gufu til að knýja sínar vélar. Það mætti eins nota gorma, vatn eða vind. Á sjöunda áratugnum var einföld tölva seld sem barnaleikfang sem notaði ekkert nema aðdráttaraflið sem orkugjafa.",
+    "En hvað gerir tölva að tölvu?",
+    "Í mjög einföldu máli má segja að tölva sé tæki sem taki við gögnum, annaðhvort til að geyma þau eða vinna með þau. Ef gögnin eru stafræn er tölvan það líka. Stafræn gögn hafa verið þýdd á tvíundarkerfið.",
+    "Í raftölvum er unnið með gögn sem rafboð. Hægt er að kveikja og slökkva á rafboðum og þannig láta þau tákna 1 og 0. Kveikt er 1 og slökkt er 0. Við skulum einbeita okkur að heila tölvunnar: örgjörvanum. Við hugsum ekkert um skjákort, vinnsluminni né neitt annað sem hjálpar tölvunni að skipuleggja þau verkefni sem hún vinnur.",
+    "Örgjörvinn sjálfur er þunnur kubbur og á yfirborði hans liggja örþunnir þræðir sem leitt geta rafmagn eftir afar flóknu kerfi sem helst minnir á gatnakerfi risastórrar borgar. Verkefni tölvunnar er að senda rafboð eftir þessu kerfi með reglulegu millibili með það að markmiði að vinna úr gögnunum sem vélin er mötuð á. Til þess þarf með einhverjum hætti að vera hægt að stýra umferðinni. Sama rásin þarf að geta verið opin þegar rafboð þarf að ferðast um hana og lokuð þegar það á ekki að gerast.",
+    "Mörg þekkjum við Tómas Alva Edison. Hann er þekktur fyrir ljósaperuna og fleiri uppfinningar í upphafi rafmagnsaldar. Edison var fyrstur til að lýsa undarlegri og óheppilegri aukaverkun sem fylgdi ljósaperum. Perur eru einföld uppfinning; örmjór vír er lokaður inni í glerkúpu. Vírinn er tengdur við tvö rafskaut sem kallast forskaut (anode) og bakskaut (cathode). Skautin hafa ólíka hleðslu og ýta því rafmagninu áfram eftir vírnum. Miklu meira rafmagni er hleypt á vírinn en hann getur borið með þægilegu móti og það leiðir til þess að hann fer að glóa.",
+    "Aukaverkunin undarlega var sú að með tímanum byrjaði glerið í perunum að dökkna, Edison til mikils ama, en það sem reyndist vera hönnunargalli á ljósaperu reyndist lykill að því sem þurfti til að hanna rafmagnstölvu. Ástæða þess að glerið dökknaði var að vírinn innan í ljósaperunni náði með engu móti að halda í allar rafeindirnar sem streymdu eftir honum undir hinni miklu rafspennu. Sumar eindirnar köstuðust af vírnum og þeyttust út í peruna sjálfa og lituðu smám saman glerið.",
+    "Skömmu eftir aldamótin 1900 taldi breskur verkfræðingur, John Ambrose Fleming, að þessa aukaverkun mætti hagnýta. Hann sótti um einkaleyfi fyrir nýrri tegund af peru eða lampa sem var ólík hefðbundnu ljósaperunni að því leyti að í henni þurftu rafeindirnar að stökkva frá öðru skautinu yfir bil innan í perunni til þess að komast að lítilli plötu sem leiddi þær að hinu skautinu.",
+    "Raftölvubyltingin gat loks hafist þegar Lee de Forest, bandarískur uppfinningamaður, breytti slíkri peru með því að bæta í hana grind sem sett var á milli skautanna. Hægt var að gefa grindinni rafstraum og stjórna því hvort og þá hversu mikið af rafeindum fengi að hoppa á milli bakskautsins og forskautsins.",
+    "Eins og við ræddum áðan snýst heilinn í tölvu, örgjörvinn, um að stýra rafmagnsumferð um flókið kerfi rása. Til þess þarf að vera hægt að stöðva strauminn á einhverjum stöðum en hleypa honum áfram á öðrum. Lampinn hans de Forest er einmitt uppfinning sem gerir slíkt mögulegt. Ef perur eru settar á mikilvæg gatnamót í hinu flókna vegakerfi örgjörvans er hægt að nota grindurnar innan í þeim til þess að opna eða loka fyrir umferð eftir þörfum. Elstu raftölvurnar voru svona ógurlega fyrirferðarmiklar og þungar vegna þess að „heili“ þeirra var gerður úr fjölmörgum ljósaperum af þessari tegund. Í dag gegna smárar (e. transistors) sama hlutverki. Smári er hálfleiðari. Það merkir að hann getur við sumar aðstæður leitt rafmagn mjög vel en aðrar alls ekki. Hann hefur þrjú skaut eins og lampi Lee de Forest og með því að hleypa vægum straumi á eitt skautanna opnast fyrir leið rafmagns milli hinna skautanna tveggja. Smárar eru listasmíð og afar endingargóðir, ólíkt glerlömpunum sem stöðugt biluðu. Þeir geta líka verið agnarsmáir og verða stöðugt minni. Árið 1965 spáði bandaríski verkfræðingurinn Gordon Moore því að um ókomna tíð myndi fjöldi smára í tölvum tvöfaldast á tveggja ára fresti og þar með gera tölvur sífellt öflugri. Sú spá hefur gengið eftir og þess vegna er farsími dagsins í dag milljón sinnum öflugri en tölva sem einu sinni fyllti heilt herbergi.",
+    "Í bestu tölvum dagsins í dag eru meira en hundrað milljarðar smára á einni flögu sem er margfalt minni en plássið sem einn lampi tók í tölvum áður. Smárar geta haldið áfram að minnka að minnsta kosti eitthvað enn. Það styttist þó í að komið verði að neðri mörkum hins mögulega því bæði ljóshraði og skammtafræðilegir eiginleikar setja þróun tölvunnar óbrjótanleg mörk. Í dag eru brautir í bestu smárum orðnar svo litlar að rafeindabraut sem væri jafn breið og mannshár gæti haft tuttugu til þrjátíu þúsund akreinar! En ef brautirnar sem rafeindir eiga að ferðast eftir verða enn minni, jafnvel aðeins örfá atóm að breidd, verður útilokað að halda þeim innan brautanna. Þær munu stökkva handahófskennt á milli staða í örgjörvanum. Þar með verður þeim ekki lengur stýrt og þá hættir tölvan að virka.",
+    "Þess ber þó að geta að í heimi skammtafræðinnar búa ýmsir möguleikar sem geta gert tölvur framtíðar afar öflugar á ákveðnum sviðum. Það er verið að rannsaka með þróun skammtatölva. Við ræðum það ekki frekar hér."
+  ],
+  "concepts": [
+    {
+      "term": "Bakskaut og forskaut",
+      "explanation": "Tvö rafskaut með ólíka hleðslu. Bakskaut (cathode) hefur neikvæða hleðslu og hrindir frá sér rafeindum; forskaut (anode) hefur jákvæða hleðslu og dregur þær til sín. Þannig fer straumurinn frá bakskauti til forskauts."
+    },
+    {
+      "term": "Grind (triode-grind)",
+      "explanation": "Lítil málmgrind sem Lee de Forest setti milli bak- og forskauts árið 1906. Með því að gefa grindinni væga spennu má opna eða loka fyrir flæði rafeinda — og þar með stjórna hvort straumurinn fer áfram eða ekki. Þetta er fyrirrennari smárans."
+    },
+    {
+      "term": "Smári (transistor)",
+      "explanation": "Þriggja skauta hálfleiðari sem leysti glerlampann af hólmi um miðja 20. öld. Lítill straumur á einu skauti (grindinni) ræður hvort straumur kemst milli hinna tveggja. Smárar í dag eru oft minni en eitt vírusagn og milljarðar þeirra rúmast á einum kubbi."
+    },
+    {
+      "term": "Hálfleiðari",
+      "explanation": "Efni sem getur við sumar aðstæður leitt rafmagn vel og aðrar alls ekki — kísill er algengasta dæmið. Þessi eiginleiki er það sem gerir smárann mögulegan."
+    },
+    {
+      "term": "Moore-lögmálið",
+      "explanation": "Spá Gordons Moore frá 1965 um að fjöldi smára á örgjörva myndi tvöfaldast á tveggja ára fresti. Hefur staðist nokkurn veginn í 60 ár og útskýrir hvers vegna nútímasími er milljón sinnum öflugri en tunglflaugar Apollo."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.9.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "triode switch",
+      "after": 8
+    }
+  ]
+}

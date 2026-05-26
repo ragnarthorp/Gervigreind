@@ -1,0 +1,42 @@
+{
+  "id": "bilid-bruad",
+  "part": 2,
+  "title": "Frá stærðfræði til tölva",
+  "text": [
+    "Claude Shannon var bandarískur stærðfræðingur og verkfræðingur sem fyrstur áttaði sig fyllilega á því hvernig fara mætti að því að sameina heim stærðfræðilegrar rökfræði og vélar. Hann var fjórum árum yngri en Alan Turing, og raunar störfuðu þeir báðir um tíma við dulmálsfræði. Þeim þótti mikið koma til hvors annars og höfðu hvetjandi áhrif hvor á annan.",
+    "Shannon hefði nær örugglega unnið Nóbelsverðlaun fyrir rannsóknir sínar ef verðlaunin væru ekki veitt á mjög þröngu sviði. Hann var stærðfræðingur, tölvunarfræðingur og verkfræðingur. Engin Nóbelsverðlaun eru veitt fólki fyrir slík störf. Hann var þó fyrsti verðlaunahafi sérstakra verðlauna sem kallast Kyoto-verðlaunin og eru hugsuð sem viðurkenning á vísindalegum afrekum sem bætt hafa heiminn.",
+    "Þegar við ræddum hér að framan um það hvernig hægt er að skrá nánast hvaða upplýsingar sem er í tvíundarkerfi skoðuðum við ekkert hvernig fólk áttaði sig á því að það væri hægt. Leibniz sýndi vissulega fram á að til væri gömul kerfi sem gátu táknað tölur með aðeins tveim táknum. Það var Shannon sem áttaði sig á því að með tvíundarkerfi væri hægt að skapa heilan heim upplýsinga sem safna mætti saman og senda manna á milli með áreiðanlegum og skilvirkum hætti.",
+    "Shannon vann um hríð hjá stóru símafyrirtæki og með því að nota rofa, víra og segla sem hann fékk heim með sér úr vinnunni og dót sem hann fékk í jólagjöf frá konu sinni smíðaði hann völundarhús og litla gervimús. Músin virtist geta lært sjálf að rata um völundarhúsið og er oft nefnd sem merkur viðburður í sögu gervigreindar.",
+    "Nú ætlum við að einbeita okkur að elstu uppgötvunum Shannons. Uppgötvunum sem hann gerði þegar hann var enn nemandi í háskóla. Þá áttaði hann sig á því að hægt væri að nota rafmagn til að framkvæma röklega hugsun.",
+    "Við höfum nokkrum sinnum rætt um það hvernig tölvur í dag eru eins og flókið vegakerfi, gert úr örsmáum rásum sem leiða rafmagn eftir flóknu kerfi. Shannon sýndi fram á að hægt er að brúa bilið milli Boole og rafrása enda er rafmagn þannig að annað hvort streymir það áfram eða ekki, alveg eins og gildin í algebru Boole eru annað hvort einn eða núll.",
+    "Hvernig fer rafrás að því að athuga hvort tvö skilyrði séu uppfylt?",
+    "Jú, hér höfum við hannað einfaldan búnað sem getur mælt hvort skilyrðið A og B sé uppfyllt. Ef svo er, kviknar ljós.",
+    "Rafleiðsla er tengt gegnum ljósaperu, tvo rofa og rafhlöðu. Rofarnir standa fyrir A og B. Lokaður rofi (hleypir rafmagni áfram) fær gildið einn en opinn er núll (því þar fer ekkert rafmagn í gegn). Rofarnir eru raðtengdir þannig að rafmagn þarf fyrst að streyma gegnum rofa A og síðan B til að komast að perunni. Aðeins þegar þeir eru báðir lokaðir getur rafmagn streymt eftir vírnum. Komist rafmagnið alla þá leið kviknar á ljósi.",
+    "Við köllum vélbúnað sem svona mælir sannleiksgildi röklegra fullyrðinga rökhlið og tölvur byggja á þeim. Það má líkja rökhliðum við taugakerfi örgjörvans. Þetta rökhlið kallast AND-hlið og er táknað svona."
+  ],
+  "concepts": [
+    {
+      "term": "Rökhlið",
+      "explanation": "Lítill vélbúnaður sem mælir sannleiksgildi röklegrar fullyrðingar með rafmagni. AND-hlið gefur til dæmis straum aðeins ef BÆÐI inntök hafa straum. Allar tölvur eru gerðar úr milljörðum slíkra hliða — þau eru eins og taugakerfi örgjörvans."
+    },
+    {
+      "term": "Rafrás",
+      "explanation": "Lokuð leið sem rafmagn streymir eftir, samsett úr vírum, rofum og hlutum eins og ljósaperum eða tölvuíhlutum. Þegar Shannon sá að rafrás gæti tjáð satt og ósatt eins og algebra Boole, var brúin milli stærðfræði og tölvu mynduð."
+    },
+    {
+      "term": "Raðtenging",
+      "explanation": "Þegar tveir eða fleiri rofar eru tengdir í röð á sömu vírgrein. Rafmagn þarf að komast í gegnum þá ALLA til þess að ljós kvikni — því virka raðtengdir rofar nákvæmlega eins og AND-hlið."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.6.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "and circuit",
+      "after": 7
+    }
+  ]
+}

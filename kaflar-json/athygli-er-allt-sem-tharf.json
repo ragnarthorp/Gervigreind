@@ -1,0 +1,35 @@
+{
+  "id": "athygli-er-allt-sem-tharf",
+  "part": 3,
+  "title": "„Athygli er allt sem þarf.“",
+  "text": [
+    "Frá árinu 1987 hefur árlega verið haldin ráðstefna sem gengur undir nafninu NeurIPS. Þar eru til umræðu helstu málefni er varða vélnám og tauganet hverju sinni. Á þrjátíu ára afmælinu, árið 2017, var ráðstefnan haldin í Kaliforníuríki í Bandaríkjunum. Þar var lögð fram rannsóknarritgerð sem bar titilinn „Athygli er allt sem þarf.“ (e. Attention is All You Need). Höfundarnir voru átta rannsakendur sem störfuðu hjá Google.",
+    "Að hluta vísar titill ritgerðarinnar til Bítlalagsins All You Need is Love sem kallast á við merka uppgötvun í líffræði. Hópur vísindamanna fann árið 1974 kvendýr af áður óþekktri mannapategund og gaf henni nafnið Lucy vegna þess að Bítlalagið Lucy in the Sky with Diamonds hljómaði reglulega í vinnubúðunum.",
+    "Ritgerðin um athyglina markaði tímamót. Tilraun var gerð til að bæta árangur endurkvæmistauganeta með því að forrita þau þannig að tókar veittu hverjir öðrum athygli. Höfundar greinarinnar töldu að þessi tilraun væri ekki aðeins lagfæring á endurkvæmisnetum, hún gæti hreinlega leyst þau af hólmi. Það þyrfti ekki slík net ef meiri áhersla væri lögð á að beina athygli tókanna á rétta staði.",
+    "Forsenda þess hve tauganet hafa nú náð mjög miklum árangri við lestur, ritun og þýðingu tungumála er hið mikla magn gagna sem þau eru þjálfuð á. Þegar búið er að tóka orðaforða tungumáls og mata það á ógrynni texta hefur netið komið sér upp viðamiklu samhengi sem vistað er sem stærðfræðilegar upplýsingar. Tókarnir raðast í hópa í fjölmörgum víddum sem erfitt er fyrir okkur að skilja að fullu. Hugtök eins og „brynja“, „sverð“, „skjöldur“ og „blóð“ finnast í nágrenni við hvert annað í einni vídd (vegna þess hve oft þau eru í námunda við hvert annað í ákveðnum tegundum af textum) en um leið getur hugtakið „blóð“ verið í námunda við „bein“, „mergur“ og „mænuvökvi“ í annarri vídd. Milli víddanna liggja áttir sem geta sagt til um einkenni. Þannig getur leið bergs frá sandi til steina og hnullunga verið í sömu átt og leið kökunnar frá mylsnu til mola og sneiða. Þetta samhengi byrjar tauganetið að mynda af sjálfu sér ef það er matað á nægu efni sem vel er tókað. Smám saman verður það betra í að skapa samhengi sem raðar tókum saman í vitræna heild í mörgum víddum.",
+    "Þessi aðferð við að staðsetja tóka í margvíðu merkingarrými, þar sem staðsetning og fjarlægð endurspegla samhengi og skyldleika, er kjarninn í svokölluðum orðavigrum (e. word embeddings). Slíkir vigrar gera tauganetum kleift að „skilja“ tengsl milli orða á tölfræðilegan hátt, sem er grundvöllur margra af þeim hæfileikum sem nútíma mállíkön búa yfir. Þegar tauganet talar eða skrifar er það einfaldlega að leita að næstu nágrönnum þeirra tóka sem það vinnur með til að finna líklegasta framhald setninganna sem verið er að spinna. Úr varð fyrirbæri sem kallast breytir (e. transformer).",
+    "Breytir virkar þannig að hver einasti tóki er borinn saman við alla hina tókana í ílaginu og þannig er fundið út samhengið. Þannig má para hugtakið „blóð“ við ýmis læknisfræðileg hugtök sem einnig koma fyrir í textanum, athafnir (eins og slys eða læknismeðferð), aðila (eins og lækni eða sjúkling) og svo mætti lengi telja. Með því að breyta gögnunum með þessum hætti gerist mikilvægur hlutur. Nú má nota grafíska örgjörva til að framkvæma reikniaðgerðirnar allar á sama tíma (allur textinn er meðhöndlaður í einu þótt orðaröðinni sé haldið til haga með sérstökum merkingum). Þar með gerist allt margfalt hraðar.",
+    "Þjálfun tauganeta býr til tókaheim í fjölmörgum víddum þar sem flókin tengsl verða eins og stærðfræðilegar áttir og tengingar. Með því að keyra ílagið gegnum breyti verða slík merkingarský miklu nákvæmari og þegar þau eru notuð, til dæmis við að þýða eða semja texta, geta þau miklu betur haldið sig við efnið og lagt áherslu á að raða saman tókum sem raunverulega eru tengdir í því samhengi sem unnið er með hverju sinni."
+  ],
+  "concepts": [
+    {
+      "term": "Athygli (attention)",
+      "explanation": "Aðferð sem leyfir tauganetinu að ákveða hvaða tókar í ílaginu skipta mestu máli fyrir hvern annan. Þegar netið vinnur með orðið „blóð“ getur það beint athyglinni að „sjúklingur“ og „læknir“ frekar en að „og“ eða „til“. Ritgerðin Attention is All You Need (2017) gerði athygli að hjarta nútíma mállíkana."
+    },
+    {
+      "term": "Orðavigur (word embedding)",
+      "explanation": "Staðsetning tóka í margvíðu merkingarrými. Svipuð orð liggja nálægt hvert öðru, og áttir milli orða geta þýtt eitthvað (t.d. „smátt → stórt“). Tauganetið uppgötvar þessar staðsetningar sjálft í gegnum gögnin."
+    },
+    {
+      "term": "Breytir (transformer)",
+      "explanation": "Tegund tauganets sem byggir á athyglu og hefur leyst endurkvæmisnet af hólmi í málvinnslu. Hver tóki er borinn saman við alla aðra á sama tíma — sem gerir mögulegt að keyra allt á grafískum örgjörvum samtímis. Breytar liggja að baki ChatGPT, Claude, Gemini og öðrum stórum mállíkönum."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/3.11.svg"
+    }
+  ]
+}
+

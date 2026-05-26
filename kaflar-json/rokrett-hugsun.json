@@ -1,0 +1,49 @@
+{
+  "id": "rokrett-hugsun",
+  "part": 2,
+  "title": "Rökrétt hugsun",
+  "text": [
+    "Við höfum nú rætt hvernig þýða má tölur, bókstafi, myndir og hljóð yfir á tvíundarkerfið. Þær upplýsingar má hæglega senda sem rafboð, þar sem kveikt eða slökkt er á rafmagni til þess að tákna einn og núll. Eins vitum við að lampar, og seinna smárar, gegndu mikilvægu hlutverki við að búa til kerfi rafrása sem sáu til þess að tölvur gátu ekki aðeins tekið á móti slíkum upplýsingum, heldur unnið með þær. Hér erum við ekki aðeins að tala um að breyta rafboðum í mynd á skjá eða hljóð í hátalara. Hér erum við líka að ræða það hvort, og þá hvernig, tölvur geti sjálfar framkvæmt hluti eins og samlagningu eða annað sem við höfum tilhneigingu til að telja að sé aðeins á færi þeirra sem geta hugsað.",
+    "Leibniz var fjarri því fyrstur til að telja að lýsa mætti hugsun sem reglum. Um tvö þúsund árum áður en hann fæddist var orðin til býsna öflug vísindagrein sem stundum hefur verið kölluð þrætubókarlist en er betur þekkt sem rökfræði. Hún fjallar um hugsanir en er ólík nýrri greinum, eins og til dæmis sálfræði, að því leyti að rökfræði lýsir því hvernig hugsað er rétt.",
+    "Ef hægt væri að kenna tölvu að herma eftir réttri hugsun gæti hún orðið að tæki eins og því sem Leibniz hélt að fólk gæti notað til að finna sannleikann í flóknum málum. Til þess þarf tölvan að ráða við rökfræði. Slíkt tæki gæti ekki aðeins náð valdi á því að hugsa, það gæti jafnvel orðið betra í rökhugsun en manneskjur.",
+    "Rétt eða rökrétt hugsun er alls ekki alltaf einföld. Það er frekar auðvelt fyrir mannshugann að hrapa að ályktunum, týna þræði í hugmyndum sínum eða komast að rangri niðurstöðu.",
+    "Frægt dæmi um slíkt er nefnt eftir sjónvarpsmanninum Monty Hall. Það er venjulega sett þannig upp að þátttakandi tekur þátt í gjafaleik. Á bak við einar dyr af þremur er veglegur vinningur. Þátttakandinn velur einar dyr. Þegar hann hefur valið, opnar stjórnandinn (sem í upprunalegu útgáfunni var Monty Hall) aðrar af dyrunum sem ekki voru valdar. Hann sýnar að þar var enginn vinningur. Nú fær þátttakandinn að velja hvort hann heldur sig við upprunalega valið eða skiptir um dyr. Flestir kjósa að halda sig við upprunalega valið og telja að það sé jafn líklegt að þar sé vinningurinn eins og bak við hinar dyrnar. En það er rangt. Það eru töluvert meiri líkur á að vinningurinn sé bak við dyrnar sem þátttakandinn valdi ekki.",
+    "Ástæðan er sú að það eru þriðjungs líkur á að þitt fyrsta val sé rétt. Vinningurinn er miklu oftar bak við aðra af hinum dyrunum tveimur. Þú munt þess vegna vinna oftar ef þú þiggur boð um að skipta yfir í lokuðu dyrnar í stað þess að halda þig við þitt fyrsta val.",
+    "Í formlegri rökfræði er hægt að kortleggja rétta og ranga hugsun. Það er oft gert með því að nota tákn og lýsa svo með reglum hvernig táknin tengjast á sama hátt og gert er í stærðfræði.",
+    "Tökum einfalt dæmi. Gefum okkur að þetta sé satt: Í rigningu blotnar jörðin við húsið mitt. Auðvitað gæti svona setning verið röng. Húsið mitt gæti staðið í svo þéttum skógi að jörðin blotnar ekki þótt það rigni. Það gæti líka staðið á stultum úti í stöðuvatni þar sem alls engin jörð er í kring. Við erum í raun ekki komin að rökfræðinni sjálfri. Hennar hlutverk er að finna reglur um það hvernig forsendur tengjast réttum niðurstöðum. Við erum bara komin með eina forsendu og enga niðurstöðu enn.",
+    "Gefum okkur því aðra forsendu: Það er rigning. Nú spyrjum við. Ef báðar forsendurnar eru sannar, getum við þá dregið af þeim rökrétta niðurstöðu? Til dæmis þessa: Jörðin við húsið mitt er blaut.",
+    "Svarið er „já“. Ef báðar forsendur eru réttar þá er niðurstaðan rökrétt.",
+    "Í sjálfu sér er þetta frekar einfalt. Við vitum þó að það þarf ekki mikið til svo að rökhugsun okkar lendi í vandræðum. Líklega er einfaldasta leiðin til að sýna hve brothugsun okkar er að skoða þessa röksemdafærslu: Ef það rignir þá blotnar garðurinn við húsið mitt. Nú er garðurinn blautur og því hefur rignt. Mjög eðlilegt er að þykja þessi fullyrðing nákvæmlega jafn rökrétt og sú sem við vorum að ræða. Það er rangt. Þessi fullyrðing er ekki rökrétt. Hún getur verið sönn. Það getur vel verið að garðurinn sé blautur út af rigningu en svo þarf ekki að vera. Garðurinn gæti verið blautur af einhverri annarri ástæðu en því að það hafi rignt. Kannski hefur einmitt alls ekki rignt í langan tíma og þess vegna vökvaði ég sjálfur lóðina.",
+    "Leibniz og táknbundnir forritarar myndu reyna að kenna tölvu að hugsa rökrétt og sjá til þess að hún fylgi réttum reglum. Til þess að gera það er nauðsynlegt að brúa bilið milli tvíundarkerfisins og rökfræðinnar."
+  ],
+  "concepts": [
+    {
+      "term": "Rökfræði",
+      "explanation": "Fræðigrein sem rannsakar hvernig hugsað er rétt — hvaða niðurstöður má rökrétt draga af gefnum forsendum. Hún er um tvö þúsund ára gömul og er enn í dag undirstaða stærðfræði og tölvunarfræði."
+    },
+    {
+      "term": "Forsenda",
+      "explanation": "Fullyrðing sem gefin er sem grundvöllur röksemdafærslu. Í rökfræði þarf yfirleitt að taka tvær eða fleiri forsendur saman til að draga rökrétta niðurstöðu — t.d. „það rignir“ og „í rigningu blotnar garðurinn“ leiða af sér „garðurinn er blautur“."
+    },
+    {
+      "term": "Líkur",
+      "explanation": "Mat á því hversu oft tiltekinn atburður á sér stað. Líkur eru oftast gefnar upp sem brot eða prósent — t.d. eru þriðjungslíkur (⅓ eða um 33%) á að geta upp á réttum dyrum af þremur þegar allt er jafn líklegt."
+    }
+  ],
+  "visuals": [
+    {
+      "type": "illustration",
+      "description": "img/2.4.svg"
+    },
+    {
+      "type": "interactive",
+      "description": "logic diagrams",
+      "after": 9
+    },
+    {
+      "type": "interactive",
+      "description": "monty hall",
+      "after": 5
+    }
+  ]
+}
