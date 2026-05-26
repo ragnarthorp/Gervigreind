@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="stripes" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="rotate(45)">
+      <rect width="40" height="40" fill="#E8E5DC"></rect>
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#DAD7CE" stroke-width="20"></line>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#stripes)"></rect>
+  <g fill="#555049" font-family="ui-monospace, Menlo, monospace" text-anchor="middle">
+    <text x="800" y="490" font-size="44" font-weight="700">LJÓSMYND</text>
+    <text x="800" y="540" font-size="22" opacity="0.7">1600 × 1000 placeholder</text>
+  </g>
+</svg>
