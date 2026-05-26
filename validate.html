@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="is">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Validation · Gervigreind</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem 1.5rem 4rem;
+      background: var(--bg);
+      color: var(--text);
+      font-family: inherit;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin: 0 0 0.4rem;
+      color: var(--accent-hover);
+    }
+    .val-sub {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin: 0 0 1.4rem;
+    }
+    .val-btn-row {
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 1.6rem;
+    }
+    .val-btn {
+      appearance: none;
+      font-family: inherit;
+      font-size: 0.95rem;
+      font-weight: 700;
+      padding: 0.6rem 1.4rem;
+      border-radius: var(--radius);
+      border: none;
+      background: var(--accent);
+      color: #fff;
+      cursor: pointer;
+    }
+    .val-btn:hover { background: var(--accent-hover); }
+    .val-btn:disabled { opacity: 0.5; cursor: progress; }
+    body.is-dark .val-btn { color: #14171B; }
+
+    .val-summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.6rem;
+      margin-bottom: 1.6rem;
+    }
+    @media (max-width: 560px) { .val-summary { grid-template-columns: 1fr 1fr; } }
+    .val-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+    }
+    .val-card-label {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.66rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+    }
+    .val-card-num {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 1.6rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      margin-top: 0.15rem;
+      line-height: 1;
+    }
+    .val-card.ok       .val-card-num { color: #2A8A4A; }
+    .val-card.warning  .val-card-num { color: #B07A1A; }
+    .val-card.error    .val-card-num { color: #C8341A; }
+    body.is-dark .val-card.ok      .val-card-num { color: #5FBF85; }
+    body.is-dark .val-card.warning .val-card-num { color: #FFCB57; }
+    body.is-dark .val-card.error   .val-card-num { color: #E84A2A; }
+
+    .val-issue {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.8rem 1rem;
+      margin-bottom: 0.55rem;
+    }
+    .val-issue.error   { border-left: 4px solid #C8341A; }
+    .val-issue.warning { border-left: 4px solid #B07A1A; }
+    .val-issue.info    { border-left: 4px solid var(--text-muted); }
+    body.is-dark .val-issue.error   { border-left-color: #E84A2A; }
+    body.is-dark .val-issue.warning { border-left-color: #FFCB57; }
+
+    .val-issue-head {
+      display: flex;
+      gap: 0.6rem;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+      flex-wrap: wrap;
+    }
+    .val-issue-level {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.66rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      padding: 0.1rem 0.5rem;
+      border-radius: 4px;
+    }
+    .val-issue.error   .val-issue-level { background: rgba(200,52,26,0.12); color: #A02818; }
+    .val-issue.warning .val-issue-level { background: rgba(176,122,26,0.14); color: #8C6420; }
+    .val-issue.info    .val-issue-level { background: rgba(120,120,120,0.12); color: var(--text-muted); }
+    body.is-dark .val-issue.error   .val-issue-level { color: #FFB0A0; }
+    body.is-dark .val-issue.warning .val-issue-level { color: #FFCB57; }
+
+    .val-issue-source {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .val-issue-msg {
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.5;
+      margin: 0;
+    }
+    .val-issue-msg code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.85em;
+      background: var(--bg-elev);
+      padding: 0.05rem 0.3rem;
+      border-radius: 3px;
+    }
+    .val-empty {
+      text-align: center;
+      color: var(--text-muted);
+      padding: 2rem 1rem;
+      font-style: italic;
+    }
+    .val-section-h {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 1.6rem 0 0.5rem;
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <h1>Skoðun á kaflagögnum</h1>
+  <p class="val-sub">Skannar <code>kaflar-json/</code>, <code>widgets/</code> og <code>img/</code> möppurnar og bendir á ósamræmi, brotin tengsl og vantandi properties.</p>
+
+  <div class="val-btn-row">
+    <button id="run" class="val-btn">Keyra skoðun</button>
+    <span id="status" style="color: var(--text-muted); font-size: 0.9rem;"></span>
+  </div>
+
+  <div id="summary" class="val-summary" style="display: none;">
+    <div class="val-card ok"><div class="val-card-label">KAFLAR</div><div class="val-card-num" id="sum-ok">0</div></div>
+    <div class="val-card error"><div class="val-card-label">VILLUR</div><div class="val-card-num" id="sum-err">0</div></div>
+    <div class="val-card warning"><div class="val-card-label">VIÐVARANIR</div><div class="val-card-num" id="sum-warn">0</div></div>
+    <div class="val-card"><div class="val-card-label">UPPL.</div><div class="val-card-num" id="sum-info">0</div></div>
+  </div>
+
+  <div id="issues"></div>
+
+  <script>
+  (function () {
+    // Listi yfir gild widget-heiti (úr index.html). Uppfærist handvirkt þegar nýtt widget bætist við.
+    var KNOWN_WIDGETS = [
+      'jacquard loom','enigma puzzle','binary search','computing power comparison','chinese room',
+      'binary table','binary converter','character encoder','rgb mixer','audio frequency',
+      'logic diagrams','monty hall','logic gates comparison','half adder','boole table',
+      'and circuit','or circuit','gate builder','truth table','half adder visual',
+      'adder tool','rgb game','triode switch','light sensors','line separator',
+      'deep blue think','moores law','imagenet','alexnet','learning quiz',
+      'ai eras','tokenizer','gradient limits','next token','logic slip',
+      'ai levels','asimov quiz','four voices','philosophy'
+    ];
+
+    var issues = [];
+
+    function issue(level, source, msg) {
+      issues.push({ level: level, source: source, msg: msg });
+    }
+
+    function isString(v) { return typeof v === 'string'; }
+    function isArray(v)  { return Object.prototype.toString.call(v) === '[object Array]'; }
+    function isNumber(v) { return typeof v === 'number' && !isNaN(v); }
+
+    async function fetchJson(path) {
+      var r = await fetch(path + '?n=' + Date.now());
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      var txt = await r.text();
+      try {
+        return JSON.parse(txt);
+      } catch (e) {
+        // finna línuna sem JSON parserinn klikkaði á (Chrome/Safari skilar mismunandi sniði)
+        var loc = '';
+        var m = e.message.match(/position\s+(\d+)/i);
+        if (m) {
+          var pos = parseInt(m[1], 10);
+          var line = txt.substring(0, pos).split('\n').length;
+          loc = ' (lína ' + line + ')';
+        }
+        throw new Error('Ógilt JSON' + loc + ': ' + e.message);
+      }
+    }
+
+    async function tryFetch(path) {
+      try {
+        var r = await fetch(path + '?n=' + Date.now(), { method: 'HEAD' });
+        return r.ok;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    async function run() {
+      issues = [];
+      document.getElementById('issues').innerHTML = '';
+      document.getElementById('summary').style.display = 'none';
+      document.getElementById('status').textContent = 'Sæki book-toc.json …';
+
+      var toc;
+      try {
+        toc = await fetchJson('kaflar-json/book-toc.json');
+      } catch (e) {
+        issue('error', 'book-toc.json', e.message);
+        return finish(0);
+      }
+
+      // staðfesta TOC strúktúr
+      if (!isString(toc.title))   issue('error', 'book-toc.json', 'Vantar "title" (texti).');
+      if (!isString(toc.author))  issue('warning', 'book-toc.json', 'Vantar "author" (texti).');
+      if (!isArray(toc.parts))    issue('error', 'book-toc.json', 'Vantar "parts" (fylki).');
+      if (!isArray(toc.chapters)) {
+        issue('error', 'book-toc.json', 'Vantar "chapters" (fylki).');
+        return finish(0);
+      }
+
+      var partNumbers = (toc.parts || []).map(function (p) { return p.number; });
+      var seenIds = {};
+      var validChapters = 0;
+
+      document.getElementById('status').textContent = 'Skanna ' + toc.chapters.length + ' kafla …';
+
+      for (var i = 0; i < toc.chapters.length; i++) {
+        var c = toc.chapters[i];
+        var label = 'TOC #' + (i + 1) + ' "' + (c.title || '?') + '"';
+
+        if (!isString(c.id) || !c.id.trim()) {
+          issue('error', label, 'Kafli án id í book-toc.');
+          continue;
+        }
+        if (!isString(c.title) || !c.title.trim()) {
+          issue('error', label, 'Kafli án title í book-toc.');
+        }
+        if (!isNumber(c.part)) {
+          issue('error', label, 'Kafli "' + c.id + '" án part-númers í book-toc.');
+        } else if (partNumbers.length && partNumbers.indexOf(c.part) === -1) {
+          issue('error', label, 'Kafli "' + c.id + '" vísar í part=' + c.part + ' sem er ekki í parts.');
+        }
+        if (seenIds[c.id]) {
+          issue('error', label, 'Tvítekið id "' + c.id + '" í book-toc.');
+          continue;
+        }
+        seenIds[c.id] = true;
+
+        // sækja sjálft kafla-JSON-ið
+        var path = 'kaflar-json/' + c.id + '.json';
+        var data;
+        try {
+          data = await fetchJson(path);
+        } catch (e) {
+          if (e.message.indexOf('HTTP 404') === 0 || e.message.indexOf('HTTP 4') === 0) {
+            issue('error', c.id + '.json', 'Skrá fannst ekki — book-toc vísar í kafla sem ekki er til.');
+          } else {
+            issue('error', c.id + '.json', e.message);
+          }
+          continue;
+        }
+
+        // staðfesta strúktúr kaflans
+        if (data.id !== c.id) {
+          issue('error', c.id + '.json', 'Innra id "' + data.id + '" passar ekki við skráarnafn.');
+        }
+        if (isString(data.title) && data.title !== c.title) {
+          issue('warning', c.id + '.json', 'Titill "' + data.title + '" passar ekki við book-toc ("' + c.title + '").');
+        }
+        if (data.part !== c.part) {
+          issue('warning', c.id + '.json', 'Part-númer ' + data.part + ' passar ekki við book-toc (' + c.part + ').');
+        }
+        if (!isArray(data.text)) {
+          issue('error', c.id + '.json', 'Vantar "text" (fylki af málsgreinum).');
+        } else if (data.text.length === 0) {
+          issue('warning', c.id + '.json', 'Tómt "text" — engar málsgreinar.');
+        } else {
+          for (var p = 0; p < data.text.length; p++) {
+            if (!isString(data.text[p])) {
+              issue('error', c.id + '.json', 'text[' + p + '] er ekki strengur.');
+            } else if (/ {2,}/.test(data.text[p])) {
+              issue('info', c.id + '.json', 'Tvöfalt bil í text[' + p + '] (möguleg innslátt).');
+            }
+          }
+        }
+        if (data.concepts !== undefined && !isArray(data.concepts)) {
+          issue('error', c.id + '.json', '"concepts" er ekki fylki.');
+        } else if (isArray(data.concepts)) {
+          for (var ci = 0; ci < data.concepts.length; ci++) {
+            var concept = data.concepts[ci];
+            if (!isString(concept.term)) {
+              issue('error', c.id + '.json', 'concepts[' + ci + '] vantar term.');
+            }
+            if (!isString(concept.explanation)) {
+              issue('error', c.id + '.json', 'concepts[' + ci + '] vantar explanation.');
+            }
+          }
+        }
+
+        if (data.visuals !== undefined && !isArray(data.visuals)) {
+          issue('error', c.id + '.json', '"visuals" er ekki fylki.');
+        } else if (isArray(data.visuals)) {
+          var paraCount = isArray(data.text) ? data.text.length : 0;
+          for (var v = 0; v < data.visuals.length; v++) {
+            var vis = data.visuals[v];
+            if (!isString(vis.type)) {
+              issue('error', c.id + '.json', 'visuals[' + v + '] vantar type.');
+              continue;
+            }
+            if (vis.type === 'illustration') {
+              if (!isString(vis.description) || vis.description.indexOf('img/') !== 0) {
+                issue('error', c.id + '.json', 'visuals[' + v + '] illustration vantar gilt img-stíg.');
+              } else {
+                var imgOk = await tryFetch(vis.description);
+                if (!imgOk) {
+                  issue('error', c.id + '.json', 'Myndin "' + vis.description + '" finnst ekki á disk.');
+                }
+              }
+            } else if (vis.type === 'interactive') {
+              if (!isString(vis.description)) {
+                issue('error', c.id + '.json', 'visuals[' + v + '] interactive vantar description.');
+              } else if (KNOWN_WIDGETS.indexOf(vis.description) === -1) {
+                issue('error', c.id + '.json', 'Óþekkt widget "' + vis.description + '" — ekki skráð í visualRenderers.');
+              }
+              if (vis.after !== undefined) {
+                if (!isNumber(vis.after)) {
+                  issue('error', c.id + '.json', 'visuals[' + v + '] after er ekki tala.');
+                } else if (paraCount > 0 && (vis.after < 0 || vis.after >= paraCount)) {
+                  issue('warning', c.id + '.json',
+                    'visuals[' + v + '] after=' + vis.after + ' er utan málsgreina-bils (0–' + (paraCount - 1) + ').');
+                }
+              }
+            } else if (vis.type === 'photo') {
+              var psrc = vis.src || vis.description;
+              if (!isString(psrc)) {
+                issue('error', c.id + '.json', 'visuals[' + v + '] photo vantar src.');
+              } else {
+                var photoOk = await tryFetch(psrc);
+                if (!photoOk) {
+                  issue('error', c.id + '.json', 'photo finnst ekki: ' + psrc);
+                }
+              }
+              if (!isString(vis.alt) || !vis.alt) {
+                issue('warning', c.id + '.json', 'visuals[' + v + '] photo vantar alt-texta (aðgengi).');
+              }
+              if (vis.after !== undefined) {
+                if (!isNumber(vis.after)) {
+                  issue('error', c.id + '.json', 'visuals[' + v + '] after er ekki tala.');
+                } else if (paraCount > 0 && (vis.after < 0 || vis.after >= paraCount)) {
+                  issue('warning', c.id + '.json',
+                    'visuals[' + v + '] after=' + vis.after + ' er utan málsgreina-bils (0–' + (paraCount - 1) + ').');
+                }
+              }
+            } else if (vis.type === 'principles') {
+              if (!isArray(vis.items) || vis.items.length === 0) {
+                issue('error', c.id + '.json', 'visuals[' + v + '] principles vantar items-fylki.');
+              }
+              if (vis.after !== undefined) {
+                if (!isNumber(vis.after)) {
+                  issue('error', c.id + '.json', 'visuals[' + v + '] after er ekki tala.');
+                } else if (paraCount > 0 && (vis.after < 0 || vis.after >= paraCount)) {
+                  issue('warning', c.id + '.json',
+                    'visuals[' + v + '] after=' + vis.after + ' er utan málsgreina-bils (0–' + (paraCount - 1) + ').');
+                }
+              }
+            } else {
+              issue('warning', c.id + '.json', 'Óþekkt type "' + vis.type + '" í visuals[' + v + '].');
+            }
+          }
+        }
+
+        validChapters++;
+      }
+
+      finish(validChapters);
+    }
+
+    function finish(validChapters) {
+      var errors = issues.filter(function (i) { return i.level === 'error'; }).length;
+      var warnings = issues.filter(function (i) { return i.level === 'warning'; }).length;
+      var infos = issues.filter(function (i) { return i.level === 'info'; }).length;
+
+      document.getElementById('summary').style.display = 'grid';
+      document.getElementById('sum-ok').textContent   = String(validChapters);
+      document.getElementById('sum-err').textContent  = String(errors);
+      document.getElementById('sum-warn').textContent = String(warnings);
+      document.getElementById('sum-info').textContent = String(infos);
+
+      var box = document.getElementById('issues');
+      box.innerHTML = '';
+
+      if (issues.length === 0) {
+        var ok = document.createElement('div');
+        ok.className = 'val-empty';
+        ok.textContent = '✓ Engar villur, viðvaranir né ábendingar. Bókin er hrein.';
+        box.appendChild(ok);
+        document.getElementById('status').textContent = 'Lokið — bókin er hrein.';
+        return;
+      }
+
+      var order = { error: 0, warning: 1, info: 2 };
+      issues.sort(function (a, b) {
+        if (order[a.level] !== order[b.level]) return order[a.level] - order[b.level];
+        return a.source.localeCompare(b.source);
+      });
+
+      // hópa
+      var prev = '';
+      issues.forEach(function (it) {
+        if (it.level !== prev) {
+          var h = document.createElement('div');
+          h.className = 'val-section-h';
+          h.textContent = it.level === 'error' ? 'Villur'
+                        : it.level === 'warning' ? 'Viðvaranir'
+                        : 'Ábendingar';
+          box.appendChild(h);
+          prev = it.level;
+        }
+        var div = document.createElement('div');
+        div.className = 'val-issue ' + it.level;
+        var head = document.createElement('div');
+        head.className = 'val-issue-head';
+        var lvl = document.createElement('span');
+        lvl.className = 'val-issue-level';
+        lvl.textContent = it.level === 'error' ? 'VILLA' : it.level === 'warning' ? 'VIÐVÖRUN' : 'UPPL';
+        head.appendChild(lvl);
+        var src = document.createElement('span');
+        src.className = 'val-issue-source';
+        src.textContent = it.source;
+        head.appendChild(src);
+        div.appendChild(head);
+        var msg = document.createElement('p');
+        msg.className = 'val-issue-msg';
+        msg.textContent = it.msg;
+        div.appendChild(msg);
+        box.appendChild(div);
+      });
+
+      document.getElementById('status').textContent =
+        'Lokið — ' + errors + ' villa(ur), ' + warnings + ' viðvörun(arnir), ' + infos + ' ábending(ar).';
+    }
+
+    document.getElementById('run').addEventListener('click', function () {
+      this.disabled = true;
+      var btn = this;
+      run().catch(function (e) {
+        issue('error', 'skoðun', 'Óvænt villa: ' + e.message);
+        finish(0);
+      }).finally(function () { btn.disabled = false; });
+    });
+
+    // dökk/ljós eins og bókin
+    var saved = localStorage.getItem('darkMode');
+    if (saved === 'true') document.body.classList.add('is-dark');
+  })();
+  </script>
+</body>
+</html>
