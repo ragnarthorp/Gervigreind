@@ -3,7 +3,7 @@
   "part": 2,
   "title": "Ritað mál í tvíundarkerfi",
   "text": [
-    "Bókstafi er einfalt að tákna í tvíundakerfi. Eina sem þarf er að gefa þeim númer. Númerið getur þá vísað á mynd eða hljóð bókstafsins sem tölvan geymir á vísum stað.",
+    "Bókstafi er einfalt að tákna í tvíundarkerfi. Eina sem þarf er að gefa þeim númer. Númerið getur þá vísað á mynd eða hljóð bókstafsins sem tölvan geymir á vísum stað.",
     "Eldri Íslendingar muna vel eftir að hafa stundum opnað skjöl með íslenskum texta og í stað sumra stafanna birtist óskiljanlegt rugl. Það er vegna þess að tölvutæknin hefur ekki alltaf tekið tillit til tungumála sem fáir tala. Íslenskir sérstafir hafa ekki alltaf haft númer og því hafa ekki öll forrit getað framkallað þá.",
     "Framan af notuðu flest ritunarforrit staðal sem kallast ASCII (American Standard Code for Information Interchange). Í því kerfi fékk hver bókstafur úthlutað númeri frá einum og upp í 127. Stórt „A“ var sextíu og fimm (1000001) en lítið „a“ níutíu og sjö (1100001).",
     "ASCII notaði aðeins sjö tvíundatákn eða bita (e. bits) til að breyta bókstöfum í tölur. Með sjö tvíundatáknum er bara hægt að telja frá 0 og upp í 127. Þar sem flest forrit þurfa líka að geta unnið með tákn eins og + eða * eða @ eða ~ voru plássin fljót að fara. Margar þjóðir sem nota sjaldgæfa sérstafi urðu að sætta sig við það að þeir væru ekki með. Íslensk börn sem léku sér í einkatölvum þegar þær urðu fyrst algengar hér á landi sáu sjaldan eða aldrei íslenska stafi á skjánum og þar til nýlega höfnuðu mörg forrit íslenskum sérstöfum.",

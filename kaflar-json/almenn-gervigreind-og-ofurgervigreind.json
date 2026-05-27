@@ -4,15 +4,15 @@
   "title": "Almenn gervigreind og ofurgervigreind",
   "text": [
     "„Mitt leiðarljós og ástríða hefur ævinlega verið skilningur á heiminum allt í kringum okkur. Frá því ég var barn hef ég heillast af stærstu spurningunum: Hver er tilgangur lífsins? Hvað er meðvitund? Hvernig virkar heimurinn? Ég hef haft unun af því að lesa um hina merku vísindamenn og heimspekinga sem hafa fengist við spurningarnar og ég vildi leita leiða til að sjá hvort við gætum þokað þekkingarleitinni áfram. Í mínu tilfelli legg ég eitthvað af mörkum með því að smíða besta mögulega verkfærið til að auka þekkingu mannkyns. Það er gervigreind.“",
-    "Þannig komst Demis Hassabis að orði í viðtali við bandaríska fréttaskýringarþáttinn 60 mínútur í apríl 2025. Í sama viðtali spáði hann því að innan fimm til tíu ára myndi mannkyni takast að smíða fyrstu almennu gervigreindina (e. artificial general intelligence, AGI). Hann býst einnig við mikilli framþróun í gerð bóta (e. robots) og sérstaklega vélmenna (e. humanoids).",
+    "Þannig komst Demis Hassabis að orði í viðtali við bandaríska fréttaskýringarþáttinn [60 mínútur](https://en.wikipedia.org/wiki/60_Minutes) í apríl 2025. Í sama viðtali spáði hann því að innan fimm til tíu ára myndi mannkyni takast að smíða fyrstu almennu gervigreindina (e. artificial general intelligence, AGI). Hann býst einnig við mikilli framþróun í gerð bóta (e. robots) og sérstaklega vélmenna (e. humanoids).",
     "Við höfum rætt heilmikið um það hvernig gervigreind virðist stöðugt ná lengra en áður og yfirstíga hverja hindrunina á fætur annarri. En eigi hún að fara að athafna sig í heiminum, t.d. sem vélmenni, er ekki nóg að gefa henni mannsvit, það þarf líka að kenna henni mannasiði.",
-    "Frumkvöðlar eins og Cynthia Breazeal við MIT hafa lagt grunn að slíku og rannsakað möguleika á félagsfærni bóta og vélmenna. Hún hefur, með fleirum, hannað tæki sem geta átt í eðlilegum og jafnvel tilfinningaríkum samskiptum við fólk. Nefna má vélmennin Kismet, sem getur sýnt og brugðist við eðlilegum svipbrigðum; Huggable, sem veitir börnum á sjúkrahúsum félagsskap og stuðning; og Jibo sem átti að vera einhvers konar vinalegur, stafrænn aðstoðarmaður sem stuðlaði að heilbrigðu fjölskyldulífi.",
+    "Frumkvöðlar eins og [Cynthia Breazeal](https://en.wikipedia.org/wiki/Cynthia_Breazeal) við [MIT](https://is.wikipedia.org/wiki/T%C3%A6knih%C3%A1sk%C3%B3li_Massachusetts) hafa lagt grunn að slíku og rannsakað möguleika á félagsfærni bóta og vélmenna. Hún hefur, með fleirum, hannað tæki sem geta átt í eðlilegum og jafnvel tilfinningaríkum samskiptum við fólk. Nefna má vélmennin [Kismet](https://w.wiki/PQCg), sem getur sýnt og brugðist við eðlilegum svipbrigðum; [Huggable](https://www.media.mit.edu/projects/huggable-a-social-robot-for-pediatric-care/overview/), sem veitir börnum á sjúkrahúsum félagsskap og stuðning; og [Jibo](https://www.media.mit.edu/projects/jibo-research-platform/overview/) sem átti að vera einhvers konar vinalegur, stafrænn aðstoðarmaður sem stuðlaði að heilbrigðu fjölskyldulífi.",
     "Öll þessi tækni fellur undir skilgreiningu á þröngri eða afmarkaðri gervigreind (Artificial Narrow Intelligence, ANI). Skákforrit eins og Deep Blue, myndgreiningarkerfi eins og AlexNet, eða stór mállíkön eins og fyrstu útgáfur ChatGPT eru allt ágæt dæmi um það sama því þótt geta þeirra á ákveðnu sviði sé oft yfirburða mikil getur tæknin ekki yfirfært þekkingu sína á óskyld svið án endurþjálfunar.",
     "Almenn gervigreind (Artificial General Intelligence, AGI) gæti, líkt og menn, lært af umhverfi sínu, dregið ályktanir, notað almenna skynsemi, leyst ný og óvænt vandamál. Hún gæti skipulagt sig og átt eðlileg samskipti. Hún þyrfti ekki sérstaka endurforritun fyrir hvert nýtt verkefni heldur gæti yfirfært þekkingu og hæfni milli sviða. Sumir fræðimenn telja að nýjustu stóru málalíkönin (eins og GPT-4 og síðar) sýni fyrstu vísbendingar um slíka getu á meðan aðrir telja að þau séu enn langt frá því marki og að þau skorti raunverulegan skilning og rökhugsun.",
-    "Mikil umræða hefur átt sér stað um leiðir til að meta það hvenær gervigreind hefur náð því marki að vera almenn. Turing-prófið þykir of einfalt. Þar dugar að blekkja manneskju í samtali sem er langt frá því nóg. Stungið hefur verið upp á fjölbreyttum prófum, af mismikilli alvöru, og má þar meðal annars nefna háskólanemaprófið, þar sem gervigreind situr áfanga í háskólanámi, vinnur verkefni og tekur próf. Hún telst hafa staðist prófið nái hún að útskrifast. IKEA-prófið er skemmtileg hugmynd þar sem gervigreind þarf að setja saman húsgagn með notkun leiðbeininga. Kaffiprófið felst í því að bóti eða vélmenni kemur inn á ókunnugt heimili og leysir sjálft þá þraut að hella upp á kaffi og setja það í bolla.",
+    "Mikil umræða hefur átt sér stað um leiðir til að meta það hvenær gervigreind hefur náð því marki að vera almenn. [Turing-prófið](https://is.wikipedia.org/wiki/Turing-pr%C3%B3f) þykir of einfalt. Þar dugar að blekkja manneskju í samtali sem er langt frá því nóg. Stungið hefur verið upp á fjölbreyttum prófum, af mismikilli alvöru, og má þar meðal annars nefna háskólanemaprófið, þar sem gervigreind situr áfanga í háskólanámi, vinnur verkefni og tekur próf. Hún telst hafa staðist prófið nái hún að útskrifast. IKEA-prófið er skemmtileg hugmynd þar sem gervigreind þarf að setja saman húsgagn með notkun leiðbeininga. Kaffiprófið felst í því að bóti eða vélmenni kemur inn á ókunnugt heimili og leysir sjálft þá þraut að hella upp á kaffi og setja það í bolla.",
     "Fólk greinir á um hvort almenn gervigreind sé yfir höfuð möguleg og þá innan hvaða tímaramma. Sumir telja að hún sé á næsta leiti, aðrir að hún sé möguleg en varla fyrr en á næstu öld – og enn aðrir telja hana í grundvallaratriðum svo eðlisólíka þeirri tækni sem við búum yfir í dag að engin ástæða sé til að ætla að hún verði nokkru sinni raunhæfur möguleiki.",
     "Að sama skapi er fólk alls ekki sammála um það hvort almenn gervigreind sé yfir höfuð jákvætt markmið. Það geti verið í hæsta máta varasamt að hleypa inn í heiminn tækni sem mannkynið eigi mjög takmarkaða möguleika á að skilja eða stjórna.",
-    "Ofurgervigreind (Artificial Superintelligence, ASI) er æðsta stig gervigreindar. Hún færi langt fram úr mannlegum vitsmunum á nánast öllum sviðum. Þetta er enn sem komið er fræðilegt hugtak en uppspretta bæði mikilla væntinga og djúpstæðs ótta.",
+    "Ofurgervigreind (Artificial Superintelligence, ASI) er æðsta stig gervigreindar. Hún færi langt fram úr mannlegum vitsmunum á nánast öllum sviðum. Þetta is enn sem komið er fræðilegt hugtak en uppspretta bæði mikilla væntinga og djúpstæðs ótta.",
     "Áratugum saman hefur fólk velt því fyrir sér hvernig bregðast ætti við slíkri tækni. Hvað ef tæknin færi að setja sér sjálfstæð markmið og færi að fela þau fyrir mannfólki? Það væri barnaleikur fyrir ofurgervigreind að leika á jafnvel gáfaðasta fólk. Í meðförum slíkrar tækni gæti fólk jafnvel orðið að einhvers konar gæludýrum sem stara dáleidd á alls konar froðu eða heilafúa á síma- og tölvuskjám sem ofurgervigreind matreiðir ofan í notendur til að halda þeim uppteknum.",
     "Hvað ef tæknin spilaði með tilfinningar okkar? Ýtti okkur til aðgerða og athafna sem við sjálf hefðum aldrei kosið? Hvað ef hún kemst að því að blóðug stríð eða hörmungar séu besta leið að einhverju markmiði sem við höfum ekki hugmynd um?",
     "Hvað ef glæpagengi tækju slíka tækni í þjónustu sína? Og hvað ef við værum of vitlaus til að átta okkur á hvaða afleiðingar óskir okkar hafa? Stundum er sögð saga af gervigreindarlækni sem fær það hlutverk að fækka krabbameinsfrumum í líkama sjúklings á sem hröðustum tíma. Hann gerir það með því að skera af sjúklingnum höfuðið."
@@ -20,23 +20,23 @@
   "concepts": [
     {
       "term": "Þröng gervigreind (ANI)",
-      "explanation": "Artificial Narrow Intelligence. Gervigreind sem er afar góð í einu afmörkuðu sviði en getur ekki yfirfært þekkingu sína. Allar þær lausnir sem við þekkjum í dag — Deep Blue, AlexNet, ChatGPT — falla undir þessa skilgreiningu."
+      "explanation": "Gervigreind sem er sérhæfð og ótrúlega góð í einu ákveðnu verkefni, en getur ekkert annað. Skákforrit getur t.d. ekki spilað tölvuleiki og snjallforrit sem þekkir hundamyndir getur ekki skrifað ritgerðir. Öll gervigreind sem við notum í dag er þröng gervigreind."
     },
     {
       "term": "Almenn gervigreind (AGI)",
-      "explanation": "Artificial General Intelligence. Tækni sem gæti, líkt og maður, lært, yfirfært þekkingu og leyst óvænt vandamál án sérstakrar þjálfunar fyrir hvert verkefni. Demis Hassabis spáir 5–10 árum; aðrir telja það miklu lengra í burtu eða aldrei."
+      "explanation": "Gervigreind framtíðarinnar sem gæti lært og skilið nánast hvað sem er, alveg eins og manneskja. Hún þyrfti ekki sérstök forrit fyrir hvert verkefni, heldur gæti notað almenna skynsemi, lært af umhverfinu og leyst alveg ný og óvænt vandamál."
     },
     {
       "term": "Ofurgervigreind (ASI)",
-      "explanation": "Artificial Superintelligence. Fræðilegt hugtak yfir tækni sem færi langt fram úr mannlegum vitsmunum á öllum sviðum. Uppspretta bæði mikilla væntinga og djúpstæðs ótta."
+      "explanation": "Sú hugmynd að gervigreind verði einhvern tímann miklu gáfaðri en allt mannkynið samanlagt á öllum sviðum (stærðfræði, listum, vísindum og samskiptum). Þetta stig er enn bara til í kenningum og vísindaskáldskap en vekur bæði miklar vonir og ótta."
     },
     {
       "term": "Cynthia Breazeal",
-      "explanation": "Frumkvöðull á sviði félagslegrar vélmennaprófunar við MIT. Hannaði meðal annars Kismet, Huggable og Jibo — vélmenni sem geta átt eðlileg og tilfinningarík samskipti við fólk."
+      "explanation": "Bandarískur tölvunarfræðingur og prófessor við MIT sem er brautryðjandi í að hanna vélmenni sem geta sýnt tilfinningar, skilið svipbrigði og átt í félagslegum samskiptum við fólk."
     },
     {
       "term": "Próf á almennri gervigreind",
-      "explanation": "Turing-prófið þykir of einhæft. Önnur sem hafa verið nefnd: háskólanemaprófið (taka próf og útskrifast), IKEA-prófið (setja saman húsgagn úr leiðbeiningum) og kaffiprófið (koma inn á ókunnugt heimili og hella upp á kaffi)."
+      "explanation": "Aðferðir til að athuga hvort tölva sé komin með mannlega greind. Í stað þess að spjalla bara (eins og í Turing-prófinu) þarf tölvan í nýrri prófum að sýna sjálfstæðni í raunheimum, eins og að útskrifast úr háskóla, setja saman IKEA-húsgagn eða bjarga sér í ókunnu eldhúsi og hella upp á kaffi."
     }
   ],
   "visuals": [
@@ -51,4 +51,3 @@
     }
   ]
 }
-

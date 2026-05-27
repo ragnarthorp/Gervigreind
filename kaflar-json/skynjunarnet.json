@@ -41,6 +41,11 @@
       "type": "interactive",
       "description": "light sensors",
       "after": 2
+    },
+    {
+      "type": "interactive",
+      "description": "neuron-loss",
+      "after": 9
     }
   ]
 }

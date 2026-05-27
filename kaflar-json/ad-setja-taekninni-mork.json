@@ -11,15 +11,15 @@
   "concepts": [
     {
       "term": "Þrjú lögmál Asimovs",
-      "explanation": "Sett fram af vísindaskáldsagnahöfundinum Isaac Asimov (1942): (1) ekki meiða manneskju, (2) hlýða skipunum manna nema þær brjóti 1, (3) vernda sjálft sig nema það brjóti 1 eða 2. Þetta er klassísk en einfeldningsleg fyrirmynd að siðferðislegum hömlum á tækni."
+      "explanation": "Reglur sem rithöfundurinn Isaac Asimov bjó til árið 1942 fyrir vélmenni í sögum sínum. Reglurnar eru: (1) Ekki skaða manneskju, (2) Hlýða mönnum, og (3) Vernda eigin tilvist. Þótt þetta séu úr skáldsögum eru þær mikilvægur grunnur að því hvernig við hugsum um siðfræði tækninnar í dag."
     },
     {
       "term": "Áhyggjur Hassabis",
-      "explanation": "Forstjóri DeepMind nefnir þrjú höfuðatriði: illviljað fólk noti tæknina á skaðlegan hátt, kerfin verði of öflug til að stjórna, og kapphlaupið um forskot leiði til óásættanlegrar áhættu."
+      "explanation": "Þrjár helstu hættur sem Demis Hassabis (forstjóri gervigreindarfyrirtækisins DeepMind) bendir á: Að fólk noti gervigreind til illra verka, að kerfin verði svo flókin að við missum stjórn á þeim, og að fljótfærni í tækniþróun verði til þess að við tökum of stóra áhættu."
     },
     {
       "term": "Læknaeiðurinn",
-      "explanation": "Frá fornöld lofa læknar að valda ekki skaða — primum non nocere. Vaxandi krafa er um að gervigreind lúti sambærilegum reglum, en óljóst er enn hvernig slíkar reglur eiga að líta út og hver á að framfylgja þeim."
+      "explanation": "Forn eiður sem allir læknar sverja. Þeir lofa m.a. að nota þekkingu sína aðeins til að hjálpa og „valda ekki skaða“. Í dag er vaxandi krafa um að gervigreind eigi að lúta svipuðum reglum, svo tæknin vinni alltaf með mannkyninu en ekki gegn því."
     }
   ],
   "visuals": [

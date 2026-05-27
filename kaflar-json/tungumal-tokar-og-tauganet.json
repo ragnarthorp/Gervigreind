@@ -22,7 +22,7 @@
     },
     {
       "term": "Málvinnsla (NLP)",
-      "explanation": "Stytting á „natural language processing“. Undirsvið gervigreindar sem fæst við að láta tölvur skilja og framleiða mannlegt mál. Stærsta áskorunin er samhengi — sami staf­urinn, sama orðið, getur þýtt allt aðra hluti eftir samhengi."
+      "explanation": "Stytting á „natural language processing“. Undirsvið gervigreindar sem fæst við að láta tölvur skilja og framleiða mannlegt mál. Stærsta áskorunin er samhengi — sami stafurinn, sama orðið, getur þýtt allt aðra hluti eftir samhengi."
     },
     {
       "term": "Endurkvæmistauganet (RNN)",
@@ -42,13 +42,6 @@
       "type": "interactive",
       "description": "tokenizer",
       "after": 5
-    },
-    {
-      "type": "interactive",
-      "description": "gradient limits",
-      "after": 6
     }
   ]
 }
-
-
