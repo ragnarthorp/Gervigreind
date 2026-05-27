@@ -2200,7 +2200,161 @@ body.is-dark .audiofreq-play { color: #14171B; }
   .audiofreq-hz { font-size: 1.7rem; }
   .audiofreq-canvas { height: 80px; }
 }
-
+/* ----------------------------------------------------------------------
+   Skýringarmynd: Neuron — weight, bias og loss (gagnvirk)
+   ---------------------------------------------------------------------- */
+.neuronloss-figure {
+  margin: 3rem 0;
+  padding: 1.75rem 1.25rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-elev);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+  width: 100%;
+}
+.neuronloss-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent-hover);
+  text-align: center;
+  margin: 0;
+}
+.neuronloss-tabs {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.neuronloss-tab {
+  appearance: none;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.35rem 0.95rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+.neuronloss-tab:hover { border-color: var(--accent); color: var(--accent-hover); }
+.neuronloss-tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.neuronloss-tab.is-active {
+  background: var(--accent-soft);
+  color: var(--accent-hover);
+  border-color: var(--accent);
+}
+.neuronloss-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0;
+  text-align: center;
+}
+.neuronloss-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  align-items: start;
+  width: 100%;
+}
+@media (max-width: 560px) {
+  .neuronloss-layout { grid-template-columns: 1fr; }
+}
+.neuronloss-canvas {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  display: block;
+}
+.neuronloss-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.neuronloss-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.neuronloss-slabel {
+  font-size: 0.82rem;
+  font-weight: 700;
+  min-width: 52px;
+  color: var(--text-muted);
+}
+.neuronloss-slabel--w { color: #378ADD; }
+.neuronloss-slabel--b { color: #BA7517; }
+.neuronloss-slider { flex: 1; }
+.neuronloss-slider--w { accent-color: #378ADD; }
+.neuronloss-slider--b { accent-color: #BA7517; }
+.neuronloss-slider:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
+.neuronloss-sval {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88rem;
+  font-weight: 700;
+  min-width: 40px;
+  text-align: right;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.neuronloss-formula {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.92rem;
+  color: var(--text);
+  margin: 0;
+  padding: 0.5rem 0.7rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.neuronloss-fw { color: #378ADD; font-weight: 700; }
+.neuronloss-fb { color: #BA7517; font-weight: 700; }
+.neuronloss-loss-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+.neuronloss-loss-label {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.neuronloss-loss-val {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #E24B4A;
+  font-variant-numeric: tabular-nums;
+}
+.neuronloss-bar-wrap {
+  height: 8px;
+  border-radius: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.neuronloss-bar-fill {
+  height: 100%;
+  width: 50%;
+  background: #E24B4A;
+  border-radius: 4px;
+  transition: width 0.12s ease, background 0.12s ease;
+}
+.neuronloss-hint {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0;
+  min-height: 1.4em;
+  line-height: 1.5;
+}
 /* ----------------------------------------------------------------------
    Skýringarmynd: Rökhugsunarmyndir (rétt og röng röksemdafærsla)
    ---------------------------------------------------------------------- */
@@ -8481,4 +8635,174 @@ body.is-dark .chapter-photo-frame {
   .chapter-principles-item { grid-template-columns: 1.75rem 1fr; gap: 0.65rem; }
   .chapter-principles-item::before { font-size: 1.25rem; }
   .chapter-principles-text { font-size: 0.95rem; }
+}
+/* ----------------------------------------------------------------------
+   Leit — leitargluggi og niðurstöður
+   ---------------------------------------------------------------------- */
+
+.search-toggle {
+  margin-left: auto;
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  width: 44px; height: 44px;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.12s ease, background 0.12s ease;
+}
+.search-toggle:hover { background: var(--bg-sidebar); color: var(--text); }
+.search-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.search-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10vh;
+}
+.search-overlay.is-open { display: flex; }
+
+.search-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) * 2);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.18), 0 1px 4px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 560px;
+  margin: 0 1rem;
+  overflow: hidden;
+}
+body.is-dark .search-box {
+  box-shadow: 0 8px 40px rgba(0,0,0,0.55), 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.search-input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.search-icon {
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+
+.search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.5;
+  min-width: 0;
+}
+.search-input::placeholder { color: var(--text-muted); }
+.search-input::-webkit-search-cancel-button { display: none; }
+
+.search-close {
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  width: 32px; height: 32px;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: color 0.12s ease, background 0.12s ease;
+}
+.search-close:hover { background: var(--bg-elev); color: var(--text); }
+.search-close:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.search-results {
+  max-height: 420px;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.search-empty {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  padding: 1.5rem 1rem;
+  margin: 0;
+}
+
+.search-result {
+  display: block;
+  padding: 0.75rem 0.85rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--text);
+  transition: background 0.1s ease;
+  border-left: 3px solid transparent;
+}
+.search-result:hover {
+  background: var(--accent-soft);
+  border-left-color: var(--accent);
+}
+.search-result:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.search-result-top {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.search-result-part {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  flex-shrink: 0;
+  text-transform: uppercase;
+}
+
+.search-result-title {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.search-result-excerpt {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.search-result-excerpt mark {
+  background: var(--accent-soft);
+  color: var(--accent-hover);
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+@media (max-width: 860px) {
+  .search-overlay { padding-top: 5vh; }
 }
